@@ -1,5 +1,5 @@
 /* -----------------------------------------
-   Utility
+   State
 ----------------------------------------- */
 /* Visibility */
 /* Hide from both screenreaders and browsers: h5bp.com/u */
@@ -13,7 +13,6 @@
 .unselectable {
 	@include user-select (none);
 }
-
 
 /* Clearing */
 .ClearFloats{
@@ -32,46 +31,4 @@
 }
 .Clear{
 	clear:both;
-}
-
-
-/* Tools */
-hr{
-	display:none;
-}
-.ResetList{
-	list-style:none;
-	padding:0;
-	margin:0;
-}
-.ResetTable{
-	width:100%;
-	table-layout:fixed;
-	padding:0;
-	margin:0;
-}
-.WrapLine{
-    white-space: normal;    
-}
-.Ellipsis{
-	white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-}
-
-
-/* Structure */
-.FixedElementWrapper{
-	@include transition(left 0.25s);
-	@include transition-timing(ease-out);
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	.OverflowedElement{
-	    height:100%;
-	    overflow-y:auto;
-	    -webkit-overflow-scrolling: touch;
-	}
 }

@@ -1,6 +1,6 @@
 # VioloToolsProject [![NPM version](https://badge.fury.io/js/VioloToolsProject.png)](http://badge.fury.io/js/VioloToolsProject) 
 
-> Test Grunt File
+> Develop enviroment & tools
 
 ## Getting Started
 _If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide._

@@ -120,7 +120,8 @@ transform: rotate($valuetransform-rotate);}
 /* -----------------------------------------
    @ SCSS Imports
 ----------------------------------------- */
-@import '_utility';
-@import '_structure';
+@import '_base';
+@import '_layout';
 @import '_completionbar';
-@import '_typography';
+@import '_state';
+@import '_theme';

@@ -1,0 +1,73 @@
+/* -----------------------------------------
+   Base
+----------------------------------------- */
+/* Tools */
+hr{
+	display:none;
+}
+.ResetList{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.ResetTable{
+	width:100%;
+	table-layout:fixed;
+	padding:0;
+	margin:0;
+}
+.WrapLine{
+    white-space: normal;    
+}
+.Ellipsis{
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+
+
+
+
+/* Typography */
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('../modules/common/fonts/OpenSans-Regular.eot');
+  src: url('../modules/common/fonts/OpenSans-Regular.ttf') format('truetype'),
+  url('../modules/common/fonts/OpenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  src: url('../modules/common/fonts/OpenSans-Semibold.eot');
+  src: url('../modules/common/fonts/OpenSans-Semibold.ttf') format('truetype'),
+  url('../modules/common/fonts/OpenSans-Semibold.woff') format('woff');
+}
+
+$font-stack1: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+$font-stack2: 'OpenSansSemiBold', Helvetica, Arial, sans-serif;
+
+.FontStack1 {
+  font-family: $font-stack1;
+}
+
+.FontStack2 {
+  font-family: $font-stack2;
+}
+
+
+/* Link */
+a:link,
+a:visited {
+  @include transition(.25s);
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+
+/* Generic */
+body{
+  font-family:$font-stack1;
+}

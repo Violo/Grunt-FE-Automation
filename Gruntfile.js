@@ -25,6 +25,15 @@ module.exports = function(grunt) {
           config: 'config.rb'
         }
       }
+    },
+    // CSSlint Task
+    csslint: {
+      strict: {
+        options: {
+          csslintrc: '.csslintrc'
+        },
+        src: ['css/*.css']
+      }
     }
   });
 
@@ -34,9 +43,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-readme');
   // Load the plugin compass
   grunt.loadNpmTasks('grunt-contrib-compass');
+  // Load the plugin CSSlint
+  grunt.loadNpmTasks('grunt-contrib-csslint');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'readme', 'compass']);
+  grunt.registerTask('default', ['readme', 'uglify', 'compass', 'csslint:strict']);
 
 
 };
