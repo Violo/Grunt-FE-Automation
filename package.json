@@ -9,6 +9,7 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "^0.6.0",
+    "grunt-minify-html": "^2.0.0",
     "grunt-readme": "^0.4.5"
   }
 }
