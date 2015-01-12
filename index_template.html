@@ -8,6 +8,7 @@
     <meta http-equiv="Content-Language" content="en" />
     <script type="text/javascript" src="js/app.min.js"></script>
     <script type="text/javascript" src="js/svgeezy.min.js"></script>
+    <script type="text/javascript" src="img/grunticon/grunticon.loader.js"></script>
     <script>svgeezy.init(false, 'png');</script>
     <link rel="stylesheet" href="css/app.css" />
   </head>
@@ -20,8 +21,10 @@
       <li><strong>grunt compass</strong> (compress css)</li>
       <li><strong>grunt  minifyHtml</strong> (compress html)</li>
       <li><strong>grunt  csslint</strong> (test css)</li>
-      <li><strong>grunt</strong> (default tasks: readme, uglify, minifyHtml, csslint:strict, compass:dist)</li>
-      <li><strong>grunt dev</strong> (development tasks: csslint:strict, compass:dev)</li>
+      <li><strong>grunt  svgmin</strong> (clean svg files)</li>
+      <li><strong>grunt  grunticon</strong> (create image assets and fallbacks)</li>
+      <li><strong>grunt</strong> (default tasks: readme, uglify, minifyHtml, csslint:strict, svgmin, grunticon, compass:dist)</li>
+      <li><strong>grunt dev</strong> (development tasks: svgmin, grunticon, csslint:strict, compass:dev)</li>
     </ul>
     <h2>Scss Files <span class="FontSize12">(Custom SMACSS Categorization)</span></h2>
     <ul>
@@ -38,6 +41,7 @@
     </ul>
 
     <h2>Styleguide</h2>
+    <h3>Images Assets: <span class="FontSize12">(data-svg, data-png, fallback png): <a href="img/grunticon-assets/img_assets_preview.html">Images preview</a></span></h3>
     <h3>Module Completion bar</h3>
     <div class="Completion">
       <div class="CompletionBar Value100">
@@ -54,8 +58,6 @@
         <span class="CompletionValue">10%</span>
       </div>
     </div>
-
-    <h3>Svg Icon</h3>
-    <img src="img/ico_close.svg" width="32" alt="close" />
+    
   </body>
 </html>

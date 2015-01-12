@@ -34,6 +34,34 @@ module.exports = function(grunt) {
         src: ['css/*.css']
       }
     },
+    // Grunt SVG Min Task
+    svgmin: {
+        dist: {
+            files: [{
+                expand: true,
+                cwd: 'img',
+                src: ['*.svg'],
+                dest: 'img'
+            }]
+        }
+    },
+    // Grunt Icon Task
+    grunticon: {
+      myIcons: {
+        files: [{
+          expand: true,
+          cwd: 'img',
+          src: ['*.svg', '*.png'],
+          dest: "img/grunticon-assets"
+        }],
+        options: {
+          previewhtml: "img_assets_preview.html",
+          pngfolder: "../png-fallback",
+          pngpath: "../png-fallback",
+          previewTemplate: "img/grunticon-assets/preview.hbs"
+        }
+      }
+    },
     // Compass Task
     compass: {
       dist: {
@@ -58,13 +86,17 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-minify-html');
   // Load the plugin CSSlint
   grunt.loadNpmTasks('grunt-contrib-csslint');
+  // Load the plugin SVGMin
+  grunt.loadNpmTasks('grunt-svgmin');
+  // Load the plugin Grunt Icon
+  grunt.loadNpmTasks('grunt-grunticon');
   // Load the plugin compass
   grunt.loadNpmTasks('grunt-contrib-compass');
 
   // Default task.
-  grunt.registerTask('default', ['readme', 'uglify', 'minifyHtml', 'csslint:strict', 'compass:dist']);
+  grunt.registerTask('default', ['readme', 'uglify', 'minifyHtml', 'csslint:strict', 'svgmin', 'grunticon', 'compass:dist']);
   // Prod task.
-  grunt.registerTask('dev', ['csslint:strict', 'compass:dev']);
+  grunt.registerTask('dev', ['svgmin', 'grunticon', 'csslint:strict', 'compass:dev']);
 
 
 };
