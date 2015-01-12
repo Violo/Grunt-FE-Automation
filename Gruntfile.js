@@ -5,13 +5,9 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     // Uglify Task
     uglify: {
-      options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-      },
       build: {
-        //src: 'app/<%= pkg.name %>.js',
-        //src: 'app/*.js',
-        //dest: 'build/<%= pkg.name %>.min.js'
+        src: 'js/app.js',
+        dest: 'js/app.min.js'
       }
     },
     // ReadMe Task

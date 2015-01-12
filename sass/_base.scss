@@ -1,6 +1,13 @@
 /* -----------------------------------------
    Base
------------------------------------------ */
+--------------------------------------------
+Content:
+- Tools
+- Typography
+*/
+
+
+
 /* Tools */
 hr{
 	display:none;
@@ -27,21 +34,18 @@ hr{
 
 
 
-
-
 /* Typography */
 @font-face {
   font-family: 'OpenSansRegular';
-  src: url('../modules/common/fonts/OpenSans-Regular.eot');
-  src: url('../modules/common/fonts/OpenSans-Regular.ttf') format('truetype'),
-  url('../modules/common/fonts/OpenSans-Regular.woff') format('woff');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/OpenSans-Regular.ttf')  format('truetype'),
+       url('../fonts/OpenSans-Regular.woff') format('woff');
 }
-
 @font-face {
   font-family: 'OpenSansSemiBold';
-  src: url('../modules/common/fonts/OpenSans-Semibold.eot');
-  src: url('../modules/common/fonts/OpenSans-Semibold.ttf') format('truetype'),
-  url('../modules/common/fonts/OpenSans-Semibold.woff') format('woff');
+  src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/OpenSans-Semibold.ttf')  format('truetype'),
+       url('../fonts/OpenSans-Semibold.woff') format('woff');
 }
 
 $font-stack1: 'OpenSansRegular', Helvetica, Arial, sans-serif;
@@ -50,24 +54,10 @@ $font-stack2: 'OpenSansSemiBold', Helvetica, Arial, sans-serif;
 .FontStack1 {
   font-family: $font-stack1;
 }
-
 .FontStack2 {
   font-family: $font-stack2;
 }
 
-
-/* Link */
-a:link,
-a:visited {
-  @include transition(.25s);
-  &:hover,
-  &:active {
-    text-decoration: none;
-  }
-}
-
-
-/* Generic */
 body{
   font-family:$font-stack1;
 }

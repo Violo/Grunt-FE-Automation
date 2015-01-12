@@ -1,11 +1,20 @@
 /* -----------------------------------------
    Completion Bar
------------------------------------------ */
+--------------------------------------------
+Content:
+- Completion Bar Variables
+- Completion Bar Theme Variables
+- Completion Bar Structure
+*/
 
-/* Structure Variables */
+
+
+/* Completion Bar Variables */
 $completionpercentage-height:11px;
 
-/* Skin Variables */
+
+
+/* Completion Bar Theme Variables */
 $completionpercentage-color:#6d7d8c;
 $completionpercentage-border:#f5f5f5;
 $completionpercentage-border2:#ebebeb;
@@ -14,7 +23,9 @@ $completionpercentage-bg-color2:#a4aeb7;
 $completionpercentage-bg-color3:#87939f;
 $completionpercentage-bg-color4:#f5f5f5;
 
-/* Structure */
+
+
+/* Completion Bar Structure */
 .Completion{
     @include border-radius(4px);
     margin-top:22px;

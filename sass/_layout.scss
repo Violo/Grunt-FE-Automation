@@ -1,6 +1,12 @@
 /* -----------------------------------------
    Layout
------------------------------------------ */
+--------------------------------------------
+Content:
+- 
+*/
+
+
+
 .FixedElementWrapper{
 	@include transition(left 0.25s);
 	@include transition-timing(ease-out);

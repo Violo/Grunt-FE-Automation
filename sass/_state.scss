@@ -1,33 +1,73 @@
 /* -----------------------------------------
    State
------------------------------------------ */
+--------------------------------------------
+Content:
+- Visibility
+- Clearing
+*/
+
+
+
 /* Visibility */
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-.hidden { display: none !important; visibility: hidden; }
+.hidden{
+	display:none !important;
+    visibility:hidden;
+}
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden{
+	border:0; clip: rect(0 0 0 0);
+    height:1px;
+    margin:-1px;
+    overflow:hidden;
+    padding:0;
+    position:absolute;
+    width:1px;
+}
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus{
+	clip:auto;
+    height:auto;
+    margin:0;
+    overflow:visible;
+    position:static;
+    width:auto;
+}
 /* Hide visually and from screenreaders, but maintain layout */
-.invisible { visibility: hidden; }
+.invisible{
+	visibility:hidden;
+}
+/* Selection */
 .unselectable {
 	@include user-select (none);
 }
+/* Link */
+a:link,
+a:visited {
+  @include transition(.25s);
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+
 
 /* Clearing */
 .ClearFloats{
 	display:block;
 	clear:both;
 	background:transparent;
-	height:0px;
+	height:0;
 	border:0;
 	overflow:hidden;
 	font-size:0.01em;
 	margin:0;
 	padding:0;
-}
-.lt-ie8 .ClearFloats{
-	border:1px solid transparent;
+    &.lt-ie8{
+        border:1px solid transparent;   
+    }
 }
 .Clear{
 	clear:both;

@@ -1,19 +1,20 @@
-/* APP.SCSS 19/12/2014 */
-
 /* -------------------------------------------------- 
-   Content
+   App (Violo develop enviroment 10/01/2015)
 -----------------------------------------------------
-:: Variables
-:: Mixin
-:: Operations
-:: @ SCSS Imports
+Content:
+- Variables
+- Mixin
+- Operations
+- @ SCSS Imports
 */
+
 
 
 /* -----------------------------------------
    Variables
 ----------------------------------------- */
 /* Here variables */
+
 
 
 /* -----------------------------------------
@@ -67,6 +68,7 @@ box-shadow: $valueshadow;}
 
 @mixin user-select($valueuserselect){
 -webkit-user-select: $valueuserselect;
+-moz-user-select: $valueuserselect;
 -ms-user-select: $valueuserselect;
 user-select: $valueuserselect;}
 
@@ -77,7 +79,9 @@ appearance:$valueappearance;}
 
 @mixin transition($valuetransition){
 transition:$valuetransition;
--webkit-transition:$valuetransition;}
+-webkit-transition:$valuetransition;
+-moz-transition:$valuetransition;
+-o-transition:$valuetransition;}
 
 @mixin transition-delay($valuetransition-delay){
 transition-delay: $valuetransition-delay;
@@ -85,7 +89,9 @@ transition-delay: $valuetransition-delay;
 
 @mixin transition-timing($valuetransition-timing){
 transition-timing-function: $valuetransition-timing;
--webkit-transition-timing-function: $valuetransition-timing;}
+-webkit-transition-timing-function: $valuetransition-timing;
+-moz-transition-timing-function: $valuetransition-timing;
+-o-transition-timing-function: $valuetransition-timing;}
 
 @mixin transform-scale($valuetransform){
 -ms-transform: scale($valuetransform);
@@ -96,6 +102,7 @@ transform: scale($valuetransform);}
 -ms-transform: rotate($valuetransform-rotate);
 -webkit-transform: rotate($valuetransform-rotate);
 transform: rotate($valuetransform-rotate);}
+
 
 
 /* -----------------------------------------
@@ -117,11 +124,12 @@ transform: rotate($valuetransform-rotate);}
 }
 
 
+
 /* -----------------------------------------
    @ SCSS Imports
 ----------------------------------------- */
 @import '_base';
 @import '_layout';
-@import '_completionbar';
+@import '_mod_completionbar';
 @import '_state';
 @import '_theme';
