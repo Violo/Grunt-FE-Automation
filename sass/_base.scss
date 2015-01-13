@@ -9,6 +9,19 @@ Content:
 
 
 /* Tools */
+/* 
+Base Tools
+
+BEM Tools list
+
+hr (default display:none)<br />
+.ResetList (reset margin, padding, list-style:none)<br />
+.ResetTable (reset margin, padding, table-layout:fixed, width:100%)<br />
+.WrapLine (white-space: normal)<br />
+.Ellipsis (white-space:nowrap, overflow:hidden, text-overflow:ellipsis)<br />
+
+Styleguide 2.0
+*/
 hr{
 	display:none;
 }
@@ -28,13 +41,25 @@ hr{
 }
 .Ellipsis{
 	white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
 
 
 
 /* Typography */
+/* 
+Base Typography
+
+Typography
+
+hr (default display:none)<br />
+.FontStack1 (OpenSansRegular)<br />
+.FontStack2 (OpenSansSemiBold)<br />
+body (font-family:$font-stack1)
+
+Styleguide 2.0
+*/
 @font-face {
   font-family: 'OpenSansRegular';
   src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), 

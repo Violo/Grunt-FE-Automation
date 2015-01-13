@@ -4,7 +4,7 @@
 Content:
 - Completion Bar Variables
 - Completion Bar Theme Variables
-- Completion Bar Structure
+- Completion Bar
 */
 
 
@@ -25,7 +25,28 @@ $completionpercentage-bg-color4:#f5f5f5;
 
 
 
-/* Completion Bar Structure */
+/*
+Module Completion Bar
+
+Markup: 
+<div class="Completion">
+    <div class="CompletionBar Value100">
+        <span class="CompletionValue">100%</span>
+    </div>
+</div>
+<div class="Completion">
+    <div class="CompletionBar Value50">
+        <span class="CompletionValue">50%</span>
+    </div>
+</div>
+<div class="Completion">
+    <div class="CompletionBar Value10">
+        <span class="CompletionValue">10%</span>
+    </div>
+</div>
+
+Styleguide 4.0
+*/
 .Completion{
     @include border-radius(4px);
     margin-top:22px;

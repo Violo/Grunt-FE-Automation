@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Styleguide</title>
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node" />
+
+  <meta name="viewport" content="width=device-width">
+
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="public/style.css">
+  <link rel="stylesheet" href="../css/app.css">
+
+</head>
+<body><div id="kss-wrapper">
+  <div id="kss-nav">
+    <header id="kss-header">
+      <hgroup><h1>Styleguide</h1></hgroup>
+    </header>
+    <aside>
+      <nav><ul>
+        <li><a href="index.html">0.0: How to use</a></li>
+          <li><a href="section-1.html">1.0: Mixin</a></li>
+          <li><a href="section-3.html">3.0: Base Tools</a></li>
+          <li><a href="section-3.html">3.0: Base Typography</a></li>
+          <li><a href="section-4.html">4.0: Module Completion Bar</a></li>
+      </ul></nav>
+    </aside>
+  </div>
+  <div role="main" id="kss-main">
+    <article id="kss-content">
+
+            <h1 class="kss-title"><span class="kss-ref">3.0</span> - Base Tools</h1>
+                  <p>BEM Tools list</p>
+<p>hr (default display:none)<br />
+.ResetList (reset margin, padding, list-style:none)<br />
+.ResetTable (reset margin, padding, table-layout:fixed, width:100%)<br />
+.WrapLine (white-space: normal)<br />
+.Ellipsis (white-space:nowrap, overflow:hidden, text-overflow:ellipsis)<br /></p>
+
+                       <h1 class="kss-title"><span class="kss-ref">3.0</span> - Base Typography</h1>
+                  <p>Typography</p>
+<p>hr (default display:none)<br />
+.FontStack1 (OpenSansRegular)<br />
+.FontStack2 (OpenSansSemiBold)<br />
+body (font-family:$font-stack1)</p>
+
+               </article>
+  </div>
+  <footer>
+    
+  </footer>
+  <!-- SCRIPTS -->
+  <script src="public/kss.js"></script>
+  <script src="public/prettify.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      var sidebarAdjust = function() {
+        // Match footer/body height
+        var height = Math.max($(window).height(), $('#kss-main').height());
+
+        if ($(window).width() <= 768) {
+          $('#kss-main, #kss-nav').height('auto');
+        } else {
+          $('#kss-main, #kss-nav').height(height);
+        }
+      };
+
+      $(window).resize(sidebarAdjust);
+      $(window).scroll(sidebarAdjust);
+      sidebarAdjust();
+
+      // Ensure code blocks are highlighted properly...
+      $('pre>code').addClass('prettyprint');
+      prettyPrint();
+
+    });
+  </script>
+
+</div></body>
+</html>

@@ -13,6 +13,7 @@
     "grunt-grunticon": "^1.6.0",
     "grunt-minify-html": "^2.0.0",
     "grunt-readme": "^0.4.5",
+    "grunt-styleguide": "^0.2.17",
     "grunt-svgmin": "^2.0.0"
   }
 }

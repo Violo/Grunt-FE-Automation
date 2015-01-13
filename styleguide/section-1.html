@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Styleguide</title>
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node" />
+
+  <meta name="viewport" content="width=device-width">
+
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="public/style.css">
+  <link rel="stylesheet" href="../css/app.css">
+
+</head>
+<body><div id="kss-wrapper">
+  <div id="kss-nav">
+    <header id="kss-header">
+      <hgroup><h1>Styleguide</h1></hgroup>
+    </header>
+    <aside>
+      <nav><ul>
+        <li><a href="index.html">0.0: How to use</a></li>
+          <li><a href="section-1.html">1.0: App Mixin</a></li>
+          <li><a href="section-1.html">1.0: App Operations</a></li>
+          <li><a href="section-2.html">2.0: Base Tools</a></li>
+          <li><a href="section-2.html">2.0: Base Typography</a></li>
+          <li><a href="section-4.html">4.0: Module Completion Bar</a></li>
+      </ul></nav>
+    </aside>
+  </div>
+  <div role="main" id="kss-main">
+    <article id="kss-content">
+
+            <h1 class="kss-title"><span class="kss-ref">1.0</span> - App Mixin</h1>
+                  <p>List of available mixin</p>
+<p>@mixin box-sizing<br />
+@mixin border-radius<br />
+@mixin border-radius-left<br />
+@mixin border-radius-right<br />
+@mixin border-radius-top<br />
+@mixin box-shadow<br />
+@mixin user-select<br />
+@mixin appearance<br />
+@mixin transition<br />
+@mixin transition-delay<br />
+@mixin transition-timing<br />
+@mixin transform-scale<br />
+@mixin transform-rotate<br /></p>
+
+                       <h1 class="kss-title"><span class="kss-ref">1.0</span> - App Operations</h1>
+                  <p>List of available default calculated class for all elements</p>
+<p>Size10 to Size500               (width 10px to 500px, sensibility: 10px)<br />
+SizeFluid1 to SizeFluid100      (width 1% to 100%, sensibility: 1%)<br />
+SizeHeight10 to SizeHeight500   (height 10px to 500px, sensibility: 10px)<br />
+FontSize1 to FontSize30         (font-size 1px to 30px, sensibility: 1px)<br /></p>
+
+               </article>
+  </div>
+  <footer>
+    
+  </footer>
+  <!-- SCRIPTS -->
+  <script src="public/kss.js"></script>
+  <script src="public/prettify.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      var sidebarAdjust = function() {
+        // Match footer/body height
+        var height = Math.max($(window).height(), $('#kss-main').height());
+
+        if ($(window).width() <= 768) {
+          $('#kss-main, #kss-nav').height('auto');
+        } else {
+          $('#kss-main, #kss-nav').height(height);
+        }
+      };
+
+      $(window).resize(sidebarAdjust);
+      $(window).scroll(sidebarAdjust);
+      sidebarAdjust();
+
+      // Ensure code blocks are highlighted properly...
+      $('pre>code').addClass('prettyprint');
+      prettyPrint();
+
+    });
+  </script>
+
+</div></body>
+</html>

@@ -69,6 +69,27 @@ module.exports = function(grunt) {
         }
       }
     },
+    // Grunt Styleguide Task
+    styleguide: {
+      options: {
+        // global options
+      },
+      kss: {
+        options: {
+            framework: {
+                name: 'kss'
+            },
+            name: 'Style Guide',
+            template: {
+                src: 'node_modules/grunt-styleguide/templates/index.html',
+                include: 'css/app.css' //not working :( - set in template file
+            }
+        },
+        files: {
+            'styleguide': 'sass/*.scss'
+        },
+      }
+    },
     // Compass Task
     compass: {
       dist: {
@@ -97,11 +118,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-svgmin');
   // Load the plugin Grunt Icon
   grunt.loadNpmTasks('grunt-grunticon');
+  // Load the plugin Grunt Styleguide
+  grunt.loadNpmTasks('grunt-styleguide');
   // Load the plugin compass
   grunt.loadNpmTasks('grunt-contrib-compass');
 
   // Default task.
-  grunt.registerTask('default', ['readme', 'uglify', 'minifyHtml', 'csslint:strict', 'svgmin', 'grunticon', 'compass:dist']);
+  grunt.registerTask('default', ['readme', 'uglify', 'minifyHtml', 'csslint:strict', 'svgmin', 'grunticon', 'styleguide', 'compass:dist']);
   // Prod task.
   grunt.registerTask('dev', ['svgmin', 'grunticon', 'csslint:strict', 'compass:dev']);
 

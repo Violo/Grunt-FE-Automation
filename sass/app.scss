@@ -20,6 +20,27 @@ Content:
 /* -----------------------------------------
    Mixin
 ----------------------------------------- */
+/* 
+App Mixin
+
+List of available mixin
+
+@mixin box-sizing<br />
+@mixin border-radius<br />
+@mixin border-radius-left<br />
+@mixin border-radius-right<br />
+@mixin border-radius-top<br />
+@mixin box-shadow<br />
+@mixin user-select<br />
+@mixin appearance<br />
+@mixin transition<br />
+@mixin transition-delay<br />
+@mixin transition-timing<br />
+@mixin transform-scale<br />
+@mixin transform-rotate<br />
+
+Styleguide 1.0
+*/
 @mixin box-sizing($valuesizing){
 box-sizing:$valuesizing;
 -moz-box-sizing:$valuesizing;}
@@ -108,6 +129,18 @@ transform: rotate($valuetransform-rotate);}
 /* -----------------------------------------
    Operations
 ----------------------------------------- */
+/* 
+App Operations
+
+List of available default calculated class for all elements
+
+Size10 to Size500               (width 10px to 500px, sensibility: 10px)<br />
+SizeFluid1 to SizeFluid100      (width 1% to 100%, sensibility: 1%)<br />
+SizeHeight10 to SizeHeight500   (height 10px to 500px, sensibility: 10px)<br />
+FontSize1 to FontSize30         (font-size 1px to 30px, sensibility: 1px)<br />
+
+Styleguide 1.0
+*/
 /* Box Sizing */
 @for $i from 1 through 50 {
   .Size#{$i * 10} { width: 10px * $i; }
