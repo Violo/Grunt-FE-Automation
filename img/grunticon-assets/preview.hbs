@@ -11,7 +11,7 @@
   <body>
     {{#each icons}}
       {{#with this}}
-      <pre><code>{{prefix}}{{name}}:</code></pre><div class="{{prefixClass}}{{name}}" style="width: 32px; height: 32px; background-size:32px 32px;" ></div><hr/>
+      <pre><code>{{prefix}}{{name}}:</code></pre><div class="{{prefixClass}}{{name}}" style="width: {{width}}px; height: {{height}}px;" ></div><hr/>
       {{/with}}
     {{/each}}
 </body>

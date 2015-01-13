@@ -1,8 +1,8 @@
 // Detection App Pinnata -->
 if (window.navigator.standalone) {
-    document.documentElement.className += " pinnata";
+    document.documentElement.className += " app-pin";
     } else {
-        document.documentElement.className += " no-pinnata";
+        document.documentElement.className += " no-app-pin";
 }
 
 // Detection Android Device

@@ -58,7 +58,9 @@ module.exports = function(grunt) {
           previewhtml: "img_assets_preview.html",
           pngfolder: "../png-fallback",
           pngpath: "../png-fallback",
-          previewTemplate: "img/grunticon-assets/preview.hbs"
+          previewTemplate: "img/grunticon-assets/preview.hbs",
+          defaultWidth: "64px",
+          defaultHeight: "64px"
         }
       }
     },
