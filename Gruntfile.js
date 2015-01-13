@@ -60,7 +60,12 @@ module.exports = function(grunt) {
           pngpath: "../png-fallback",
           previewTemplate: "img/grunticon-assets/preview.hbs",
           defaultWidth: "64px",
-          defaultHeight: "64px"
+          defaultHeight: "64px",
+          colors: {
+            colortheme1: "red",
+            colortheme2: "blue",
+            colortheme3: "green",
+          }
         }
       }
     },
