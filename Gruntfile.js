@@ -25,6 +25,19 @@ module.exports = function(grunt) {
           }
       }
     },
+    // html validation
+    validation: {
+      options: {
+        reset: grunt.option('reset') || false,
+        stoponerror: false,
+        relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.'], //ignores these errors
+        reportpath: false,
+        reset: true
+      },
+      files: {
+          src: ['*.html']
+      }
+    },
     // CSSlint Task
     csslint: {
       strict: {
@@ -112,6 +125,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   // Load the plugin minify-html
   grunt.loadNpmTasks('grunt-minify-html');
+  // Load the plugin html validation
+  grunt.loadNpmTasks('grunt-html-validation');
   // Load the plugin CSSlint
   grunt.loadNpmTasks('grunt-contrib-csslint');
   // Load the plugin SVGMin
@@ -124,9 +139,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
 
   // Default task.
-  grunt.registerTask('default', ['readme', 'uglify', 'minifyHtml', 'csslint:strict', 'svgmin', 'grunticon', 'styleguide', 'compass:dist']);
+  grunt.registerTask('default', ['readme', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'styleguide', 'compass:dist']);
   // Prod task.
-  grunt.registerTask('dev', ['svgmin', 'grunticon', 'csslint:strict', 'compass:dev']);
+  grunt.registerTask('dev', ['svgmin', 'grunticon', 'csslint:strict', 'validation', 'compass:dev']);
 
 
 };
