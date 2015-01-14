@@ -27,9 +27,12 @@
     <aside>
       <nav><ul>
         <li><a href="index.html">0.0: How to use</a></li>
-          <li><a href="section-1.html">1.0: Mixin</a></li>
-          <li><a href="section-3.html">3.0: Base Tools</a></li>
-          <li><a href="section-3.html">3.0: Base Typography</a></li>
+          <li><a href="section-1.html">1.0: App Mixin</a></li>
+          <li><a href="section-1.html">1.0: App Operations</a></li>
+          <li><a href="section-2.html">2.0: Base Tools</a></li>
+          <li><a href="section-2.html">2.0: Base Typography</a></li>
+          <li><a href="section-3.html">3.0: State Visibility</a></li>
+          <li><a href="section-3.html">3.0: State Clearing</a></li>
           <li><a href="section-4.html">4.0: Module Completion Bar</a></li>
       </ul></nav>
     </aside>
@@ -37,21 +40,34 @@
   <div role="main" id="kss-main">
     <article id="kss-content">
 
-            <h1 class="kss-title"><span class="kss-ref">3.0</span> - Base Tools</h1>
-                  <p>BEM Tools list</p>
-<p>hr (default display:none)<br />
-.ResetList (reset margin, padding, list-style:none)<br />
-.ResetTable (reset margin, padding, table-layout:fixed, width:100%)<br />
-.WrapLine (white-space: normal)<br />
-.Ellipsis (white-space:nowrap, overflow:hidden, text-overflow:ellipsis)<br /></p>
+            <h1 class="kss-title"><span class="kss-ref">3.0</span> - State Visibility</h1>
+                  <p>List of available visibility class</p>
+<p>.hidden (Hide from both screenreaders and browsers: h5bp.com/u)<br />
+.visuallyhidden (Hide only visually, but have it available for screenreaders: h5bp.com/v)<br />
+.visuallyhidden.focusable:active (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
+.visuallyhidden.focusable:focus (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
+.invisible (Hide visually and from screenreaders, but maintain layout)<br />
+.unselectable (not selectable)<br /></p>
 
-                       <h1 class="kss-title"><span class="kss-ref">3.0</span> - Base Typography</h1>
-                  <p>Typography</p>
-<p>hr (default display:none)<br />
-.FontStack1 (OpenSansRegular)<br />
-.FontStack2 (OpenSansSemiBold)<br />
-body (font-family:$font-stack1)</p>
-
+                       <h1 class="kss-title"><span class="kss-ref">3.0</span> - State Clearing</h1>
+                <div class="kss-box"><p>List of available Clearing class</p>
+<p>.ClearFloats (Reset both float with minimal space)<br />
+.Clear (simply clear:both)<br /></p>
+</div>
+                <table class="kss-mod-list">
+                  <tr class="kss-mod-desc-group">
+                    <!-- <td class="kss-mod-desc"><p>Default styling</p></td> -->
+                    <td colspan="2" class="kss-mod-name"></td>
+                  </tr>
+                  <tr class="kss-mod-example">
+                    <td colspan="2"><br class="ClearFloats" />
+<div class="Clear">...</div></td>
+                  </tr>
+                </table>
+                <div class="kss-markup">
+                  <pre class="prettyprint lang-html">&lt;br class=&quot;ClearFloats&quot; /&gt;
+&lt;div class=&quot;Clear&quot;&gt;...&lt;/div&gt;</pre>
+                </div>
                </article>
   </div>
   <footer>

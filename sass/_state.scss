@@ -9,12 +9,24 @@ Content:
 
 
 /* Visibility */
-/* Hide from both screenreaders and browsers: h5bp.com/u */
+/* 
+State Visibility
+
+List of available visibility class
+
+.hidden (Hide from both screenreaders and browsers: h5bp.com/u)<br />
+.visuallyhidden (Hide only visually, but have it available for screenreaders: h5bp.com/v)<br />
+.visuallyhidden.focusable:active (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
+.visuallyhidden.focusable:focus (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
+.invisible (Hide visually and from screenreaders, but maintain layout)<br />
+.unselectable (not selectable)<br />
+
+Styleguide 3.0
+*/
 .hidden{
 	display:none !important;
     visibility:hidden;
 }
-/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 .visuallyhidden{
 	border:0; clip: rect(0 0 0 0);
     height:1px;
@@ -24,7 +36,6 @@ Content:
     position:absolute;
     width:1px;
 }
-/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus{
 	clip:auto;
@@ -34,11 +45,9 @@ Content:
     position:static;
     width:auto;
 }
-/* Hide visually and from screenreaders, but maintain layout */
 .invisible{
 	visibility:hidden;
 }
-/* Selection */
 .unselectable {
 	@include user-select (none);
 }
@@ -55,6 +64,20 @@ a:visited {
 
 
 /* Clearing */
+/* 
+State Clearing
+
+List of available Clearing class
+
+.ClearFloats (Reset both float with minimal space)<br />
+.Clear (simply clear:both)<br />
+
+Markup:
+<br class="ClearFloats" />
+<div class="Clear">...</div>
+
+Styleguide 3.0
+*/
 .ClearFloats{
 	display:block;
 	clear:both;
