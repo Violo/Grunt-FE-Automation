@@ -9,7 +9,7 @@
 > validation for validating html files<br />
 > csslint for css testing<br />
 > svgmin for clean and compress svg files<br />
-> grunticon for create svg imgages with png fallback<br />
+> grunticon for create svg images with png fallback<br />
 > svgeezy for DOM svg image fallback<br />
 > styleguide for create KSS styleguide scaffolding<br />
 
@@ -34,7 +34,7 @@
 
 **Alessandro Violini (Violo)**
 
-+ [github/jonschlinkert](https://github.com/Violo/tools.git)
++ [github/Violo](https://github.com/Violo/tools.git)
 + [twitter/violo](http://twitter.com/violo)
 
 
