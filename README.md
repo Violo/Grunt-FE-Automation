@@ -4,16 +4,16 @@
 
 ## Getting Started
 
-Tasks:
-compass watch (polling scss changes)
-grunt compass (compress css)
-grunt  minifyHtml (compress html)
-grunt  csslint (test css)
-grunt  svgmin (clean svg files)
-grunt  grunticon (create image assets and fallbacks)
-grunt  styleguide (create styleguide scaffolding)
-grunt (default tasks: uglify, minifyHtml, csslint:strict, svgmin, grunticon, gruntstyleguide, compass:dist)
-grunt dev (development tasks: svgmin, grunticon, csslint:strict, compass:dev)
+> Tasks:
+> compass watch (polling scss changes)
+> grunt compass (compress css)
+> grunt  minifyHtml (compress html)
+> grunt  csslint (test css)
+> grunt  svgmin (clean svg files)
+> grunt  grunticon (create image assets and fallbacks)
+> grunt  styleguide (create styleguide scaffolding)
+> grunt (default tasks: uglify, minifyHtml, csslint:strict, svgmin, grunticon, gruntstyleguide, compass:dist)
+> grunt dev (development tasks: svgmin, grunticon, csslint:strict, compass:dev)
 
 
 ## Authors
