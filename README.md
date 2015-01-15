@@ -5,24 +5,24 @@
 ## What inside
 
 > compass sass framework<br />
-> minifyHtml for compress html files
-> validation for validating html files
-> csslint for css testing
-> svgmin for clean and compress svg files
-> grunticon for create svg imgages with png fallback
-> svgeezy for DOM svg image fallback
-> styleguide for create KSS styleguide scaffolding
+> minifyHtml for compress html files<br />
+> validation for validating html files<br />
+> csslint for css testing<br />
+> svgmin for clean and compress svg files<br />
+> grunticon for create svg imgages with png fallback<br />
+> svgeezy for DOM svg image fallback<br />
+> styleguide for create KSS styleguide scaffolding<br />
 
 
 ## Tasks
-> compass watch
-> grunt compass
-> grunt minifyHtml
-> grunt validation
-> grunt csslint
-> grunt svgmin
-> grunt grunticon
-> grunt styleguide
+> compass watch<br />
+> grunt compass<br />
+> grunt minifyHtml<br />
+> grunt validation<br />
+> grunt csslint<br />
+> grunt svgmin<br />
+> grunt grunticon<br />
+> grunt styleguide<br />
 
 
 ## Registered tasks
