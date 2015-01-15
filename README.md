@@ -2,18 +2,32 @@
 
 > Boot Up develop enviroment & tools
 
-## Getting Started
+## What inside
 
-> Tasks:
-> compass watch (polling scss changes)
-> grunt compass (compress css)
-> grunt  minifyHtml (compress html)
-> grunt  csslint (test css)
-> grunt  svgmin (clean svg files)
-> grunt  grunticon (create image assets and fallbacks)
-> grunt  styleguide (create styleguide scaffolding)
-> grunt (default tasks: uglify, minifyHtml, csslint:strict, svgmin, grunticon, gruntstyleguide, compass:dist)
-> grunt dev (development tasks: svgmin, grunticon, csslint:strict, compass:dev)
+> compass sass framework<br />
+> minifyHtml for compress html files
+> validation for validating html files
+> csslint for css testing
+> svgmin for clean and compress svg files
+> grunticon for create svg imgages with png fallback
+> svgeezy for DOM svg image fallback
+> styleguide for create KSS styleguide scaffolding
+
+
+## Tasks
+> compass watch
+> grunt compass
+> grunt minifyHtml
+> grunt validation
+> grunt csslint
+> grunt svgmin
+> grunt grunticon
+> grunt styleguide
+
+
+## Registered tasks
+> grunt (as default tasks: uglify, minifyHtml, csslint:strict, svgmin, grunticon, gruntstyleguide, compass:dist)
+> grunt dev (as development tasks: svgmin, grunticon, csslint:strict, compass:dev)
 
 
 ## Authors
