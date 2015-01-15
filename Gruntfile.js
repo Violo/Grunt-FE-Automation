@@ -3,10 +3,6 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    // ReadMe Task
-    readme: {
-      
-    },
     // Uglify Task
     uglify: {
       build: {
@@ -119,8 +115,6 @@ module.exports = function(grunt) {
     }
   });
 
-  // Load the plugin grunt-readme
-  grunt.loadNpmTasks('grunt-readme');
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
   // Load the plugin minify-html
@@ -139,7 +133,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
 
   // Default task.
-  grunt.registerTask('default', ['readme', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'styleguide', 'compass:dist']);
+  grunt.registerTask('default', ['uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'styleguide', 'compass:dist']);
   // Prod task.
   grunt.registerTask('dev', ['svgmin', 'grunticon', 'csslint:strict', 'validation', 'compass:dev']);
 
