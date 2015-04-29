@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>KSS: Living Styleguide</title>
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node" />
+
+  <meta name="viewport" content="width=device-width">
+
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="public/style.css">
+  <link rel="stylesheet" href="../css/app.css">
+
+</head>
+<body><div id="kss-wrapper">
+  <div id="kss-nav">
+    <header id="kss-header">
+      <hgroup><h1>kss-node Styleguide</h1></hgroup>
+    </header>
+    <aside>
+      <nav><ul>
+        <li><a href="index.html">0.0: Overview</a></li>
+          <li><a href="section-2.html">2.0: Base scss</a></li>
+          <li><a href="section-3.html">3.0: State scss</a></li>
+          <li><a href="section-4.html">4.0: Module Completion Bar</a></li>
+          <li><a href="section-5.html">5.0: Module Thermometers</a></li>
+      </ul></nav>
+    </aside>
+  </div>
+  <div role="main" id="kss-main">
+    <article id="kss-content">
+
+            <h1 class="kss-title"><span class="kss-ref">5.0</span> - Module Thermometers</h1>
+                <div class="kss-box"></div>
+                <table class="kss-mod-list">
+                  <tr class="kss-mod-desc-group">
+                    <td class="kss-mod-desc"><p>Default styling</p></td>
+                    <td class="kss-mod-name"></td>
+                  </tr>
+                  <tr class="kss-mod-example">
+                    <td colspan="2">
+<br /><br />
+<div class="CustomThermometer {$modifiers}">
+    <div class="CustomThermometerWrapper">
+        <div class="CustomThermometerProgressBarWrapper">
+            <p class="CustomThermometerProgressBarValue">100,00%</p>
+        </div>
+        <div class="CustomThermometerProgressBarWrapper SecondBar">
+            <p class="CustomThermometerProgressBarValue">50,00%</p>
+        </div>
+        <div class="CustomThermometerValueBarWrapper">
+            <div class="CustomThermometerProgressBar Bar1" style="width:100%;"></div><!-- width va da 0 a 100% -->
+            <div class="CustomThermometerProgressBar Bar2" style="width:50%;"></div><!-- width va da 0 a 100% -->
+            <div class="CustomThermometerPointer" style="left:50%;"></div><!-- left va da 0 a 100% -->
+        </div>
+        <ul class="CustomThermometerPoint">
+            <li><span>1,45%</span></li>
+            <li><span>2,55%</span></li>
+            <li><span>3,65%</span></li>
+            <li><span>4,75%</span></li>
+            <li><span>5,85%</span></li>
+            <li><span>6,95%</span></li>
+            <li class="Last"></li>
+        </ul>
+        <ul class="CustomThermometerScale">
+            <li><span>1</span></li>
+            <li><span>2</span></li>
+            <li><span>3</span></li>
+            <li><span>4</span></li>
+            <li><span>5</span></li>
+            <li><span>6</span></li>
+            <li class="Last"></li>
+        </ul>
+        <ul class="CustomThermometerBlock">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="Last"></li>
+        </ul>
+    </div>
+</div>
+<br /><br />
+<div class="CustomThermometer SingleBar {$modifiers}">
+    <div class="CustomThermometerWrapper">
+        <div class="CustomThermometerProgressBarWrapper">
+            <p class="CustomThermometerProgressBarValue">100,00%</p>
+        </div>
+        <div class="CustomThermometerValueBarWrapper">
+            <div class="CustomThermometerProgressBar Bar1" style="width:100%;"></div><!-- width va da 0 a 100% -->
+            <div class="CustomThermometerPointer" style="left:50%;"></div><!-- left va da 0 a 100% -->
+        </div>
+        <ul class="CustomThermometerPoint">
+            <li><span>1,45%</span></li>
+            <li><span>2,55%</span></li>
+            <li><span>3,65%</span></li>
+            <li><span>4,75%</span></li>
+            <li><span>5,85%</span></li>
+            <li><span>6,95%</span></li>
+            <li class="Last"></li>
+        </ul>
+        <ul class="CustomThermometerScale">
+            <li><span>1</span></li>
+            <li><span>2</span></li>
+            <li><span>3</span></li>
+            <li><span>4</span></li>
+            <li><span>5</span></li>
+            <li><span>6</span></li>
+            <li class="Last"></li>
+        </ul>
+        <ul class="CustomThermometerBlock">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="Last"></li>
+        </ul>
+    </div>
+</div></td>
+                  </tr>
+                  <tr class="kss-mod-desc-group">
+                    <td class="kss-mod-desc"><p>Big Pointer case</p>
+</td>
+                    <td class="kss-mod-name"><p>.BigPointer</p></td>
+                  </tr>
+                  <tr class="kss-mod-example">
+                    <td colspan="2">
+<br /><br />
+<div class="CustomThermometer BigPointer">
+    <div class="CustomThermometerWrapper">
+        <div class="CustomThermometerProgressBarWrapper">
+            <p class="CustomThermometerProgressBarValue">100,00%</p>
+        </div>
+        <div class="CustomThermometerProgressBarWrapper SecondBar">
+            <p class="CustomThermometerProgressBarValue">50,00%</p>
+        </div>
+        <div class="CustomThermometerValueBarWrapper">
+            <div class="CustomThermometerProgressBar Bar1" style="width:100%;"></div><!-- width va da 0 a 100% -->
+            <div class="CustomThermometerProgressBar Bar2" style="width:50%;"></div><!-- width va da 0 a 100% -->
+            <div class="CustomThermometerPointer" style="left:50%;"></div><!-- left va da 0 a 100% -->
+        </div>
+        <ul class="CustomThermometerPoint">
+            <li><span>1,45%</span></li>
+            <li><span>2,55%</span></li>
+            <li><span>3,65%</span></li>
+            <li><span>4,75%</span></li>
+            <li><span>5,85%</span></li>
+            <li><span>6,95%</span></li>
+            <li class="Last"></li>
+        </ul>
+        <ul class="CustomThermometerScale">
+            <li><span>1</span></li>
+            <li><span>2</span></li>
+            <li><span>3</span></li>
+            <li><span>4</span></li>
+            <li><span>5</span></li>
+            <li><span>6</span></li>
+            <li class="Last"></li>
+        </ul>
+        <ul class="CustomThermometerBlock">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="Last"></li>
+        </ul>
+    </div>
+</div>
+<br /><br />
+<div class="CustomThermometer SingleBar BigPointer">
+    <div class="CustomThermometerWrapper">
+        <div class="CustomThermometerProgressBarWrapper">
+            <p class="CustomThermometerProgressBarValue">100,00%</p>
+        </div>
+        <div class="CustomThermometerValueBarWrapper">
+            <div class="CustomThermometerProgressBar Bar1" style="width:100%;"></div><!-- width va da 0 a 100% -->
+            <div class="CustomThermometerPointer" style="left:50%;"></div><!-- left va da 0 a 100% -->
+        </div>
+        <ul class="CustomThermometerPoint">
+            <li><span>1,45%</span></li>
+            <li><span>2,55%</span></li>
+            <li><span>3,65%</span></li>
+            <li><span>4,75%</span></li>
+            <li><span>5,85%</span></li>
+            <li><span>6,95%</span></li>
+            <li class="Last"></li>
+        </ul>
+        <ul class="CustomThermometerScale">
+            <li><span>1</span></li>
+            <li><span>2</span></li>
+            <li><span>3</span></li>
+            <li><span>4</span></li>
+            <li><span>5</span></li>
+            <li><span>6</span></li>
+            <li class="Last"></li>
+        </ul>
+        <ul class="CustomThermometerBlock">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="Last"></li>
+        </ul>
+    </div>
+</div></td>
+                  </tr>
+                </table>
+                <div class="kss-markup">
+                  <pre class="prettyprint lang-html">
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;CustomThermometer {$modifiers}&quot;&gt;
+    &lt;div class=&quot;CustomThermometerWrapper&quot;&gt;
+        &lt;div class=&quot;CustomThermometerProgressBarWrapper&quot;&gt;
+            &lt;p class=&quot;CustomThermometerProgressBarValue&quot;&gt;100,00%&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;CustomThermometerProgressBarWrapper SecondBar&quot;&gt;
+            &lt;p class=&quot;CustomThermometerProgressBarValue&quot;&gt;50,00%&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;CustomThermometerValueBarWrapper&quot;&gt;
+            &lt;div class=&quot;CustomThermometerProgressBar Bar1&quot; style=&quot;width:100%;&quot;&gt;&lt;/div&gt;&lt;!-- width va da 0 a 100% --&gt;
+            &lt;div class=&quot;CustomThermometerProgressBar Bar2&quot; style=&quot;width:50%;&quot;&gt;&lt;/div&gt;&lt;!-- width va da 0 a 100% --&gt;
+            &lt;div class=&quot;CustomThermometerPointer&quot; style=&quot;left:50%;&quot;&gt;&lt;/div&gt;&lt;!-- left va da 0 a 100% --&gt;
+        &lt;/div&gt;
+        &lt;ul class=&quot;CustomThermometerPoint&quot;&gt;
+            &lt;li&gt;&lt;span&gt;1,45%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;2,55%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;3,65%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;4,75%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;5,85%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;6,95%&lt;/span&gt;&lt;/li&gt;
+            &lt;li class=&quot;Last&quot;&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;CustomThermometerScale&quot;&gt;
+            &lt;li&gt;&lt;span&gt;1&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;2&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;3&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;4&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;5&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;6&lt;/span&gt;&lt;/li&gt;
+            &lt;li class=&quot;Last&quot;&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;CustomThermometerBlock&quot;&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li class=&quot;Last&quot;&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;CustomThermometer SingleBar {$modifiers}&quot;&gt;
+    &lt;div class=&quot;CustomThermometerWrapper&quot;&gt;
+        &lt;div class=&quot;CustomThermometerProgressBarWrapper&quot;&gt;
+            &lt;p class=&quot;CustomThermometerProgressBarValue&quot;&gt;100,00%&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;CustomThermometerValueBarWrapper&quot;&gt;
+            &lt;div class=&quot;CustomThermometerProgressBar Bar1&quot; style=&quot;width:100%;&quot;&gt;&lt;/div&gt;&lt;!-- width va da 0 a 100% --&gt;
+            &lt;div class=&quot;CustomThermometerPointer&quot; style=&quot;left:50%;&quot;&gt;&lt;/div&gt;&lt;!-- left va da 0 a 100% --&gt;
+        &lt;/div&gt;
+        &lt;ul class=&quot;CustomThermometerPoint&quot;&gt;
+            &lt;li&gt;&lt;span&gt;1,45%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;2,55%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;3,65%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;4,75%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;5,85%&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;6,95%&lt;/span&gt;&lt;/li&gt;
+            &lt;li class=&quot;Last&quot;&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;CustomThermometerScale&quot;&gt;
+            &lt;li&gt;&lt;span&gt;1&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;2&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;3&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;4&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;5&lt;/span&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;span&gt;6&lt;/span&gt;&lt;/li&gt;
+            &lt;li class=&quot;Last&quot;&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;CustomThermometerBlock&quot;&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li class=&quot;Last&quot;&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                </div>
+               </article>
+  </div>
+  <footer>
+    
+  </footer>
+  <!-- SCRIPTS -->
+  <script src="public/kss.js"></script>
+  <script src="public/prettify.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      var sidebarAdjust = function() {
+        // Match footer/body height
+        var height = Math.max($(window).height(), $('#kss-main').height());
+
+        if ($(window).width() <= 768) {
+          $('#kss-main, #kss-nav').height('auto');
+        } else {
+          $('#kss-main, #kss-nav').height(height);
+        }
+      };
+
+      $(window).resize(sidebarAdjust);
+      $(window).scroll(sidebarAdjust);
+      sidebarAdjust();
+
+      // Ensure code blocks are highlighted properly...
+      $('pre>code').addClass('prettyprint');
+      prettyPrint();
+
+    });
+  </script>
+
+</div></body>
+</html>

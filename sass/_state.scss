@@ -5,11 +5,16 @@ Content:
 - Visibility
 - Clearing
 */
+/*
+State scss
+
+Styleguide 3.0
+*/
 
 
 
 /* Visibility */ 
-// State Visibility
+// Visibility
 //
 // List of available visibility class
 //
@@ -20,7 +25,7 @@ Content:
 // .invisible (Hide visually and from screenreaders, but maintain layout)<br />
 // .unselectable (not selectable)<br />
 //
-// Styleguide 3.0
+// Styleguide 3.1
 .hidden{
 	display:none !important;
     visibility:hidden;
@@ -62,7 +67,7 @@ a:visited {
 
 
 /* Clearing */
-// State Clearing
+// Clearing
 //
 // List of available Clearing class
 //
@@ -73,7 +78,7 @@ a:visited {
 // <br class="ClearFloats" />
 // <div class="Clear">...</div>
 //
-// Styleguide 3.0
+// Styleguide 3.2
 .ClearFloats{
 	display:block;
 	clear:both;

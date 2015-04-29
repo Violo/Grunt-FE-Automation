@@ -38,7 +38,7 @@ Content:
 // @mixin transform-scale<br />
 // @mixin transform-rotate<br />
 //
-// Styleguide 1.0
+// Styleguide 1.1
 @mixin box-sizing($valuesizing){
 box-sizing:$valuesizing;
 -moz-box-sizing:$valuesizing;}
@@ -136,7 +136,7 @@ transform: rotate($valuetransform-rotate);}
 // SizeHeight10 to SizeHeight500   (height 10px to 500px, sensibility: 10px)<br />
 // FontSize1 to FontSize30         (font-size 1px to 30px, sensibility: 1px)<br />
 //
-// Styleguide 1.0
+// Styleguide 1.2
 /* Box Sizing */
 @for $i from 1 through 50 {
   .Size#{$i * 10} { width: 10px * $i; }
@@ -160,5 +160,6 @@ transform: rotate($valuetransform-rotate);}
 @import '_base';
 @import '_layout';
 @import '_mod_completionbar';
+@import '_mod_thermometers';
 @import '_state';
 @import '_theme';

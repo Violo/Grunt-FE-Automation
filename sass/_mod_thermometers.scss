@@ -1,0 +1,292 @@
+/* -----------------------------------------
+   Module Thermometers (Violo 04/2015)
+--------------------------------------------
+Content:
+- Thermometers Variables
+- Thermometers Theme Variables
+- Thermometers
+*/
+
+
+
+/* Thermometers Variables */
+$thermometers-height:90px;
+$thermometers-inner-height:20px;
+
+
+
+/* Thermometers Theme Variables */
+$thermometers-brd-color:#A5A5A5;
+$thermometers-bg-color:#EEEEEE;
+$thermometers-block-brd-color:#7A7A7A;
+$thermometers-progressbar-bg-color:#F5F5F5;
+$thermometers-bar1-bg-color:#FF382F;
+$thermometers-bar2-bg-color:#78D45E;
+
+
+
+// Module Thermometers
+//
+//.BigPointer - Big Pointer case
+//
+// Markup: 
+// <br /><br />
+// <div class="CustomThermometer {$modifiers}">
+//     <div class="CustomThermometerWrapper">
+//         <div class="CustomThermometerProgressBarWrapper">
+//             <p class="CustomThermometerProgressBarValue">100,00%</p>
+//         </div>
+//         <div class="CustomThermometerProgressBarWrapper SecondBar">
+//             <p class="CustomThermometerProgressBarValue">50,00%</p>
+//         </div>
+//         <div class="CustomThermometerValueBarWrapper">
+//             <div class="CustomThermometerProgressBar Bar1" style="width:100%;"></div><!-- width va da 0 a 100% -->
+//             <div class="CustomThermometerProgressBar Bar2" style="width:50%;"></div><!-- width va da 0 a 100% -->
+//             <div class="CustomThermometerPointer" style="left:50%;"></div><!-- left va da 0 a 100% -->
+//         </div>
+//         <ul class="CustomThermometerPoint">
+//             <li><span>1,45%</span></li>
+//             <li><span>2,55%</span></li>
+//             <li><span>3,65%</span></li>
+//             <li><span>4,75%</span></li>
+//             <li><span>5,85%</span></li>
+//             <li><span>6,95%</span></li>
+//             <li class="Last"></li>
+//         </ul>
+//         <ul class="CustomThermometerScale">
+//             <li><span>1</span></li>
+//             <li><span>2</span></li>
+//             <li><span>3</span></li>
+//             <li><span>4</span></li>
+//             <li><span>5</span></li>
+//             <li><span>6</span></li>
+//             <li class="Last"></li>
+//         </ul>
+//         <ul class="CustomThermometerBlock">
+//             <li></li>
+//             <li></li>
+//             <li></li>
+//             <li></li>
+//             <li></li>
+//             <li></li>
+//             <li class="Last"></li>
+//         </ul>
+//     </div>
+// </div>
+// <br /><br />
+// <div class="CustomThermometer SingleBar {$modifiers}">
+//     <div class="CustomThermometerWrapper">
+//         <div class="CustomThermometerProgressBarWrapper">
+//             <p class="CustomThermometerProgressBarValue">100,00%</p>
+//         </div>
+//         <div class="CustomThermometerValueBarWrapper">
+//             <div class="CustomThermometerProgressBar Bar1" style="width:100%;"></div><!-- width va da 0 a 100% -->
+//             <div class="CustomThermometerPointer" style="left:50%;"></div><!-- left va da 0 a 100% -->
+//         </div>
+//         <ul class="CustomThermometerPoint">
+//             <li><span>1,45%</span></li>
+//             <li><span>2,55%</span></li>
+//             <li><span>3,65%</span></li>
+//             <li><span>4,75%</span></li>
+//             <li><span>5,85%</span></li>
+//             <li><span>6,95%</span></li>
+//             <li class="Last"></li>
+//         </ul>
+//         <ul class="CustomThermometerScale">
+//             <li><span>1</span></li>
+//             <li><span>2</span></li>
+//             <li><span>3</span></li>
+//             <li><span>4</span></li>
+//             <li><span>5</span></li>
+//             <li><span>6</span></li>
+//             <li class="Last"></li>
+//         </ul>
+//         <ul class="CustomThermometerBlock">
+//             <li></li>
+//             <li></li>
+//             <li></li>
+//             <li></li>
+//             <li></li>
+//             <li></li>
+//             <li class="Last"></li>
+//         </ul>
+//     </div>
+// </div>
+//
+// Styleguide 5.0
+.CustomThermometer{
+    width:100%;
+    .CustomThermometerWrapper{
+        @include border-radius(6px);
+        position:relative;
+        height:$thermometers-height;
+        border:1px solid $thermometers-brd-color;
+        background-color:$thermometers-bg-color;
+        ul{
+            @extend .ResetList;
+            position:absolute;
+            top:0;
+            left:0;
+            width:calc(83% - 5px);
+            margin-left:calc(1% + 5px);
+            li{
+                float:left;
+                margin:0;
+                padding:0;
+                width:14%;
+                &.Last{
+                    border-right:none !important;
+                    width:16%; 
+                }
+                span{
+                    position:relative;
+                }
+            }
+            &.CustomThermometerBlock{
+                li{
+                    border-right:2px dotted $thermometers-block-brd-color;
+                    height:$thermometers-height - 1px;
+                }
+            }
+            &.CustomThermometerPoint{
+                top:-40px;
+                li{
+                    height:$thermometers-inner-height;
+                    text-align:right;
+                    border-right:2px solid white;
+                    .span{
+                        right:-22px;
+                    }
+                }
+            }
+            &.CustomThermometerScale{
+                top:-20px;
+                li{
+                    height:$thermometers-inner-height;
+                    text-align:right;
+                    border-right:2px solid white;
+                    span{
+                        z-index:3;
+                        right:-5px;
+                    }
+                }
+            }
+        }
+        .CustomThermometerProgressBarWrapper{
+            @include border-radius(6px);
+            @include box-shadow(inset 0px 0px 3px #ccc);
+            box-sizing:border-box;
+            position:absolute;
+            top:10px;
+            left:1%;
+            width:98%;
+            height:30px;
+            padding-right:16%;
+            background-color:$thermometers-progressbar-bg-color;
+            .CustomThermometerProgressBarValue{
+                position:absolute;
+                right:4px;
+                top:3px;
+                margin:0;
+                padding:0;
+                font-size:12px;
+                font-weight:normal;
+            }
+            &.SecondBar{
+                top:48px;
+            }
+        }
+        .CustomThermometerValueBarWrapper{
+            position:absolute;
+            top:0;
+            left:0;
+            width:calc(83% - 5px);
+            height:$thermometers-height;
+            margin-left:calc(1% + 5px);
+            .CustomThermometerProgressBar{
+                height:$thermometers-inner-height;
+                width:0%;
+                -webkit-border-radius: 6px;
+                -moz-border-radius: 6px;
+                border-radius: 6px;
+                &.Bar1{
+                    background-color:$thermometers-bar1-bg-color;
+                    margin-top:15px;
+                }
+                &.Bar2{
+                    background-color:$thermometers-bar2-bg-color;
+                    margin-top:18px;
+                }
+            }
+            .CustomThermometerPointer{
+                position:absolute;
+                z-index:2;
+                top:-22px;
+                left:0;
+                width:31px;
+                height:112px;
+                margin-left:-15px;
+                background:transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAB4CAYAAAAKXynbAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+                AAAV/QAAFf0BzXBRYQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAY
+                dEVYdENyZWF0aW9uIFRpbWUAMjMtMDQtMjAxNb6h4bcAAAGPSURBVGiB7dTBcYJAGMXx/9pAWkgJ
+                KYEOkiu5BEcKiCXYB5nBi1xNJ9JB0kGsYHNgVeIACaA43+S9GQ8q7O8DlufizHtulBkwv5E9nxWp
+                y4HlxPBysyB3h29x5nPgZQJ4vVmQALj6rxMMcISheub1vALlleAyrH/MD7xI3RcQXWGAEojC+se4
+                piPjzN8DO+DuAvAeeChS9wHga2/2+W0HIBwYhRPHwtEBPk8jHgbYwWlzDEwS1mlMKx4G2DK8hObh
+                /NZ04mGAHFj1hFfhvM40brim9OiAdZG6pO3P+ob7Mx4G2AKPHYe8F6l76lrj193ekYT2DijpuUF7
+                4R0l1FgiF8VrAyScOmBP9Ur1ggfhYYAd1R34pLri1ne5M977wZ84837M+YOu/FIRLnzSuHrXTp3/
+                e9tH4c9vjHpmdq9cuHBTuOrVHq56FS7cBK56tYerXoULN4GrXu3hqlfhwk3gqld7uOpVuHATuOrV
+                Hq56FS7cBK56tYerXoULN4GrXu3hqlfhwk3gqld7uOrVJP4NIz3k8rs9Mk8AAAAASUVORK5CYII=') no-repeat top center;
+            }
+        }
+    }
+    &.BigPointer{
+        .CustomThermometerWrapper{
+            .CustomThermometerValueBarWrapper{
+                .CustomThermometerPointer{
+                    z-index:4;
+                    width:61px;
+                    margin-left:-30px;
+                    padding-top:1px;
+                    background:transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAB4CAYAAABB9/o2AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+                    AAAV/QAAFf0BzXBRYQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAY
+                    dEVYdENyZWF0aW9uIFRpbWUAMjMtMDQtMjAxNb6h4bcAAAHMSURBVHic7ddJbsJAGEThZ27pbAIK
+                    F+A+joI34ZidRQBlYPDQ/XuoehIskDx8MkhFVTfpCLyiU1sBCMHbzze2G4DTvtoC7bT3U7z27GRz
+                    +WTl8CsYfqBhtfBfYPiDhtXB/4HhBhpWA78JhjtoWDz8LhgeoGGx8IdgeIKGxcGfgqEDGhYD7wSG
+                    jmiYPbwzGHqgYbbwXmDoiYbZwXuDYQAaZgMfBIaBaLjCD0OPH9lhKBigGnv1uklb4GPseXq0O+2r
+                    49CDU0rDn/Sl8w3sxp6nY6PAl0ajIQyeBQyZ0FAcng0MGdFQDJ4VDJnRkB2eHQwF0JANXgQMhdAw
+                    Gl4MDAXRMBheFAyF0dAbXhwMAWjoDA8BQxAansLDwBCIhrvwUPBk1U3a1k1K5z8roaWUvt+meNVN
+                    SlNdO/TrPZeMVslolSTRVUpp6nsIT/JJGx3ZyzuT/a78pFUyWiWjVZJEe4aqZHRknqHBGa2S0SoZ
+                    rZJnqEpGR+YZGpzRKhmtktEqeYaqZHRknqHBGa2S0SoZrZJnqEpGR+YZGpzRKhmtktEqeYaqZHRk
+                    nqHBGa2S0SoZrZJnqEpGR+YZGpzRKhmtktEqeYaqZHRknqHBSaK/ALu/ZDKr++7BAAAAAElFTkSu
+                    QmCC') no-repeat top center;
+                    strong{
+                        display:block;
+                        margin:auto;
+                        color:white;
+                        font-size:11px;
+                        text-align:center;
+                    }
+                    span{
+                        display:block;
+                        margin:auto;
+                        color:white;
+                        font-size:11px;
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+    &.SingleBar{
+        .CustomThermometerWrapper{
+            .CustomThermometerProgressBarWrapper{
+                top:30px;
+            }
+            .CustomThermometerProgressBar{
+                &.Bar1{
+                    margin-top:35px;
+                }
+            }   
+        }
+    }
+}
