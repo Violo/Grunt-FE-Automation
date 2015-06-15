@@ -112,6 +112,14 @@ module.exports = function(grunt) {
           watch: true
         }
       }
+    },
+    // UnCss Task
+    uncss: {
+      dist: {
+        files: {
+          'css/tidy.css': ['index_template.html']
+        }
+      }
     }
   });
 
@@ -131,6 +139,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-styleguide');
   // Load the plugin compass
   grunt.loadNpmTasks('grunt-contrib-compass');
+  // Load the plugin uncss
+  grunt.loadNpmTasks('grunt-uncss');
 
   // Default task.
   grunt.registerTask('default', ['uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'styleguide', 'compass:dist']);

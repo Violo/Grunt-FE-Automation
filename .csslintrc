@@ -4,7 +4,7 @@
   "known-properties": true,
   "box-sizing": true,
   "box-model": false,
-  "overqualified-elements": true,
+  "overqualified-elements": false,
   "display-property-grouping": true,
   "bulletproof-font-face": true,
   "compatible-vendor-prefixes": true,

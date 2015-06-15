@@ -99,8 +99,8 @@ appearance:$valueappearance;}
 @mixin transition($valuetransition){
 transition:$valuetransition;
 -webkit-transition:$valuetransition;
--moz-transition:$valuetransition;
--o-transition:$valuetransition;}
+-o-transition:$valuetransition;
+-moz-transition:$valuetransition;}
 
 @mixin transition-delay($valuetransition-delay){
 transition-delay: $valuetransition-delay;
@@ -109,17 +109,21 @@ transition-delay: $valuetransition-delay;
 @mixin transition-timing($valuetransition-timing){
 transition-timing-function: $valuetransition-timing;
 -webkit-transition-timing-function: $valuetransition-timing;
--moz-transition-timing-function: $valuetransition-timing;
--o-transition-timing-function: $valuetransition-timing;}
+-moz-transition-timing-function:$valuetransition-timing;
+-o-transition-timing-function:$valuetransition-timing;}
 
 @mixin transform-scale($valuetransform){
 -ms-transform: scale($valuetransform);
 -webkit-transform: scale($valuetransform);
+-moz-transform: scale($valuetransform);
+-o-transform: scale($valuetransform);
 transform: scale($valuetransform);}
 
 @mixin transform-rotate($valuetransform-rotate){
 -ms-transform: rotate($valuetransform-rotate);
 -webkit-transform: rotate($valuetransform-rotate);
+-moz-transform: rotate($valuetransform-rotate);
+-o-transform: rotate($valuetransform-rotate);
 transform: rotate($valuetransform-rotate);}
 
 
