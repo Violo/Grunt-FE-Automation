@@ -1,0 +1,14 @@
+{
+    "in": ["app.css"],
+    "out": "app.min.css",
+    "import": true,
+    "autoprefixer": {"browsers": ["> 1%"]},
+    "mqpacker": true,
+    "minifier": true,
+    "rem": ["14px", {"replace": false}],
+    "pseudoElements": true,
+    "opacity": false,
+    "filters": false,
+    "sourcemaps": false,
+    "next": false
+}

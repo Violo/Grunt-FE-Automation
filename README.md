@@ -12,6 +12,8 @@
 > grunticon for create svg images with png fallback<br />
 > svgeezy for DOM svg image fallback<br />
 > styleguide for create KSS styleguide scaffolding<br />
+> uncss for remove unused styles<br />
+> pleeease css post processor for a better and clean css<br />
 
 
 ## Tasks
@@ -23,6 +25,8 @@
 > grunt svgmin<br />
 > grunt grunticon<br />
 > grunt styleguide<br />
+> grunt uncss<br />
+> pleeease compile (from css directory)<br />
 
 
 ## Registered tasks
