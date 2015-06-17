@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Styleguide</title>
+  <title>KSS: Living Styleguide</title>
   <meta name="description" content="">
   <meta name="generator" content="kss-node" />
 
@@ -22,25 +22,24 @@
 <body><div id="kss-wrapper">
   <div id="kss-nav">
     <header id="kss-header">
-      <hgroup><h1>Styleguide</h1></hgroup>
+      <hgroup><h1>kss-node Styleguide</h1></hgroup>
     </header>
     <aside>
       <nav><ul>
         <li><a href="index.html">0.0: Overview</a></li>
-          <li><a href="section-1.html">1.0: App scss</a></li>
           <li><a href="section-2.html">2.0: Base scss</a></li>
           <li><a href="section-3.html">3.0: State scss</a></li>
           <li><a href="section-4.html">4.0: Module Completion Bar</a></li>
           <li><a href="section-5.html">5.0: Module Thermometers</a></li>
-          <li><a href="section-6.html">6.0: Module Popover</a></li>
-          <li><a href="section-7.html">7.0: Module TouchSpinner</a></li>
+          <li><a href="section-105.html">105.0: Module Popover</a></li>
+          <li><a href="section-106.html">106.0: Module TouchSpinner</a></li>
       </ul></nav>
     </aside>
   </div>
   <div role="main" id="kss-main">
     <article id="kss-content">
 
-            <h1 class="kss-title"><span class="kss-ref">4.0</span> - Module Completion Bar</h1>
+            <h1 class="kss-title"><span class="kss-ref">106.0</span> - Module TouchSpinner</h1>
                 <div class="kss-box"></div>
                 <table class="kss-mod-list">
                   <tr class="kss-mod-desc-group">
@@ -48,40 +47,50 @@
                     <td class="kss-mod-name"></td>
                   </tr>
                   <tr class="kss-mod-example">
-                    <td colspan="2">
-<div class="Completion">
-    <div class="CompletionBar Value100">
-        <span class="CompletionValue">100%</span>
-    </div>
-</div>
-<div class="Completion">
-    <div class="CompletionBar Value50">
-        <span class="CompletionValue">50%</span>
-    </div>
-</div>
-<div class="Completion">
-    <div class="CompletionBar Value10">
-        <span class="CompletionValue">10%</span>
-    </div>
+                    <td colspan="2"><div class="TouchSpinWrapper {$modifiers}">
+    <span class="BoxExtraInput Less"><span class="hidden">-</span></span>
+    <input type="text" class="BoxInput Size100" value="500.000" />
+    <span class="BoxExtraInput Decimal">,00</span>
+    <span class="BoxExtraInput Plus"><span class="hidden">+</span></span>
+    <hr class="ClearFloats">
+</div></td>
+                  </tr>
+                  <tr class="kss-mod-desc-group">
+                    <td class="kss-mod-desc"><p>Neutral bottom +/-</p>
+</td>
+                    <td class="kss-mod-name"><p>.StyleNeutral</p></td>
+                  </tr>
+                  <tr class="kss-mod-example">
+                    <td colspan="2"><div class="TouchSpinWrapper StyleNeutral">
+    <span class="BoxExtraInput Less"><span class="hidden">-</span></span>
+    <input type="text" class="BoxInput Size100" value="500.000" />
+    <span class="BoxExtraInput Decimal">,00</span>
+    <span class="BoxExtraInput Plus"><span class="hidden">+</span></span>
+    <hr class="ClearFloats">
+</div></td>
+                  </tr>
+                  <tr class="kss-mod-desc-group">
+                    <td class="kss-mod-desc"><p>Include decimal box</p>
+</td>
+                    <td class="kss-mod-name"><p>.WithDecimal</p></td>
+                  </tr>
+                  <tr class="kss-mod-example">
+                    <td colspan="2"><div class="TouchSpinWrapper WithDecimal">
+    <span class="BoxExtraInput Less"><span class="hidden">-</span></span>
+    <input type="text" class="BoxInput Size100" value="500.000" />
+    <span class="BoxExtraInput Decimal">,00</span>
+    <span class="BoxExtraInput Plus"><span class="hidden">+</span></span>
+    <hr class="ClearFloats">
 </div></td>
                   </tr>
                 </table>
                 <div class="kss-markup">
-                  <pre class="prettyprint lang-html">
-&lt;div class=&quot;Completion&quot;&gt;
-    &lt;div class=&quot;CompletionBar Value100&quot;&gt;
-        &lt;span class=&quot;CompletionValue&quot;&gt;100%&lt;/span&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;Completion&quot;&gt;
-    &lt;div class=&quot;CompletionBar Value50&quot;&gt;
-        &lt;span class=&quot;CompletionValue&quot;&gt;50%&lt;/span&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;Completion&quot;&gt;
-    &lt;div class=&quot;CompletionBar Value10&quot;&gt;
-        &lt;span class=&quot;CompletionValue&quot;&gt;10%&lt;/span&gt;
-    &lt;/div&gt;
+                  <pre class="prettyprint lang-html">&lt;div class=&quot;TouchSpinWrapper {$modifiers}&quot;&gt;
+    &lt;span class=&quot;BoxExtraInput Less&quot;&gt;&lt;span class=&quot;hidden&quot;&gt;-&lt;/span&gt;&lt;/span&gt;
+    &lt;input type=&quot;text&quot; class=&quot;BoxInput Size100&quot; value=&quot;500.000&quot; /&gt;
+    &lt;span class=&quot;BoxExtraInput Decimal&quot;&gt;,00&lt;/span&gt;
+    &lt;span class=&quot;BoxExtraInput Plus&quot;&gt;&lt;span class=&quot;hidden&quot;&gt;+&lt;/span&gt;&lt;/span&gt;
+    &lt;hr class=&quot;ClearFloats&quot;&gt;
 &lt;/div&gt;</pre>
                 </div>
                </article>

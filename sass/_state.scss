@@ -71,14 +71,27 @@ a:visited {
 //
 // List of available Clearing class
 //
+// .ClearFix (Reset float by wrapping floating elements)<br />
 // .ClearFloats (Reset both float with minimal space)<br />
 // .Clear (simply clear:both)<br />
 //
 // Markup:
+// <div class="ClearFix" /><p style="float:left; border:1px solid red;">test 1</p><p style="float:right; border:1px solid green;">test 2</p></div><p>test 3 (no float)</p>
 // <br class="ClearFloats" />
 // <div class="Clear">...</div>
 //
 // Styleguide 3.2
+.ClearFix {
+  &:before,
+  &:after {
+    content:"";
+    display:block;
+    overflow:hidden;
+  }
+  &:after {
+    clear:both;
+  }
+}
 .ClearFloats{
 	display:block;
 	clear:both;

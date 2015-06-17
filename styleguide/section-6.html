@@ -40,45 +40,70 @@
   <div role="main" id="kss-main">
     <article id="kss-content">
 
-            <h1 class="kss-title"><span class="kss-ref">3.0</span> - State scss</h1>
-                      <section class="kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">3.1</span> - Visibility</h1>
-                  <p>List of available visibility class</p>
-<p>.hidden (Hide from both screenreaders and browsers: h5bp.com/u)<br />
-.visuallyhidden (Hide only visually, but have it available for screenreaders: h5bp.com/v)<br />
-.visuallyhidden.focusable:active (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
-.visuallyhidden.focusable:focus (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
-.invisible (Hide visually and from screenreaders, but maintain layout)<br />
-.unselectable (not selectable)<br /></p>
-
-          
-            </section>
-           <section class="kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">3.2</span> - Clearing</h1>
-                <div class="kss-box"><p>List of available Clearing class</p>
-<p>.ClearFix (Reset float by wrapping floating elements)<br />
-.ClearFloats (Reset both float with minimal space)<br />
-.Clear (simply clear:both)<br /></p>
-</div>
+            <h1 class="kss-title"><span class="kss-ref">6.0</span> - Module Popover</h1>
+                <div class="kss-box"></div>
                 <table class="kss-mod-list">
                   <tr class="kss-mod-desc-group">
                     <td class="kss-mod-desc"><p>Default styling</p></td>
                     <td class="kss-mod-name"></td>
                   </tr>
                   <tr class="kss-mod-example">
-                    <td colspan="2"><div class="ClearFix" /><p style="float:left; border:1px solid red;">test 1</p><p style="float:right; border:1px solid green;">test 2</p></div><p>test 3 (no float)</p>
-<br class="ClearFloats" />
-<div class="Clear">...</div></td>
+                    <td colspan="2"><div class="PopoverWrapper SGResetPosition Opened">
+   <div class="Popover {$modifiers} Size250">
+       <p>Content popover.</p>
+   </div>
+</div>
+<br /><br /><br /></td>
+                  </tr>
+                  <tr class="kss-mod-desc-group">
+                    <td class="kss-mod-desc"><p>Bottom arrow</p>
+</td>
+                    <td class="kss-mod-name"><p>.Bottom</p></td>
+                  </tr>
+                  <tr class="kss-mod-example">
+                    <td colspan="2"><div class="PopoverWrapper SGResetPosition Opened">
+   <div class="Popover Bottom Size250">
+       <p>Content popover.</p>
+   </div>
+</div>
+<br /><br /><br /></td>
+                  </tr>
+                  <tr class="kss-mod-desc-group">
+                    <td class="kss-mod-desc"><p>Left arrow</p>
+</td>
+                    <td class="kss-mod-name"><p>.Left</p></td>
+                  </tr>
+                  <tr class="kss-mod-example">
+                    <td colspan="2"><div class="PopoverWrapper SGResetPosition Opened">
+   <div class="Popover Left Size250">
+       <p>Content popover.</p>
+   </div>
+</div>
+<br /><br /><br /></td>
+                  </tr>
+                  <tr class="kss-mod-desc-group">
+                    <td class="kss-mod-desc"><p>Right arrow</p>
+</td>
+                    <td class="kss-mod-name"><p>.Right</p></td>
+                  </tr>
+                  <tr class="kss-mod-example">
+                    <td colspan="2"><div class="PopoverWrapper SGResetPosition Opened">
+   <div class="Popover Right Size250">
+       <p>Content popover.</p>
+   </div>
+</div>
+<br /><br /><br /></td>
                   </tr>
                 </table>
                 <div class="kss-markup">
-                  <pre class="prettyprint lang-html">&lt;div class=&quot;ClearFix&quot; /&gt;&lt;p style=&quot;float:left; border:1px solid red;&quot;&gt;test 1&lt;/p&gt;&lt;p style=&quot;float:right; border:1px solid green;&quot;&gt;test 2&lt;/p&gt;&lt;/div&gt;&lt;p&gt;test 3 (no float)&lt;/p&gt;
-&lt;br class=&quot;ClearFloats&quot; /&gt;
-&lt;div class=&quot;Clear&quot;&gt;...&lt;/div&gt;</pre>
+                  <pre class="prettyprint lang-html">&lt;div class=&quot;PopoverWrapper SGResetPosition Opened&quot;&gt;
+   &lt;div class=&quot;Popover {$modifiers} Size250&quot;&gt;
+       &lt;p&gt;Content popover.&lt;/p&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</pre>
                 </div>
-          
-            </section>
-    </article>
+               </article>
   </div>
   <footer>
     

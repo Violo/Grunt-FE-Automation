@@ -1,0 +1,90 @@
+/* -----------------------------------------
+   Module Popover
+--------------------------------------------
+Content:
+- Popover Variables
+- Popover Theme Variables
+- Popover
+*/
+
+
+
+/* Popover Variables */
+
+
+
+/* Popover Theme Variables */
+$Popover-brd-color:#e3e3e3;
+$Popover-bg-color:#f7f7f7;
+$PopoverAfter-bg-color:#f7f7f7;
+
+
+
+//Module Popover
+//
+//.Bottom - Bottom arrow
+//.Left - Left arrow
+//.Right - Right arrow
+//
+//Markup:
+//<div class="PopoverWrapper SGResetPosition Opened">
+//    <div class="Popover {$modifiers} Size250">
+//        <p>Content popover.</p>
+//    </div>
+//</div>
+//<br /><br /><br />
+//
+//Styleguide 6.0
+
+.PopoverWrapper{
+    position:absolute;
+    z-index:1;
+    display:none;
+   .Popover{
+        @include border-radius(5px);
+        position:relative;
+        padding:10px;
+        border:1px solid $Popover-brd-color;
+        background:$Popover-bg-color;
+        &:after{
+            content:"";
+            position:absolute;
+            top:-15px;
+            left:110px;
+            border-style:solid;
+            border-width:0 15px 15px;
+            border-color:$Popover-bg-color transparent;
+            display:block;
+            z-index:1;
+        }
+        &.Bottom{
+            &:after{
+                top:auto;
+                bottom:-15px;
+                border-width:15px 15px 0;
+            }
+        }
+        &.Left{
+            &:after{
+                top:15px;
+                left:-15px;
+                border-width: 15px 15px 15px 0;
+                border-color: transparent $Popover-bg-color;
+                width: 0;
+            }
+        }
+        &.Right{
+            &:after{
+                top:40%;
+                left:auto;
+                right:-15px;
+                border-width: 15px 0 15px 15px;
+                border-color: transparent $Popover-bg-color;
+                width: 0;
+            }
+        }
+    }
+    &.Opened{
+        display:block;
+    }
+}

@@ -4,8 +4,14 @@
 Content:
 - Variables
 - Mixin
+- Mediaquery
 - Operations
 - @ SCSS Imports
+*/
+/*
+App scss
+
+Styleguide 1.0
 */
 
 
@@ -40,91 +46,146 @@ Content:
 //
 // Styleguide 1.1
 @mixin box-sizing($valuesizing){
-box-sizing:$valuesizing;
--moz-box-sizing:$valuesizing;}
+    box-sizing:$valuesizing;
+    -moz-box-sizing:$valuesizing;
+}
 
 @mixin border-radius($radius) {
--webkit-border-radius: $radius;
--moz-border-radius: $radius;
--ms-border-radius: $radius;
--o-border-radius: $radius;
-border-radius: $radius;}
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
 
 @mixin border-radius-left($radius) {
--webkit-border-bottom-left-radius:$radius;
--webkit-border-top-left-radius:$radius;
--moz-border-radius-bottomleft:$radius;
--moz-border-radius-topleft:$radius;
--o-border-radius-bottomleft:$radius;
--o-border-radius-topleft:$radius;
-border-bottom-left-radius:$radius;
-border-top-left-radius:$radius;}
+    -webkit-border-bottom-left-radius:$radius;
+    -webkit-border-top-left-radius:$radius;
+    -moz-border-radius-bottomleft:$radius;
+    -moz-border-radius-topleft:$radius;
+    -o-border-radius-bottomleft:$radius;
+    -o-border-radius-topleft:$radius;
+    border-bottom-left-radius:$radius;
+    border-top-left-radius:$radius;
+}
 
 @mixin border-radius-right($radius) {
--webkit-border-bottom-right-radius:$radius;
--webkit-border-top-right-radius:$radius;
--moz-border-radius-bottomright:$radius;
--moz-border-radius-topright:$radius;
--o-border-radius-bottomright:$radius;
--o-border-radius-topright:$radius;
-border-bottom-right-radius:$radius;
-border-top-right-radius:$radius;}
+    -webkit-border-bottom-right-radius:$radius;
+    -webkit-border-top-right-radius:$radius;
+    -moz-border-radius-bottomright:$radius;
+    -moz-border-radius-topright:$radius;
+    -o-border-radius-bottomright:$radius;
+    -o-border-radius-topright:$radius;
+    border-bottom-right-radius:$radius;
+    border-top-right-radius:$radius;
+}
 
 @mixin border-radius-top($radius) {
--webkit-border-top-right-radius:$radius;
--webkit-border-top-left-radius:$radius;
--moz-border-radius-topright:$radius;
--moz-border-radius-topleft:$radius;
--o-border-radius-topright:$radius;
--o-border-radius-topleft:$radius;
-border-top-right-radius:$radius;
-border-top-left-radius:$radius;}
+    -webkit-border-top-right-radius:$radius;
+    -webkit-border-top-left-radius:$radius;
+    -moz-border-radius-topright:$radius;
+    -moz-border-radius-topleft:$radius;
+    -o-border-radius-topright:$radius;
+    -o-border-radius-topleft:$radius;
+    border-top-right-radius:$radius;
+    border-top-left-radius:$radius;
+}
 
 @mixin box-shadow($valueshadow){
--moz-box-shadow: $valueshadow;
--webkit-box-shadow: $valueshadow;
-box-shadow: $valueshadow;}
+    -moz-box-shadow: $valueshadow;
+    -webkit-box-shadow: $valueshadow;
+    box-shadow: $valueshadow;
+}
 
 @mixin user-select($valueuserselect){
--webkit-user-select: $valueuserselect;
--moz-user-select: $valueuserselect;
--ms-user-select: $valueuserselect;
-user-select: $valueuserselect;}
+    -webkit-user-select: $valueuserselect;
+    -moz-user-select: $valueuserselect;
+    -ms-user-select: $valueuserselect;
+    user-select: $valueuserselect;
+}
 
 @mixin appearance($valueappearance){
--webkit-appearance:$valueappearance;
--moz-appearance:$valueappearance;
-appearance:$valueappearance;}
+    -webkit-appearance:$valueappearance;
+    -moz-appearance:$valueappearance;
+    appearance:$valueappearance;
+}
 
 @mixin transition($valuetransition){
-transition:$valuetransition;
--webkit-transition:$valuetransition;
--o-transition:$valuetransition;
--moz-transition:$valuetransition;}
+    transition:$valuetransition;
+    -webkit-transition:$valuetransition;
+    -o-transition:$valuetransition;
+    -moz-transition:$valuetransition;
+}
 
 @mixin transition-delay($valuetransition-delay){
-transition-delay: $valuetransition-delay;
--webkit-transition-delay: $valuetransition-delay;}
+    transition-delay: $valuetransition-delay;
+    -webkit-transition-delay: $valuetransition-delay;
+}
 
 @mixin transition-timing($valuetransition-timing){
-transition-timing-function: $valuetransition-timing;
--webkit-transition-timing-function: $valuetransition-timing;
--moz-transition-timing-function:$valuetransition-timing;
--o-transition-timing-function:$valuetransition-timing;}
+    transition-timing-function: $valuetransition-timing;
+    -webkit-transition-timing-function: $valuetransition-timing;
+    -moz-transition-timing-function:$valuetransition-timing;
+    -o-transition-timing-function:$valuetransition-timing;
+}
 
 @mixin transform-scale($valuetransform){
--ms-transform: scale($valuetransform);
--webkit-transform: scale($valuetransform);
--moz-transform: scale($valuetransform);
--o-transform: scale($valuetransform);
-transform: scale($valuetransform);}
+    -ms-transform: scale($valuetransform);
+    -webkit-transform: scale($valuetransform);
+    -moz-transform: scale($valuetransform);
+    -o-transform: scale($valuetransform);
+    transform: scale($valuetransform);
+}
 
 @mixin transform-rotate($valuetransform-rotate){
--ms-transform: rotate($valuetransform-rotate);
--webkit-transform: rotate($valuetransform-rotate);
--moz-transform: rotate($valuetransform-rotate);
--o-transform: rotate($valuetransform-rotate);
-transform: rotate($valuetransform-rotate);}
+    -ms-transform: rotate($valuetransform-rotate);
+    -webkit-transform: rotate($valuetransform-rotate);
+    -moz-transform: rotate($valuetransform-rotate);
+    -o-transform: rotate($valuetransform-rotate);
+    transform: rotate($valuetransform-rotate);
+}
+
+
+
+/* -----------------------------------------
+   Mediaquery
+----------------------------------------- */
+// App Mediaquery
+//
+// Mediaquery Mixin
+//
+// small-smartphone (from 320 to 479)<br />
+// smartphone (from 480 to 639)<br />
+// tablet (from 640 to 768)<br />
+// small-desktop (until 1024)<br />
+//
+// Styleguide 1.2
+$s-smartphone-width:320px;
+$m-smartphone-width:480px;
+$s-tablet-width:640px;
+$m-tablet-width:768px;
+$s-desktop-width:1024px;
+
+@mixin small-smartphone {
+  @media (min-width: #{$s-smartphone-width}) and (max-width: #{$m-smartphone-width - 1px}) {
+    @content;
+  }
+}
+@mixin smartphone {
+  @media (min-width: #{$m-smartphone-width}) and (max-width: #{$s-tablet-width - 1px}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: #{$s-tablet-width}) and (max-width: #{$m-tablet-width}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: #{s-desktop-width}) {
+    @content;
+  }
+}
 
 
 
@@ -140,7 +201,7 @@ transform: rotate($valuetransform-rotate);}
 // SizeHeight10 to SizeHeight500   (height 10px to 500px, sensibility: 10px)<br />
 // FontSize1 to FontSize30         (font-size 1px to 30px, sensibility: 1px)<br />
 //
-// Styleguide 1.2
+// Styleguide 1.3
 /* Box Sizing */
 @for $i from 1 through 50 {
   .Size#{$i * 10} { width: 10px * $i; }
@@ -165,5 +226,7 @@ transform: rotate($valuetransform-rotate);}
 @import '_layout';
 @import '_mod_completionbar';
 @import '_mod_thermometers';
+@import '_mod_popover';
+@import '_mod_touchspinner';
 @import '_state';
 @import '_theme';

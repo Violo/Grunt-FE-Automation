@@ -1,0 +1,109 @@
+/* -----------------------------------------
+   Module TouchSpinner
+--------------------------------------------
+Content:
+- TouchSpinner Variables
+- TouchSpinner Theme Variables
+- TouchSpinner
+*/
+
+
+
+/* TouchSpinner Variables */
+$TouchSpinner-height:34px;
+$TouchSpinner-width:34px;
+
+
+
+/* TouchSpinner Theme Variables */
+$TouchSpinner-neutral-bg-color:#919191;
+$TouchSpinner-less-bg-color:#E83956;
+$TouchSpinner-plus-bg-color:#69B56B;
+$BoxInput-brd-color:#F0F0F0;
+$BoxInput-bg-color:#ffffff;
+$BoxInput-txt-color:#647687;
+$BoxExtraInput-color:#ffffff;
+$BoxDecimal-brd-color:#F0F0F0;
+$BoxDecimal-bg-color:#ffffff;
+$BoxDecimal-txt-color:#647687;
+
+
+
+//Module TouchSpinner
+//
+//.StyleNeutral - Neutral bottom +/-
+//.WithDecimal - Include decimal box
+//
+//Markup:
+//<div class="TouchSpinWrapper {$modifiers}">
+//    <span class="BoxExtraInput Less"><span class="hidden">-</span></span>
+//    <input type="text" class="BoxInput Size100" value="500.000" />
+//    <span class="BoxExtraInput Decimal">,00</span>
+//    <span class="BoxExtraInput Plus"><span class="hidden">+</span></span>
+//    <hr class="ClearFloats">
+//</div>
+//
+//Styleguide 7.0
+
+.TouchSpinWrapper{
+  height:$TouchSpinner-height;
+  .BoxInput{
+    float:left;
+    height:$TouchSpinner-height;
+    border:1px solid $BoxInput-brd-color;
+    background-color:$BoxInput-bg-color;
+    color:$BoxInput-txt-color;
+    padding:0 10px 0 10px;
+    text-align:right;
+  }
+  .BoxExtraInput{
+    display:block;
+    float:left;
+    width:$TouchSpinner-width;
+    height:$TouchSpinner-height;
+    cursor:pointer;
+    background-color:$TouchSpinner-neutral-bg-color;
+    color:$BoxExtraInput-color;
+    text-align:center;
+    &.Decimal{
+      cursor:auto;
+      color:$BoxDecimal-txt-color;
+      background-color:$BoxDecimal-bg-color;
+      border:1px solid $BoxDecimal-brd-color;
+      border-left:none;
+      line-height:$TouchSpinner-height;
+      display:none;
+    }
+    &.Less{
+      background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%222%22%20viewBox%3D%220%200%2012%202%22%20overflow%3D%22visible%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20fill%3D%22white%22%20d%3D%22M0%200h12v2H0V0z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+      background-repeat: no-repeat;
+      background-position:center center;
+      background-color:$TouchSpinner-less-bg-color;
+    }
+    &.Plus{
+      background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20overflow%3D%22visible%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20fill%3D%22white%22%20d%3D%22M12%205H7V0H5v5H0v2h5v5h2V7h5z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+      background-repeat: no-repeat;
+      background-position:center center;
+      background-color:$TouchSpinner-plus-bg-color;
+    }
+  }
+  &.StyleNeutral{
+    .BoxExtraInput{
+      &.Less{
+        cursor:text;
+        background-color:$TouchSpinner-neutral-bg-color;
+      }
+      &.Plus{
+        cursor:text;
+        background-color:$TouchSpinner-neutral-bg-color;
+      }
+    }
+  }
+  &.WithDecimal{
+    .BoxExtraInput{
+      &.Decimal{
+        display:block;
+      }
+    }
+  }
+}
