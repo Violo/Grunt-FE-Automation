@@ -19,7 +19,9 @@ Styleguide 1.0
 /* -----------------------------------------
    Variables
 ----------------------------------------- */
-/* Here variables */
+$html-font-size:14px;
+$html-tablet-font-size:15px;
+$html-smartphone-font-size:13px;
 
 
 
@@ -158,13 +160,16 @@ Styleguide 1.0
 // smartphone (from 480 to 639)<br />
 // tablet (from 640 to 768)<br />
 // small-desktop (until 1024)<br />
+// html-font-size setting by $html-font-size variable<br />
+// html-tablet-font-size setting by $html-tablet-font-size variable<br />
+// html-smartphone-font-size setting by $html-smartphone-font-size variable<br />
 //
 // Styleguide 1.2
 $s-smartphone-width:320px;
 $m-smartphone-width:480px;
 $s-tablet-width:640px;
-$m-tablet-width:768px;
-$s-desktop-width:1024px;
+$m-tablet-width:768px; /* 46.8 em approach */
+$s-desktop-width:1024px; /* 70 em approach */
 
 @mixin small-smartphone {
   @media (min-width: #{$s-smartphone-width}) and (max-width: #{$m-smartphone-width - 1px}) {
@@ -182,8 +187,18 @@ $s-desktop-width:1024px;
   }
 }
 @mixin desktop {
-  @media (max-width: #{s-desktop-width}) {
+  @media (max-width: #{$s-desktop-width}) {
     @content;
+  }
+}
+
+html{
+  font-size:$html-font-size;
+  @include tablet {
+    font-size:$html-tablet-font-size;
+  }
+  @include smartphone {
+    font-size:$html-smartphone-font-size;
   }
 }
 

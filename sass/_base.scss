@@ -82,7 +82,15 @@ $font-stack2: 'OpenSansSemiBold', Helvetica, Arial, sans-serif;
 .FontStack2 {
   font-family: $font-stack2;
 }
-
+html{
+  box-sizing:border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing:inherit;
+}
 body{
+  /* Use REM unit for modules relative to html-font-size and EM unit for elements telative to modules */
   font-family:$font-stack1;
 }
