@@ -2,13 +2,13 @@
     "in": ["app.css"],
     "out": "app.min.css",
     "import": true,
-    "autoprefixer": {"browsers": ["> 1%"]},
+    "autoprefixer": {"browsers": ["> 5%"]},
     "mqpacker": true,
     "minifier": true,
-    "rem": ["14px", {"replace": false}],
+    "rem": ["14px", {"replace": true}],
     "pseudoElements": true,
-    "opacity": false,
-    "filters": false,
+    "opacity": true,
+    "filters": true,
     "sourcemaps": false,
     "next": false
 }

@@ -1,1 +1,2847 @@
-.Size10{width:10px}.Size20{width:20px}.Size30{width:30px}.Size40{width:40px}.Size50{width:50px}.Size60{width:60px}.Size70{width:70px}.Size80{width:80px}.Size90{width:90px}.Size100{width:100px}.Size110{width:110px}.Size120{width:120px}.Size130{width:130px}.Size140{width:140px}.Size150{width:150px}.Size160{width:160px}.Size170{width:170px}.Size180{width:180px}.Size190{width:190px}.Size200{width:200px}.Size210{width:210px}.Size220{width:220px}.Size230{width:230px}.Size240{width:240px}.Size250{width:250px}.Size260{width:260px}.Size270{width:270px}.Size280{width:280px}.Size290{width:290px}.Size300{width:300px}.Size310{width:310px}.Size320{width:320px}.Size330{width:330px}.Size340{width:340px}.Size350{width:350px}.Size360{width:360px}.Size370{width:370px}.Size380{width:380px}.Size390{width:390px}.Size400{width:400px}.Size410{width:410px}.Size420{width:420px}.Size430{width:430px}.Size440{width:440px}.Size450{width:450px}.Size460{width:460px}.Size470{width:470px}.Size480{width:480px}.Size490{width:490px}.Size500{width:500px}.SizeFluid1{width:1%}.SizeFluid2{width:2%}.SizeFluid3{width:3%}.SizeFluid4{width:4%}.SizeFluid5{width:5%}.SizeFluid6{width:6%}.SizeFluid7{width:7%}.SizeFluid8{width:8%}.SizeFluid9{width:9%}.SizeFluid10{width:10%}.SizeFluid11{width:11%}.SizeFluid12{width:12%}.SizeFluid13{width:13%}.SizeFluid14{width:14%}.SizeFluid15{width:15%}.SizeFluid16{width:16%}.SizeFluid17{width:17%}.SizeFluid18{width:18%}.SizeFluid19{width:19%}.SizeFluid20{width:20%}.SizeFluid21{width:21%}.SizeFluid22{width:22%}.SizeFluid23{width:23%}.SizeFluid24{width:24%}.SizeFluid25{width:25%}.SizeFluid26{width:26%}.SizeFluid27{width:27%}.SizeFluid28{width:28%}.SizeFluid29{width:29%}.SizeFluid30{width:30%}.SizeFluid31{width:31%}.SizeFluid32{width:32%}.SizeFluid33{width:33%}.SizeFluid34{width:34%}.SizeFluid35{width:35%}.SizeFluid36{width:36%}.SizeFluid37{width:37%}.SizeFluid38{width:38%}.SizeFluid39{width:39%}.SizeFluid40{width:40%}.SizeFluid41{width:41%}.SizeFluid42{width:42%}.SizeFluid43{width:43%}.SizeFluid44{width:44%}.SizeFluid45{width:45%}.SizeFluid46{width:46%}.SizeFluid47{width:47%}.SizeFluid48{width:48%}.SizeFluid49{width:49%}.SizeFluid50{width:50%}.SizeFluid51{width:51%}.SizeFluid52{width:52%}.SizeFluid53{width:53%}.SizeFluid54{width:54%}.SizeFluid55{width:55%}.SizeFluid56{width:56%}.SizeFluid57{width:57%}.SizeFluid58{width:58%}.SizeFluid59{width:59%}.SizeFluid60{width:60%}.SizeFluid61{width:61%}.SizeFluid62{width:62%}.SizeFluid63{width:63%}.SizeFluid64{width:64%}.SizeFluid65{width:65%}.SizeFluid66{width:66%}.SizeFluid67{width:67%}.SizeFluid68{width:68%}.SizeFluid69{width:69%}.SizeFluid70{width:70%}.SizeFluid71{width:71%}.SizeFluid72{width:72%}.SizeFluid73{width:73%}.SizeFluid74{width:74%}.SizeFluid75{width:75%}.SizeFluid76{width:76%}.SizeFluid77{width:77%}.SizeFluid78{width:78%}.SizeFluid79{width:79%}.SizeFluid80{width:80%}.SizeFluid81{width:81%}.SizeFluid82{width:82%}.SizeFluid83{width:83%}.SizeFluid84{width:84%}.SizeFluid85{width:85%}.SizeFluid86{width:86%}.SizeFluid87{width:87%}.SizeFluid88{width:88%}.SizeFluid89{width:89%}.SizeFluid90{width:90%}.SizeFluid91{width:91%}.SizeFluid92{width:92%}.SizeFluid93{width:93%}.SizeFluid94{width:94%}.SizeFluid95{width:95%}.SizeFluid96{width:96%}.SizeFluid97{width:97%}.SizeFluid98{width:98%}.SizeFluid99{width:99%}.SizeFluid100{width:100%}.SizeHeight10{height:10px}.SizeHeight20{height:20px}.SizeHeight30{height:30px}.SizeHeight40{height:40px}.SizeHeight50{height:50px}.SizeHeight60{height:60px}.SizeHeight70{height:70px}.SizeHeight80{height:80px}.SizeHeight90{height:90px}.SizeHeight100{height:100px}.SizeHeight110{height:110px}.SizeHeight120{height:120px}.SizeHeight130{height:130px}.SizeHeight140{height:140px}.SizeHeight150{height:150px}.SizeHeight160{height:160px}.SizeHeight170{height:170px}.SizeHeight180{height:180px}.SizeHeight190{height:190px}.SizeHeight200{height:200px}.SizeHeight210{height:210px}.SizeHeight220{height:220px}.SizeHeight230{height:230px}.SizeHeight240{height:240px}.SizeHeight250{height:250px}.SizeHeight260{height:260px}.SizeHeight270{height:270px}.SizeHeight280{height:280px}.SizeHeight290{height:290px}.SizeHeight300{height:300px}.SizeHeight310{height:310px}.SizeHeight320{height:320px}.SizeHeight330{height:330px}.SizeHeight340{height:340px}.SizeHeight350{height:350px}.SizeHeight360{height:360px}.SizeHeight370{height:370px}.SizeHeight380{height:380px}.SizeHeight390{height:390px}.SizeHeight400{height:400px}.SizeHeight410{height:410px}.SizeHeight420{height:420px}.SizeHeight430{height:430px}.SizeHeight440{height:440px}.SizeHeight450{height:450px}.SizeHeight460{height:460px}.SizeHeight470{height:470px}.SizeHeight480{height:480px}.SizeHeight490{height:490px}.SizeHeight500{height:500px}.FontSize1{font-size:1px}.FontSize2{font-size:2px}.FontSize3{font-size:3px}.FontSize4{font-size:4px}.FontSize5{font-size:5px}.FontSize6{font-size:6px}.FontSize7{font-size:7px}.FontSize8{font-size:8px}.FontSize9{font-size:9px}.FontSize10{font-size:10px}.FontSize11{font-size:11px}.FontSize12{font-size:12px}.FontSize13{font-size:13px}.FontSize14{font-size:14px}.FontSize15{font-size:15px}.FontSize16{font-size:16px}.FontSize17{font-size:17px}.FontSize18{font-size:18px}.FontSize19{font-size:19px}.FontSize20{font-size:20px}.FontSize21{font-size:21px}.FontSize22{font-size:22px}.FontSize23{font-size:23px}.FontSize24{font-size:24px}.FontSize25{font-size:25px}.FontSize26{font-size:26px}.FontSize27{font-size:27px}.FontSize28{font-size:28px}.FontSize29{font-size:29px}.FontSize30{font-size:30px}hr{display:none}.ResetList,.CustomThermometer .CustomThermometerWrapper ul{list-style:none;padding:0;margin:0}.ResetTable{width:100%;table-layout:fixed;padding:0;margin:0}.WrapLine{white-space:normal}.Ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@font-face{font-family:OpenSansRegular;src:url(../fonts/OpenSans-Regular.eot?#iefix) format("embedded-opentype"),url(../fonts/OpenSans-Regular.ttf) format("truetype"),url(../fonts/OpenSans-Regular.woff) format("woff")}@font-face{font-family:OpenSansSemiBold;src:url(../fonts/OpenSans-Semibold.eot?#iefix) format("embedded-opentype"),url(../fonts/OpenSans-Semibold.ttf) format("truetype"),url(../fonts/OpenSans-Semibold.woff) format("woff")}.FontStack1{font-family:OpenSansRegular,Helvetica,Arial,sans-serif}.FontStack2{font-family:OpenSansSemiBold,Helvetica,Arial,sans-serif}body{font-family:OpenSansRegular,Helvetica,Arial,sans-serif}.FixedElementWrapper{transition:left .25s;-webkit-transition:left .25s;-o-transition:left .25s;-moz-transition:left .25s;transition-timing-function:ease-out;-webkit-transition-timing-function:ease-out;-moz-transition-timing-function:ease-out;-o-transition-timing-function:ease-out;position:fixed;top:0;left:0;width:100%;height:100%}.FixedElementWrapper .OverflowedElement{height:100%;overflow-y:auto;-webkit-overflow-scrolling:touch}.Completion{border-radius:4px;margin-top:22px;position:relative;height:11px;border:1px solid #f5f5f5;border-top-color:#ebebeb;background-color:#f5f5f5}.Completion .CompletionBar{-webkit-border-bottom-left-radius:3px;-webkit-border-top-left-radius:3px;-moz-border-radius-bottomleft:3px;-moz-border-radius-topleft:3px;-o-border-radius-bottomleft:3px;-o-border-radius-topleft:3px;border-bottom-left-radius:3px;border-top-left-radius:3px;height:9px}.Completion .CompletionBar .CompletionValue{color:#6d7d8c;font-size:13px;position:absolute;bottom:13px}.Completion .CompletionBar.Value100{-webkit-border-bottom-right-radius:3px;-webkit-border-top-right-radius:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-topright:3px;-o-border-radius-bottomright:3px;-o-border-radius-topright:3px;border-bottom-right-radius:3px;border-top-right-radius:3px}.Completion .CompletionBar.Value1 .CompletionValue{left:-7%}.Completion .CompletionBar.Value1{width:1%;background-color:#c2c9d1}.Completion .CompletionBar.Value2 .CompletionValue{left:-6%}.Completion .CompletionBar.Value2{width:2%;background-color:#c2c9d1}.Completion .CompletionBar.Value3 .CompletionValue{left:-5%}.Completion .CompletionBar.Value3{width:3%;background-color:#c2c9d1}.Completion .CompletionBar.Value4 .CompletionValue{left:-4%}.Completion .CompletionBar.Value4{width:4%;background-color:#c2c9d1}.Completion .CompletionBar.Value5 .CompletionValue{left:-3%}.Completion .CompletionBar.Value5{width:5%;background-color:#c2c9d1}.Completion .CompletionBar.Value6 .CompletionValue{left:-2%}.Completion .CompletionBar.Value6{width:6%;background-color:#c2c9d1}.Completion .CompletionBar.Value7 .CompletionValue{left:-1%}.Completion .CompletionBar.Value7{width:7%;background-color:#c2c9d1}.Completion .CompletionBar.Value8 .CompletionValue{left:0}.Completion .CompletionBar.Value8{width:8%;background-color:#c2c9d1}.Completion .CompletionBar.Value9 .CompletionValue{left:1%}.Completion .CompletionBar.Value9{width:9%;background-color:#c2c9d1}.Completion .CompletionBar.Value10 .CompletionValue{left:2%}.Completion .CompletionBar.Value10{width:10%;background-color:#c2c9d1}.Completion .CompletionBar.Value11 .CompletionValue{left:3%}.Completion .CompletionBar.Value11{width:11%;background-color:#c2c9d1}.Completion .CompletionBar.Value12 .CompletionValue{left:4%}.Completion .CompletionBar.Value12{width:12%;background-color:#c2c9d1}.Completion .CompletionBar.Value13 .CompletionValue{left:5%}.Completion .CompletionBar.Value13{width:13%;background-color:#c2c9d1}.Completion .CompletionBar.Value14 .CompletionValue{left:6%}.Completion .CompletionBar.Value14{width:14%;background-color:#c2c9d1}.Completion .CompletionBar.Value15 .CompletionValue{left:7%}.Completion .CompletionBar.Value15{width:15%;background-color:#c2c9d1}.Completion .CompletionBar.Value16 .CompletionValue{left:8%}.Completion .CompletionBar.Value16{width:16%;background-color:#c2c9d1}.Completion .CompletionBar.Value17 .CompletionValue{left:9%}.Completion .CompletionBar.Value17{width:17%;background-color:#c2c9d1}.Completion .CompletionBar.Value18 .CompletionValue{left:10%}.Completion .CompletionBar.Value18{width:18%;background-color:#c2c9d1}.Completion .CompletionBar.Value19 .CompletionValue{left:11%}.Completion .CompletionBar.Value19{width:19%;background-color:#c2c9d1}.Completion .CompletionBar.Value20 .CompletionValue{left:12%}.Completion .CompletionBar.Value20{width:20%;background-color:#c2c9d1}.Completion .CompletionBar.Value21 .CompletionValue{left:13%}.Completion .CompletionBar.Value21{width:21%;background-color:#c2c9d1}.Completion .CompletionBar.Value22 .CompletionValue{left:14%}.Completion .CompletionBar.Value22{width:22%;background-color:#c2c9d1}.Completion .CompletionBar.Value23 .CompletionValue{left:15%}.Completion .CompletionBar.Value23{width:23%;background-color:#c2c9d1}.Completion .CompletionBar.Value24 .CompletionValue{left:16%}.Completion .CompletionBar.Value24{width:24%;background-color:#c2c9d1}.Completion .CompletionBar.Value25 .CompletionValue{left:17%}.Completion .CompletionBar.Value25{width:25%;background-color:#c2c9d1}.Completion .CompletionBar.Value26 .CompletionValue{left:18%}.Completion .CompletionBar.Value26{width:26%;background-color:#c2c9d1}.Completion .CompletionBar.Value27 .CompletionValue{left:19%}.Completion .CompletionBar.Value27{width:27%;background-color:#c2c9d1}.Completion .CompletionBar.Value28 .CompletionValue{left:20%}.Completion .CompletionBar.Value28{width:28%;background-color:#c2c9d1}.Completion .CompletionBar.Value29 .CompletionValue{left:21%}.Completion .CompletionBar.Value29{width:29%;background-color:#c2c9d1}.Completion .CompletionBar.Value30 .CompletionValue{left:22%}.Completion .CompletionBar.Value30{width:30%;background-color:#a4aeb7}.Completion .CompletionBar.Value31 .CompletionValue{left:23%}.Completion .CompletionBar.Value31{width:31%;background-color:#a4aeb7}.Completion .CompletionBar.Value32 .CompletionValue{left:24%}.Completion .CompletionBar.Value32{width:32%;background-color:#a4aeb7}.Completion .CompletionBar.Value33 .CompletionValue{left:25%}.Completion .CompletionBar.Value33{width:33%;background-color:#a4aeb7}.Completion .CompletionBar.Value34 .CompletionValue{left:26%}.Completion .CompletionBar.Value34{width:34%;background-color:#a4aeb7}.Completion .CompletionBar.Value35 .CompletionValue{left:27%}.Completion .CompletionBar.Value35{width:35%;background-color:#a4aeb7}.Completion .CompletionBar.Value36 .CompletionValue{left:28%}.Completion .CompletionBar.Value36{width:36%;background-color:#a4aeb7}.Completion .CompletionBar.Value37 .CompletionValue{left:29%}.Completion .CompletionBar.Value37{width:37%;background-color:#a4aeb7}.Completion .CompletionBar.Value38 .CompletionValue{left:30%}.Completion .CompletionBar.Value38{width:38%;background-color:#a4aeb7}.Completion .CompletionBar.Value39 .CompletionValue{left:31%}.Completion .CompletionBar.Value39{width:39%;background-color:#a4aeb7}.Completion .CompletionBar.Value40 .CompletionValue{left:32%}.Completion .CompletionBar.Value40{width:40%;background-color:#a4aeb7}.Completion .CompletionBar.Value41 .CompletionValue{left:33%}.Completion .CompletionBar.Value41{width:41%;background-color:#a4aeb7}.Completion .CompletionBar.Value42 .CompletionValue{left:34%}.Completion .CompletionBar.Value42{width:42%;background-color:#a4aeb7}.Completion .CompletionBar.Value43 .CompletionValue{left:35%}.Completion .CompletionBar.Value43{width:43%;background-color:#a4aeb7}.Completion .CompletionBar.Value44 .CompletionValue{left:36%}.Completion .CompletionBar.Value44{width:44%;background-color:#a4aeb7}.Completion .CompletionBar.Value45 .CompletionValue{left:37%}.Completion .CompletionBar.Value45{width:45%;background-color:#a4aeb7}.Completion .CompletionBar.Value46 .CompletionValue{left:38%}.Completion .CompletionBar.Value46{width:46%;background-color:#a4aeb7}.Completion .CompletionBar.Value47 .CompletionValue{left:39%}.Completion .CompletionBar.Value47{width:47%;background-color:#a4aeb7}.Completion .CompletionBar.Value48 .CompletionValue{left:40%}.Completion .CompletionBar.Value48{width:48%;background-color:#a4aeb7}.Completion .CompletionBar.Value49 .CompletionValue{left:41%}.Completion .CompletionBar.Value49{width:49%;background-color:#a4aeb7}.Completion .CompletionBar.Value50 .CompletionValue{left:42%}.Completion .CompletionBar.Value50{width:50%;background-color:#a4aeb7}.Completion .CompletionBar.Value51 .CompletionValue{left:43%}.Completion .CompletionBar.Value51{width:51%;background-color:#a4aeb7}.Completion .CompletionBar.Value52 .CompletionValue{left:44%}.Completion .CompletionBar.Value52{width:52%;background-color:#a4aeb7}.Completion .CompletionBar.Value53 .CompletionValue{left:45%}.Completion .CompletionBar.Value53{width:53%;background-color:#a4aeb7}.Completion .CompletionBar.Value54 .CompletionValue{left:46%}.Completion .CompletionBar.Value54{width:54%;background-color:#a4aeb7}.Completion .CompletionBar.Value55 .CompletionValue{left:47%}.Completion .CompletionBar.Value55{width:55%;background-color:#a4aeb7}.Completion .CompletionBar.Value56 .CompletionValue{left:48%}.Completion .CompletionBar.Value56{width:56%;background-color:#a4aeb7}.Completion .CompletionBar.Value57 .CompletionValue{left:49%}.Completion .CompletionBar.Value57{width:57%;background-color:#a4aeb7}.Completion .CompletionBar.Value58 .CompletionValue{left:50%}.Completion .CompletionBar.Value58{width:58%;background-color:#a4aeb7}.Completion .CompletionBar.Value59 .CompletionValue{left:51%}.Completion .CompletionBar.Value59{width:59%;background-color:#a4aeb7}.Completion .CompletionBar.Value60 .CompletionValue{left:52%}.Completion .CompletionBar.Value60{width:60%;background-color:#a4aeb7}.Completion .CompletionBar.Value60{width:60%;background-color:#87939f}.Completion .CompletionBar.Value61 .CompletionValue{left:53%}.Completion .CompletionBar.Value61{width:61%;background-color:#a4aeb7}.Completion .CompletionBar.Value61{width:61%;background-color:#87939f}.Completion .CompletionBar.Value62 .CompletionValue{left:54%}.Completion .CompletionBar.Value62{width:62%;background-color:#a4aeb7}.Completion .CompletionBar.Value62{width:62%;background-color:#87939f}.Completion .CompletionBar.Value63 .CompletionValue{left:55%}.Completion .CompletionBar.Value63{width:63%;background-color:#a4aeb7}.Completion .CompletionBar.Value63{width:63%;background-color:#87939f}.Completion .CompletionBar.Value64 .CompletionValue{left:56%}.Completion .CompletionBar.Value64{width:64%;background-color:#a4aeb7}.Completion .CompletionBar.Value64{width:64%;background-color:#87939f}.Completion .CompletionBar.Value65 .CompletionValue{left:57%}.Completion .CompletionBar.Value65{width:65%;background-color:#a4aeb7}.Completion .CompletionBar.Value65{width:65%;background-color:#87939f}.Completion .CompletionBar.Value66 .CompletionValue{left:58%}.Completion .CompletionBar.Value66{width:66%;background-color:#a4aeb7}.Completion .CompletionBar.Value66{width:66%;background-color:#87939f}.Completion .CompletionBar.Value67 .CompletionValue{left:59%}.Completion .CompletionBar.Value67{width:67%;background-color:#a4aeb7}.Completion .CompletionBar.Value67{width:67%;background-color:#87939f}.Completion .CompletionBar.Value68 .CompletionValue{left:60%}.Completion .CompletionBar.Value68{width:68%;background-color:#a4aeb7}.Completion .CompletionBar.Value68{width:68%;background-color:#87939f}.Completion .CompletionBar.Value69 .CompletionValue{left:61%}.Completion .CompletionBar.Value69{width:69%;background-color:#a4aeb7}.Completion .CompletionBar.Value69{width:69%;background-color:#87939f}.Completion .CompletionBar.Value70 .CompletionValue{left:62%}.Completion .CompletionBar.Value70{width:70%;background-color:#a4aeb7}.Completion .CompletionBar.Value70{width:70%;background-color:#87939f}.Completion .CompletionBar.Value71 .CompletionValue{left:63%}.Completion .CompletionBar.Value71{width:71%;background-color:#a4aeb7}.Completion .CompletionBar.Value71{width:71%;background-color:#87939f}.Completion .CompletionBar.Value72 .CompletionValue{left:64%}.Completion .CompletionBar.Value72{width:72%;background-color:#a4aeb7}.Completion .CompletionBar.Value72{width:72%;background-color:#87939f}.Completion .CompletionBar.Value73 .CompletionValue{left:65%}.Completion .CompletionBar.Value73{width:73%;background-color:#a4aeb7}.Completion .CompletionBar.Value73{width:73%;background-color:#87939f}.Completion .CompletionBar.Value74 .CompletionValue{left:66%}.Completion .CompletionBar.Value74{width:74%;background-color:#a4aeb7}.Completion .CompletionBar.Value74{width:74%;background-color:#87939f}.Completion .CompletionBar.Value75 .CompletionValue{left:67%}.Completion .CompletionBar.Value75{width:75%;background-color:#a4aeb7}.Completion .CompletionBar.Value75{width:75%;background-color:#87939f}.Completion .CompletionBar.Value76 .CompletionValue{left:68%}.Completion .CompletionBar.Value76{width:76%;background-color:#a4aeb7}.Completion .CompletionBar.Value76{width:76%;background-color:#87939f}.Completion .CompletionBar.Value77 .CompletionValue{left:69%}.Completion .CompletionBar.Value77{width:77%;background-color:#a4aeb7}.Completion .CompletionBar.Value77{width:77%;background-color:#87939f}.Completion .CompletionBar.Value78 .CompletionValue{left:70%}.Completion .CompletionBar.Value78{width:78%;background-color:#a4aeb7}.Completion .CompletionBar.Value78{width:78%;background-color:#87939f}.Completion .CompletionBar.Value79 .CompletionValue{left:71%}.Completion .CompletionBar.Value79{width:79%;background-color:#a4aeb7}.Completion .CompletionBar.Value79{width:79%;background-color:#87939f}.Completion .CompletionBar.Value80 .CompletionValue{left:72%}.Completion .CompletionBar.Value80{width:80%;background-color:#a4aeb7}.Completion .CompletionBar.Value80{width:80%;background-color:#87939f}.Completion .CompletionBar.Value81 .CompletionValue{left:73%}.Completion .CompletionBar.Value81{width:81%;background-color:#a4aeb7}.Completion .CompletionBar.Value81{width:81%;background-color:#87939f}.Completion .CompletionBar.Value82 .CompletionValue{left:74%}.Completion .CompletionBar.Value82{width:82%;background-color:#a4aeb7}.Completion .CompletionBar.Value82{width:82%;background-color:#87939f}.Completion .CompletionBar.Value83 .CompletionValue{left:75%}.Completion .CompletionBar.Value83{width:83%;background-color:#a4aeb7}.Completion .CompletionBar.Value83{width:83%;background-color:#87939f}.Completion .CompletionBar.Value84 .CompletionValue{left:76%}.Completion .CompletionBar.Value84{width:84%;background-color:#a4aeb7}.Completion .CompletionBar.Value84{width:84%;background-color:#87939f}.Completion .CompletionBar.Value85 .CompletionValue{left:77%}.Completion .CompletionBar.Value85{width:85%;background-color:#a4aeb7}.Completion .CompletionBar.Value85{width:85%;background-color:#87939f}.Completion .CompletionBar.Value86 .CompletionValue{left:78%}.Completion .CompletionBar.Value86{width:86%;background-color:#a4aeb7}.Completion .CompletionBar.Value86{width:86%;background-color:#87939f}.Completion .CompletionBar.Value87 .CompletionValue{left:79%}.Completion .CompletionBar.Value87{width:87%;background-color:#a4aeb7}.Completion .CompletionBar.Value87{width:87%;background-color:#87939f}.Completion .CompletionBar.Value88 .CompletionValue{left:80%}.Completion .CompletionBar.Value88{width:88%;background-color:#a4aeb7}.Completion .CompletionBar.Value88{width:88%;background-color:#87939f}.Completion .CompletionBar.Value89 .CompletionValue{left:81%}.Completion .CompletionBar.Value89{width:89%;background-color:#a4aeb7}.Completion .CompletionBar.Value89{width:89%;background-color:#87939f}.Completion .CompletionBar.Value90 .CompletionValue{left:82%}.Completion .CompletionBar.Value90{width:90%;background-color:#a4aeb7}.Completion .CompletionBar.Value90{width:90%;background-color:#87939f}.Completion .CompletionBar.Value91 .CompletionValue{left:83%}.Completion .CompletionBar.Value91{width:91%;background-color:#a4aeb7}.Completion .CompletionBar.Value91{width:91%;background-color:#87939f}.Completion .CompletionBar.Value92 .CompletionValue{left:84%}.Completion .CompletionBar.Value92{width:92%;background-color:#a4aeb7}.Completion .CompletionBar.Value92{width:92%;background-color:#87939f}.Completion .CompletionBar.Value93 .CompletionValue{left:85%}.Completion .CompletionBar.Value93{width:93%;background-color:#a4aeb7}.Completion .CompletionBar.Value93{width:93%;background-color:#87939f}.Completion .CompletionBar.Value94 .CompletionValue{left:86%}.Completion .CompletionBar.Value94{width:94%;background-color:#a4aeb7}.Completion .CompletionBar.Value94{width:94%;background-color:#87939f}.Completion .CompletionBar.Value95 .CompletionValue{left:87%}.Completion .CompletionBar.Value95{width:95%;background-color:#a4aeb7}.Completion .CompletionBar.Value95{width:95%;background-color:#87939f}.Completion .CompletionBar.Value96 .CompletionValue{left:88%}.Completion .CompletionBar.Value96{width:96%;background-color:#a4aeb7}.Completion .CompletionBar.Value96{width:96%;background-color:#87939f}.Completion .CompletionBar.Value97 .CompletionValue{left:89%}.Completion .CompletionBar.Value97{width:97%;background-color:#a4aeb7}.Completion .CompletionBar.Value97{width:97%;background-color:#87939f}.Completion .CompletionBar.Value98 .CompletionValue{left:90%}.Completion .CompletionBar.Value98{width:98%;background-color:#a4aeb7}.Completion .CompletionBar.Value98{width:98%;background-color:#87939f}.Completion .CompletionBar.Value99 .CompletionValue{left:91%}.Completion .CompletionBar.Value99{width:99%;background-color:#a4aeb7}.Completion .CompletionBar.Value99{width:99%;background-color:#87939f}.Completion .CompletionBar.Value100 .CompletionValue{left:92%}.Completion .CompletionBar.Value100{width:100%;background-color:#a4aeb7}.Completion .CompletionBar.Value100{width:100%;background-color:#87939f}.touch .Completion{border:none}.CustomThermometer{width:100%}.CustomThermometer .CustomThermometerWrapper{border-radius:6px;position:relative;height:90px;border:1px solid #a5a5a5;background-color:#eee}.CustomThermometer .CustomThermometerWrapper ul{position:absolute;top:0;left:0;width:calc(83% - 5px);margin-left:calc(1% + 5px)}.CustomThermometer .CustomThermometerWrapper ul li{float:left;margin:0;padding:0;width:14%}.CustomThermometer .CustomThermometerWrapper ul li.Last{border-right:none!important;width:16%}.CustomThermometer .CustomThermometerWrapper ul li span{position:relative}.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerBlock li{border-right:2px dotted #7a7a7a;height:89px}.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerPoint{top:-40px}.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerPoint li{height:20px;text-align:right;border-right:2px solid white}.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerPoint li .span{right:-22px}.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerScale{top:-20px}.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerScale li{height:20px;text-align:right;border-right:2px solid white}.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerScale li span{z-index:3;right:-5px}.CustomThermometer .CustomThermometerWrapper .CustomThermometerProgressBarWrapper{border-radius:6px;box-shadow:inset 0 0 3px #ccc;box-sizing:border-box;position:absolute;top:10px;left:1%;width:98%;height:30px;padding-right:16%;background-color:#f5f5f5}.CustomThermometer .CustomThermometerWrapper .CustomThermometerProgressBarWrapper .CustomThermometerProgressBarValue{position:absolute;right:4px;top:3px;margin:0;padding:0;font-size:12px;font-weight:400}.CustomThermometer .CustomThermometerWrapper .CustomThermometerProgressBarWrapper.SecondBar{top:48px}.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper{position:absolute;top:0;left:0;width:calc(83% - 5px);height:90px;margin-left:calc(1% + 5px)}.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerProgressBar{height:20px;width:0;border-radius:6px}.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerProgressBar.Bar1{background-color:#ff382f;margin-top:15px}.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerProgressBar.Bar2{background-color:#78d45e;margin-top:18px}.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerPointer{position:absolute;z-index:2;top:-22px;left:0;width:31px;height:112px;margin-left:-15px;background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAB4CAYAAAAKXynbAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAV/QAAFf0BzXBRYQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAY dEVYdENyZWF0aW9uIFRpbWUAMjMtMDQtMjAxNb6h4bcAAAGPSURBVGiB7dTBcYJAGMXx/9pAWkgJ KYEOkiu5BEcKiCXYB5nBi1xNJ9JB0kGsYHNgVeIACaA43+S9GQ8q7O8DlufizHtulBkwv5E9nxWp y4HlxPBysyB3h29x5nPgZQJ4vVmQALj6rxMMcISheub1vALlleAyrH/MD7xI3RcQXWGAEojC+se4 piPjzN8DO+DuAvAeeChS9wHga2/2+W0HIBwYhRPHwtEBPk8jHgbYwWlzDEwS1mlMKx4G2DK8hObh /NZ04mGAHFj1hFfhvM40brim9OiAdZG6pO3P+ob7Mx4G2AKPHYe8F6l76lrj193ekYT2DijpuUF7 4R0l1FgiF8VrAyScOmBP9Ur1ggfhYYAd1R34pLri1ne5M977wZ84837M+YOu/FIRLnzSuHrXTp3/ e9tH4c9vjHpmdq9cuHBTuOrVHq56FS7cBK56tYerXoULN4GrXu3hqlfhwk3gqld7uOpVuHATuOrV Hq56FS7cBK56tYerXoULN4GrXu3hqlfhwk3gqld7uOrVJP4NIz3k8rs9Mk8AAAAASUVORK5CYII=") no-repeat top center}.CustomThermometer.BigPointer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerPointer{z-index:4;width:61px;margin-left:-30px;padding-top:1px;background:transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAB4CAYAAABB9/o2AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz AAAV/QAAFf0BzXBRYQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAY dEVYdENyZWF0aW9uIFRpbWUAMjMtMDQtMjAxNb6h4bcAAAHMSURBVHic7ddJbsJAGEThZ27pbAIK F+A+joI34ZidRQBlYPDQ/XuoehIskDx8MkhFVTfpCLyiU1sBCMHbzze2G4DTvtoC7bT3U7z27GRz +WTl8CsYfqBhtfBfYPiDhtXB/4HhBhpWA78JhjtoWDz8LhgeoGGx8IdgeIKGxcGfgqEDGhYD7wSG jmiYPbwzGHqgYbbwXmDoiYbZwXuDYQAaZgMfBIaBaLjCD0OPH9lhKBigGnv1uklb4GPseXq0O+2r 49CDU0rDn/Sl8w3sxp6nY6PAl0ajIQyeBQyZ0FAcng0MGdFQDJ4VDJnRkB2eHQwF0JANXgQMhdAw Gl4MDAXRMBheFAyF0dAbXhwMAWjoDA8BQxAansLDwBCIhrvwUPBk1U3a1k1K5z8roaWUvt+meNVN SlNdO/TrPZeMVslolSTRVUpp6nsIT/JJGx3ZyzuT/a78pFUyWiWjVZJEe4aqZHRknqHBGa2S0SoZ rZJnqEpGR+YZGpzRKhmtktEqeYaqZHRknqHBGa2S0SoZrZJnqEpGR+YZGpzRKhmtktEqeYaqZHRk nqHBGa2S0SoZrZJnqEpGR+YZGpzRKhmtktEqeYaqZHRknqHBSaK/ALu/ZDKr++7BAAAAAElFTkSu QmCC") no-repeat top center}.CustomThermometer.BigPointer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerPointer strong{display:block;margin:auto;color:white;font-size:11px;text-align:center}.CustomThermometer.BigPointer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerPointer span{display:block;margin:auto;color:white;font-size:11px;text-align:center}.CustomThermometer.SingleBar .CustomThermometerWrapper .CustomThermometerProgressBarWrapper{top:30px}.CustomThermometer.SingleBar .CustomThermometerWrapper .CustomThermometerProgressBar.Bar1{margin-top:35px}.hidden{display:none!important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.unselectable{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}a:link,a:visited{transition:.25s;-webkit-transition:.25s;-o-transition:.25s;-moz-transition:.25s}a:link:hover,a:link:active,a:visited:hover,a:visited:active{text-decoration:none}.ClearFloats{display:block;clear:both;background:transparent;height:0;border:0;overflow:hidden;font-size:.01em;margin:0;padding:0}.ClearFloats.lt-ie8{border:1px solid transparent}.Clear{clear:both}
+/* -------------------------------------------------- 
+   App (Violo develop enviroment 10/01/2015)
+-----------------------------------------------------
+Content:
+- Variables
+- Mixin
+- Mediaquery
+- Operations
+- @ SCSS Imports
+*/
+/*
+App scss
+
+Styleguide 1.0
+*/
+/* -----------------------------------------
+   Variables
+----------------------------------------- */
+/* Here variables */
+/* -----------------------------------------
+   Mixin
+----------------------------------------- */
+/* -----------------------------------------
+   Mediaquery
+----------------------------------------- */
+/* -----------------------------------------
+   Operations
+----------------------------------------- */
+/* Box Sizing */
+/* line 175, ../sass/app.scss */
+.Size10 {
+  width: 10px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size20 {
+  width: 20px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size30 {
+  width: 30px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size40 {
+  width: 40px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size50 {
+  width: 50px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size60 {
+  width: 60px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size70 {
+  width: 70px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size80 {
+  width: 80px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size90 {
+  width: 90px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size100 {
+  width: 100px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size110 {
+  width: 110px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size120 {
+  width: 120px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size130 {
+  width: 130px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size140 {
+  width: 140px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size150 {
+  width: 150px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size160 {
+  width: 160px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size170 {
+  width: 170px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size180 {
+  width: 180px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size190 {
+  width: 190px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size200 {
+  width: 200px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size210 {
+  width: 210px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size220 {
+  width: 220px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size230 {
+  width: 230px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size240 {
+  width: 240px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size250 {
+  width: 250px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size260 {
+  width: 260px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size270 {
+  width: 270px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size280 {
+  width: 280px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size290 {
+  width: 290px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size300 {
+  width: 300px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size310 {
+  width: 310px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size320 {
+  width: 320px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size330 {
+  width: 330px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size340 {
+  width: 340px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size350 {
+  width: 350px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size360 {
+  width: 360px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size370 {
+  width: 370px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size380 {
+  width: 380px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size390 {
+  width: 390px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size400 {
+  width: 400px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size410 {
+  width: 410px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size420 {
+  width: 420px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size430 {
+  width: 430px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size440 {
+  width: 440px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size450 {
+  width: 450px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size460 {
+  width: 460px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size470 {
+  width: 470px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size480 {
+  width: 480px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size490 {
+  width: 490px;
+}
+
+/* line 175, ../sass/app.scss */
+.Size500 {
+  width: 500px;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid1 {
+  width: 1%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid2 {
+  width: 2%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid3 {
+  width: 3%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid4 {
+  width: 4%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid5 {
+  width: 5%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid6 {
+  width: 6%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid7 {
+  width: 7%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid8 {
+  width: 8%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid9 {
+  width: 9%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid10 {
+  width: 10%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid11 {
+  width: 11%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid12 {
+  width: 12%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid13 {
+  width: 13%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid14 {
+  width: 14%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid15 {
+  width: 15%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid16 {
+  width: 16%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid17 {
+  width: 17%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid18 {
+  width: 18%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid19 {
+  width: 19%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid20 {
+  width: 20%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid21 {
+  width: 21%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid22 {
+  width: 22%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid23 {
+  width: 23%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid24 {
+  width: 24%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid25 {
+  width: 25%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid26 {
+  width: 26%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid27 {
+  width: 27%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid28 {
+  width: 28%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid29 {
+  width: 29%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid30 {
+  width: 30%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid31 {
+  width: 31%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid32 {
+  width: 32%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid33 {
+  width: 33%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid34 {
+  width: 34%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid35 {
+  width: 35%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid36 {
+  width: 36%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid37 {
+  width: 37%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid38 {
+  width: 38%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid39 {
+  width: 39%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid40 {
+  width: 40%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid41 {
+  width: 41%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid42 {
+  width: 42%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid43 {
+  width: 43%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid44 {
+  width: 44%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid45 {
+  width: 45%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid46 {
+  width: 46%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid47 {
+  width: 47%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid48 {
+  width: 48%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid49 {
+  width: 49%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid50 {
+  width: 50%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid51 {
+  width: 51%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid52 {
+  width: 52%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid53 {
+  width: 53%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid54 {
+  width: 54%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid55 {
+  width: 55%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid56 {
+  width: 56%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid57 {
+  width: 57%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid58 {
+  width: 58%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid59 {
+  width: 59%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid60 {
+  width: 60%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid61 {
+  width: 61%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid62 {
+  width: 62%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid63 {
+  width: 63%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid64 {
+  width: 64%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid65 {
+  width: 65%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid66 {
+  width: 66%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid67 {
+  width: 67%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid68 {
+  width: 68%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid69 {
+  width: 69%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid70 {
+  width: 70%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid71 {
+  width: 71%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid72 {
+  width: 72%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid73 {
+  width: 73%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid74 {
+  width: 74%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid75 {
+  width: 75%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid76 {
+  width: 76%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid77 {
+  width: 77%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid78 {
+  width: 78%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid79 {
+  width: 79%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid80 {
+  width: 80%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid81 {
+  width: 81%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid82 {
+  width: 82%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid83 {
+  width: 83%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid84 {
+  width: 84%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid85 {
+  width: 85%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid86 {
+  width: 86%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid87 {
+  width: 87%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid88 {
+  width: 88%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid89 {
+  width: 89%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid90 {
+  width: 90%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid91 {
+  width: 91%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid92 {
+  width: 92%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid93 {
+  width: 93%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid94 {
+  width: 94%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid95 {
+  width: 95%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid96 {
+  width: 96%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid97 {
+  width: 97%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid98 {
+  width: 98%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid99 {
+  width: 99%;
+}
+
+/* line 178, ../sass/app.scss */
+.SizeFluid100 {
+  width: 100%;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight10 {
+  height: 10px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight20 {
+  height: 20px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight30 {
+  height: 30px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight40 {
+  height: 40px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight50 {
+  height: 50px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight60 {
+  height: 60px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight70 {
+  height: 70px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight80 {
+  height: 80px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight90 {
+  height: 90px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight100 {
+  height: 100px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight110 {
+  height: 110px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight120 {
+  height: 120px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight130 {
+  height: 130px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight140 {
+  height: 140px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight150 {
+  height: 150px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight160 {
+  height: 160px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight170 {
+  height: 170px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight180 {
+  height: 180px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight190 {
+  height: 190px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight200 {
+  height: 200px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight210 {
+  height: 210px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight220 {
+  height: 220px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight230 {
+  height: 230px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight240 {
+  height: 240px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight250 {
+  height: 250px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight260 {
+  height: 260px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight270 {
+  height: 270px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight280 {
+  height: 280px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight290 {
+  height: 290px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight300 {
+  height: 300px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight310 {
+  height: 310px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight320 {
+  height: 320px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight330 {
+  height: 330px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight340 {
+  height: 340px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight350 {
+  height: 350px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight360 {
+  height: 360px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight370 {
+  height: 370px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight380 {
+  height: 380px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight390 {
+  height: 390px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight400 {
+  height: 400px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight410 {
+  height: 410px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight420 {
+  height: 420px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight430 {
+  height: 430px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight440 {
+  height: 440px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight450 {
+  height: 450px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight460 {
+  height: 460px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight470 {
+  height: 470px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight480 {
+  height: 480px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight490 {
+  height: 490px;
+}
+
+/* line 181, ../sass/app.scss */
+.SizeHeight500 {
+  height: 500px;
+}
+
+/* Font Sizing */
+/* line 185, ../sass/app.scss */
+.FontSize1 {
+  font-size: 1px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize2 {
+  font-size: 2px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize3 {
+  font-size: 3px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize4 {
+  font-size: 4px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize5 {
+  font-size: 5px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize6 {
+  font-size: 6px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize7 {
+  font-size: 7px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize8 {
+  font-size: 8px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize9 {
+  font-size: 9px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize10 {
+  font-size: 10px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize11 {
+  font-size: 11px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize12 {
+  font-size: 12px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize13 {
+  font-size: 13px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize14 {
+  font-size: 14px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize15 {
+  font-size: 15px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize16 {
+  font-size: 16px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize17 {
+  font-size: 17px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize18 {
+  font-size: 18px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize19 {
+  font-size: 19px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize20 {
+  font-size: 20px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize21 {
+  font-size: 21px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize22 {
+  font-size: 22px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize23 {
+  font-size: 23px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize24 {
+  font-size: 24px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize25 {
+  font-size: 25px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize26 {
+  font-size: 26px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize27 {
+  font-size: 27px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize28 {
+  font-size: 28px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize29 {
+  font-size: 29px;
+}
+
+/* line 185, ../sass/app.scss */
+.FontSize30 {
+  font-size: 30px;
+}
+
+/* -----------------------------------------
+   @ SCSS Imports
+----------------------------------------- */
+/* -----------------------------------------
+   Base
+--------------------------------------------
+Content:
+- Tools
+- Typography
+*/
+/*
+Base scss
+
+Styleguide 2.0
+*/
+/* Tools */
+/* line 28, ../sass/_base.scss */
+hr {
+  display: none;
+}
+
+/* line 31, ../sass/_base.scss */
+.ResetList, .CustomThermometer .CustomThermometerWrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 36, ../sass/_base.scss */
+.ResetTable {
+  width: 100%;
+  table-layout: fixed;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 42, ../sass/_base.scss */
+.WrapLine {
+  white-space: normal;
+}
+
+/* line 45, ../sass/_base.scss */
+.Ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Typography */
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  src: url("../fonts/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Semibold.ttf") format("truetype"), url("../fonts/OpenSans-Semibold.woff") format("woff");
+}
+/* line 79, ../sass/_base.scss */
+.FontStack1 {
+  font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+}
+
+/* line 82, ../sass/_base.scss */
+.FontStack2 {
+  font-family: "OpenSansSemiBold", Helvetica, Arial, sans-serif;
+}
+
+/* line 86, ../sass/_base.scss */
+body {
+  font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+}
+
+/* -----------------------------------------
+   Layout
+--------------------------------------------
+Content:
+- 
+*/
+/* line 10, ../sass/_layout.scss */
+.FixedElementWrapper {
+  -webkit-transition: left 0.25s;
+          transition: left 0.25s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 18, ../sass/_layout.scss */
+.FixedElementWrapper .OverflowedElement {
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* -----------------------------------------
+   Module Completion Bar (Violo 06/2014)
+--------------------------------------------
+Content:
+- Completion Bar Variables
+- Completion Bar Theme Variables
+- Completion Bar
+*/
+/* Completion Bar Variables */
+/* Completion Bar Theme Variables */
+/* line 48, ../sass/_mod_completionbar.scss */
+.Completion {
+  border-radius: 4px;
+  margin-top: 22px;
+  position: relative;
+  height: 11px;
+  border: 1px solid #f5f5f5;
+  border-top-color: #ebebeb;
+  background-color: #f5f5f5;
+}
+/* line 56, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  height: 9px;
+}
+/* line 59, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar .CompletionValue {
+  color: #6d7d8c;
+  font-size: 13px;
+  position: absolute;
+  bottom: 13px;
+}
+/* line 65, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value100 {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value1 .CompletionValue {
+  left: -7%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value1 {
+  width: 1%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value2 .CompletionValue {
+  left: -6%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value2 {
+  width: 2%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value3 .CompletionValue {
+  left: -5%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value3 {
+  width: 3%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value4 .CompletionValue {
+  left: -4%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value4 {
+  width: 4%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value5 .CompletionValue {
+  left: -3%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value5 {
+  width: 5%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value6 .CompletionValue {
+  left: -2%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value6 {
+  width: 6%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value7 .CompletionValue {
+  left: -1%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value7 {
+  width: 7%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value8 .CompletionValue {
+  left: 0%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value8 {
+  width: 8%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value9 .CompletionValue {
+  left: 1%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value9 {
+  width: 9%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value10 .CompletionValue {
+  left: 2%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value10 {
+  width: 10%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value11 .CompletionValue {
+  left: 3%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value11 {
+  width: 11%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value12 .CompletionValue {
+  left: 4%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value12 {
+  width: 12%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value13 .CompletionValue {
+  left: 5%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value13 {
+  width: 13%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value14 .CompletionValue {
+  left: 6%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value14 {
+  width: 14%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value15 .CompletionValue {
+  left: 7%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value15 {
+  width: 15%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value16 .CompletionValue {
+  left: 8%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value16 {
+  width: 16%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value17 .CompletionValue {
+  left: 9%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value17 {
+  width: 17%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value18 .CompletionValue {
+  left: 10%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value18 {
+  width: 18%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value19 .CompletionValue {
+  left: 11%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value19 {
+  width: 19%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value20 .CompletionValue {
+  left: 12%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value20 {
+  width: 20%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value21 .CompletionValue {
+  left: 13%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value21 {
+  width: 21%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value22 .CompletionValue {
+  left: 14%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value22 {
+  width: 22%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value23 .CompletionValue {
+  left: 15%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value23 {
+  width: 23%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value24 .CompletionValue {
+  left: 16%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value24 {
+  width: 24%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value25 .CompletionValue {
+  left: 17%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value25 {
+  width: 25%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value26 .CompletionValue {
+  left: 18%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value26 {
+  width: 26%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value27 .CompletionValue {
+  left: 19%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value27 {
+  width: 27%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value28 .CompletionValue {
+  left: 20%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value28 {
+  width: 28%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value29 .CompletionValue {
+  left: 21%;
+}
+/* line 75, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value29 {
+  width: 29%;
+  background-color: #c2c9d1;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value30 .CompletionValue {
+  left: 22%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value30 {
+  width: 30%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value31 .CompletionValue {
+  left: 23%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value31 {
+  width: 31%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value32 .CompletionValue {
+  left: 24%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value32 {
+  width: 32%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value33 .CompletionValue {
+  left: 25%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value33 {
+  width: 33%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value34 .CompletionValue {
+  left: 26%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value34 {
+  width: 34%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value35 .CompletionValue {
+  left: 27%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value35 {
+  width: 35%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value36 .CompletionValue {
+  left: 28%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value36 {
+  width: 36%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value37 .CompletionValue {
+  left: 29%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value37 {
+  width: 37%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value38 .CompletionValue {
+  left: 30%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value38 {
+  width: 38%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value39 .CompletionValue {
+  left: 31%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value39 {
+  width: 39%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value40 .CompletionValue {
+  left: 32%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value40 {
+  width: 40%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value41 .CompletionValue {
+  left: 33%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value41 {
+  width: 41%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value42 .CompletionValue {
+  left: 34%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value42 {
+  width: 42%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value43 .CompletionValue {
+  left: 35%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value43 {
+  width: 43%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value44 .CompletionValue {
+  left: 36%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value44 {
+  width: 44%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value45 .CompletionValue {
+  left: 37%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value45 {
+  width: 45%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value46 .CompletionValue {
+  left: 38%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value46 {
+  width: 46%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value47 .CompletionValue {
+  left: 39%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value47 {
+  width: 47%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value48 .CompletionValue {
+  left: 40%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value48 {
+  width: 48%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value49 .CompletionValue {
+  left: 41%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value49 {
+  width: 49%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value50 .CompletionValue {
+  left: 42%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value50 {
+  width: 50%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value51 .CompletionValue {
+  left: 43%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value51 {
+  width: 51%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value52 .CompletionValue {
+  left: 44%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value52 {
+  width: 52%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value53 .CompletionValue {
+  left: 45%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value53 {
+  width: 53%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value54 .CompletionValue {
+  left: 46%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value54 {
+  width: 54%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value55 .CompletionValue {
+  left: 47%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value55 {
+  width: 55%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value56 .CompletionValue {
+  left: 48%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value56 {
+  width: 56%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value57 .CompletionValue {
+  left: 49%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value57 {
+  width: 57%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value58 .CompletionValue {
+  left: 50%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value58 {
+  width: 58%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value59 .CompletionValue {
+  left: 51%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value59 {
+  width: 59%;
+  background-color: #a4aeb7;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value60 .CompletionValue {
+  left: 52%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value60 {
+  width: 60%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value60 {
+  width: 60%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value61 .CompletionValue {
+  left: 53%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value61 {
+  width: 61%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value61 {
+  width: 61%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value62 .CompletionValue {
+  left: 54%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value62 {
+  width: 62%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value62 {
+  width: 62%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value63 .CompletionValue {
+  left: 55%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value63 {
+  width: 63%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value63 {
+  width: 63%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value64 .CompletionValue {
+  left: 56%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value64 {
+  width: 64%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value64 {
+  width: 64%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value65 .CompletionValue {
+  left: 57%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value65 {
+  width: 65%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value65 {
+  width: 65%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value66 .CompletionValue {
+  left: 58%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value66 {
+  width: 66%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value66 {
+  width: 66%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value67 .CompletionValue {
+  left: 59%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value67 {
+  width: 67%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value67 {
+  width: 67%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value68 .CompletionValue {
+  left: 60%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value68 {
+  width: 68%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value68 {
+  width: 68%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value69 .CompletionValue {
+  left: 61%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value69 {
+  width: 69%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value69 {
+  width: 69%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value70 .CompletionValue {
+  left: 62%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value70 {
+  width: 70%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value70 {
+  width: 70%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value71 .CompletionValue {
+  left: 63%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value71 {
+  width: 71%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value71 {
+  width: 71%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value72 .CompletionValue {
+  left: 64%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value72 {
+  width: 72%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value72 {
+  width: 72%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value73 .CompletionValue {
+  left: 65%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value73 {
+  width: 73%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value73 {
+  width: 73%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value74 .CompletionValue {
+  left: 66%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value74 {
+  width: 74%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value74 {
+  width: 74%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value75 .CompletionValue {
+  left: 67%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value75 {
+  width: 75%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value75 {
+  width: 75%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value76 .CompletionValue {
+  left: 68%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value76 {
+  width: 76%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value76 {
+  width: 76%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value77 .CompletionValue {
+  left: 69%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value77 {
+  width: 77%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value77 {
+  width: 77%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value78 .CompletionValue {
+  left: 70%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value78 {
+  width: 78%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value78 {
+  width: 78%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value79 .CompletionValue {
+  left: 71%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value79 {
+  width: 79%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value79 {
+  width: 79%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value80 .CompletionValue {
+  left: 72%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value80 {
+  width: 80%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value80 {
+  width: 80%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value81 .CompletionValue {
+  left: 73%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value81 {
+  width: 81%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value81 {
+  width: 81%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value82 .CompletionValue {
+  left: 74%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value82 {
+  width: 82%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value82 {
+  width: 82%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value83 .CompletionValue {
+  left: 75%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value83 {
+  width: 83%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value83 {
+  width: 83%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value84 .CompletionValue {
+  left: 76%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value84 {
+  width: 84%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value84 {
+  width: 84%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value85 .CompletionValue {
+  left: 77%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value85 {
+  width: 85%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value85 {
+  width: 85%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value86 .CompletionValue {
+  left: 78%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value86 {
+  width: 86%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value86 {
+  width: 86%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value87 .CompletionValue {
+  left: 79%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value87 {
+  width: 87%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value87 {
+  width: 87%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value88 .CompletionValue {
+  left: 80%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value88 {
+  width: 88%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value88 {
+  width: 88%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value89 .CompletionValue {
+  left: 81%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value89 {
+  width: 89%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value89 {
+  width: 89%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value90 .CompletionValue {
+  left: 82%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value90 {
+  width: 90%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value90 {
+  width: 90%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value91 .CompletionValue {
+  left: 83%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value91 {
+  width: 91%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value91 {
+  width: 91%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value92 .CompletionValue {
+  left: 84%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value92 {
+  width: 92%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value92 {
+  width: 92%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value93 .CompletionValue {
+  left: 85%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value93 {
+  width: 93%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value93 {
+  width: 93%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value94 .CompletionValue {
+  left: 86%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value94 {
+  width: 94%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value94 {
+  width: 94%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value95 .CompletionValue {
+  left: 87%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value95 {
+  width: 95%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value95 {
+  width: 95%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value96 .CompletionValue {
+  left: 88%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value96 {
+  width: 96%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value96 {
+  width: 96%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value97 .CompletionValue {
+  left: 89%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value97 {
+  width: 97%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value97 {
+  width: 97%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value98 .CompletionValue {
+  left: 90%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value98 {
+  width: 98%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value98 {
+  width: 98%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value99 .CompletionValue {
+  left: 91%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value99 {
+  width: 99%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value99 {
+  width: 99%;
+  background-color: #87939f;
+}
+/* line 70, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value100 .CompletionValue {
+  left: 92%;
+}
+/* line 81, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value100 {
+  width: 100%;
+  background-color: #a4aeb7;
+}
+/* line 87, ../sass/_mod_completionbar.scss */
+.Completion .CompletionBar.Value100 {
+  width: 100%;
+  background-color: #87939f;
+}
+/* line 95, ../sass/_mod_completionbar.scss */
+.touch .Completion {
+  border: none;
+}
+
+/* -----------------------------------------
+   Module Thermometers (Violo 04/2015)
+--------------------------------------------
+Content:
+- Thermometers Variables
+- Thermometers Theme Variables
+- Thermometers
+*/
+/* Thermometers Variables */
+/* Thermometers Theme Variables */
+/* line 117, ../sass/_mod_thermometers.scss */
+.CustomThermometer {
+  width: 100%;
+}
+/* line 119, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper {
+  border-radius: 6px;
+  position: relative;
+  height: 90px;
+  border: 1px solid #A5A5A5;
+  background-color: #EEEEEE;
+}
+/* line 125, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(83% - 5px);
+  margin-left: calc(1% + 5px);
+}
+/* line 132, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 14%;
+}
+/* line 137, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul li.Last {
+  border-right: none !important;
+  width: 16%;
+}
+/* line 141, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul li span {
+  position: relative;
+}
+/* line 146, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerBlock li {
+  border-right: 2px dotted #7A7A7A;
+  height: 89px;
+}
+/* line 151, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerPoint {
+  top: -40px;
+}
+/* line 153, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerPoint li {
+  height: 20px;
+  text-align: right;
+  border-right: 2px solid white;
+}
+/* line 157, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerPoint li .span {
+  right: -22px;
+}
+/* line 162, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerScale {
+  top: -20px;
+}
+/* line 164, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerScale li {
+  height: 20px;
+  text-align: right;
+  border-right: 2px solid white;
+}
+/* line 168, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper ul.CustomThermometerScale li span {
+  z-index: 3;
+  right: -5px;
+}
+/* line 175, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper .CustomThermometerProgressBarWrapper {
+  border-radius: 6px;
+  box-shadow: inset 0px 0px 3px #ccc;
+  box-sizing: border-box;
+  position: absolute;
+  top: 10px;
+  left: 1%;
+  width: 98%;
+  height: 30px;
+  padding-right: 16%;
+  background-color: #F5F5F5;
+}
+/* line 186, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper .CustomThermometerProgressBarWrapper .CustomThermometerProgressBarValue {
+  position: absolute;
+  right: 4px;
+  top: 3px;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 195, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper .CustomThermometerProgressBarWrapper.SecondBar {
+  top: 48px;
+}
+/* line 199, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(83% - 5px);
+  height: 90px;
+  margin-left: calc(1% + 5px);
+}
+/* line 206, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerProgressBar {
+  height: 20px;
+  width: 0%;
+  border-radius: 6px;
+}
+/* line 212, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerProgressBar.Bar1 {
+  background-color: #FF382F;
+  margin-top: 15px;
+}
+/* line 216, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerProgressBar.Bar2 {
+  background-color: #78D45E;
+  margin-top: 18px;
+}
+/* line 221, ../sass/_mod_thermometers.scss */
+.CustomThermometer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerPointer {
+  position: absolute;
+  z-index: 2;
+  top: -22px;
+  left: 0;
+  width: 31px;
+  height: 112px;
+  margin-left: -15px;
+  background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAB4CAYAAAAKXynbAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\a                 AAAV/QAAFf0BzXBRYQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAY\a                 dEVYdENyZWF0aW9uIFRpbWUAMjMtMDQtMjAxNb6h4bcAAAGPSURBVGiB7dTBcYJAGMXx/9pAWkgJ\a                 KYEOkiu5BEcKiCXYB5nBi1xNJ9JB0kGsYHNgVeIACaA43+S9GQ8q7O8DlufizHtulBkwv5E9nxWp\a                 y4HlxPBysyB3h29x5nPgZQJ4vVmQALj6rxMMcISheub1vALlleAyrH/MD7xI3RcQXWGAEojC+se4\a                 piPjzN8DO+DuAvAeeChS9wHga2/2+W0HIBwYhRPHwtEBPk8jHgbYwWlzDEwS1mlMKx4G2DK8hObh\a                 /NZ04mGAHFj1hFfhvM40brim9OiAdZG6pO3P+ob7Mx4G2AKPHYe8F6l76lrj193ekYT2DijpuUF7\a                 4R0l1FgiF8VrAyScOmBP9Ur1ggfhYYAd1R34pLri1ne5M977wZ84837M+YOu/FIRLnzSuHrXTp3/\a                 e9tH4c9vjHpmdq9cuHBTuOrVHq56FS7cBK56tYerXoULN4GrXu3hqlfhwk3gqld7uOpVuHATuOrV\a                 Hq56FS7cBK56tYerXoULN4GrXu3hqlfhwk3gqld7uOrVJP4NIz3k8rs9Mk8AAAAASUVORK5CYII=") no-repeat top center;
+}
+/* line 245, ../sass/_mod_thermometers.scss */
+.CustomThermometer.BigPointer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerPointer {
+  z-index: 4;
+  width: 61px;
+  margin-left: -30px;
+  padding-top: 1px;
+  background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAB4CAYAAABB9/o2AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\a                     AAAV/QAAFf0BzXBRYQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAY\a                     dEVYdENyZWF0aW9uIFRpbWUAMjMtMDQtMjAxNb6h4bcAAAHMSURBVHic7ddJbsJAGEThZ27pbAIK\a                     F+A+joI34ZidRQBlYPDQ/XuoehIskDx8MkhFVTfpCLyiU1sBCMHbzze2G4DTvtoC7bT3U7z27GRz\a                     +WTl8CsYfqBhtfBfYPiDhtXB/4HhBhpWA78JhjtoWDz8LhgeoGGx8IdgeIKGxcGfgqEDGhYD7wSG\a                     jmiYPbwzGHqgYbbwXmDoiYbZwXuDYQAaZgMfBIaBaLjCD0OPH9lhKBigGnv1uklb4GPseXq0O+2r\a                     49CDU0rDn/Sl8w3sxp6nY6PAl0ajIQyeBQyZ0FAcng0MGdFQDJ4VDJnRkB2eHQwF0JANXgQMhdAw\a                     Gl4MDAXRMBheFAyF0dAbXhwMAWjoDA8BQxAansLDwBCIhrvwUPBk1U3a1k1K5z8roaWUvt+meNVN\a                     SlNdO/TrPZeMVslolSTRVUpp6nsIT/JJGx3ZyzuT/a78pFUyWiWjVZJEe4aqZHRknqHBGa2S0SoZ\a                     rZJnqEpGR+YZGpzRKhmtktEqeYaqZHRknqHBGa2S0SoZrZJnqEpGR+YZGpzRKhmtktEqeYaqZHRk\a                     nqHBGa2S0SoZrZJnqEpGR+YZGpzRKhmtktEqeYaqZHRknqHBSaK/ALu/ZDKr++7BAAAAAElFTkSu\a                     QmCC") no-repeat top center;
+}
+/* line 262, ../sass/_mod_thermometers.scss */
+.CustomThermometer.BigPointer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerPointer strong {
+  display: block;
+  margin: auto;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+/* line 269, ../sass/_mod_thermometers.scss */
+.CustomThermometer.BigPointer .CustomThermometerWrapper .CustomThermometerValueBarWrapper .CustomThermometerPointer span {
+  display: block;
+  margin: auto;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+/* line 282, ../sass/_mod_thermometers.scss */
+.CustomThermometer.SingleBar .CustomThermometerWrapper .CustomThermometerProgressBarWrapper {
+  top: 30px;
+}
+/* line 286, ../sass/_mod_thermometers.scss */
+.CustomThermometer.SingleBar .CustomThermometerWrapper .CustomThermometerProgressBar.Bar1 {
+  margin-top: 35px;
+}
+
+/* -----------------------------------------
+   Module Popover
+--------------------------------------------
+Content:
+- Popover Variables
+- Popover Theme Variables
+- Popover
+*/
+/* Popover Variables */
+/* Popover Theme Variables */
+/* line 39, ../sass/_mod_popover.scss */
+.PopoverWrapper {
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+/* line 43, ../sass/_mod_popover.scss */
+.PopoverWrapper .Popover {
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+  background: #f7f7f7;
+}
+/* line 49, ../sass/_mod_popover.scss */
+.PopoverWrapper .Popover:after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 110px;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #f7f7f7 transparent;
+  display: block;
+  z-index: 1;
+}
+/* line 61, ../sass/_mod_popover.scss */
+.PopoverWrapper .Popover.Bottom:after {
+  top: auto;
+  bottom: -15px;
+  border-width: 15px 15px 0;
+}
+/* line 68, ../sass/_mod_popover.scss */
+.PopoverWrapper .Popover.Left:after {
+  top: 15px;
+  left: -15px;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #f7f7f7;
+  width: 0;
+}
+/* line 77, ../sass/_mod_popover.scss */
+.PopoverWrapper .Popover.Right:after {
+  top: 40%;
+  left: auto;
+  right: -15px;
+  border-width: 15px 0 15px 15px;
+  border-color: transparent #f7f7f7;
+  width: 0;
+}
+/* line 87, ../sass/_mod_popover.scss */
+.PopoverWrapper.Opened {
+  display: block;
+}
+
+/* -----------------------------------------
+   Module TouchSpinner
+--------------------------------------------
+Content:
+- TouchSpinner Variables
+- TouchSpinner Theme Variables
+- TouchSpinner
+*/
+/* TouchSpinner Variables */
+/* TouchSpinner Theme Variables */
+/* line 48, ../sass/_mod_touchspinner.scss */
+.TouchSpinWrapper {
+  height: 34px;
+}
+/* line 50, ../sass/_mod_touchspinner.scss */
+.TouchSpinWrapper .BoxInput {
+  float: left;
+  height: 34px;
+  border: 1px solid #F0F0F0;
+  background-color: #ffffff;
+  color: #647687;
+  padding: 0 10px 0 10px;
+  text-align: right;
+}
+/* line 59, ../sass/_mod_touchspinner.scss */
+.TouchSpinWrapper .BoxExtraInput {
+  display: block;
+  float: left;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  background-color: #919191;
+  color: #ffffff;
+  text-align: center;
+}
+/* line 68, ../sass/_mod_touchspinner.scss */
+.TouchSpinWrapper .BoxExtraInput.Decimal {
+  cursor: auto;
+  color: #647687;
+  background-color: #ffffff;
+  border: 1px solid #F0F0F0;
+  border-left: none;
+  line-height: 34px;
+  display: none;
+}
+/* line 77, ../sass/_mod_touchspinner.scss */
+.TouchSpinWrapper .BoxExtraInput.Less {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%222%22%20viewBox%3D%220%200%2012%202%22%20overflow%3D%22visible%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20fill%3D%22white%22%20d%3D%22M0%200h12v2H0V0z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #E83956;
+}
+/* line 83, ../sass/_mod_touchspinner.scss */
+.TouchSpinWrapper .BoxExtraInput.Plus {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20overflow%3D%22visible%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20fill%3D%22white%22%20d%3D%22M12%205H7V0H5v5H0v2h5v5h2V7h5z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #69B56B;
+}
+/* line 92, ../sass/_mod_touchspinner.scss */
+.TouchSpinWrapper.StyleNeutral .BoxExtraInput.Less {
+  cursor: text;
+  background-color: #919191;
+}
+/* line 96, ../sass/_mod_touchspinner.scss */
+.TouchSpinWrapper.StyleNeutral .BoxExtraInput.Plus {
+  cursor: text;
+  background-color: #919191;
+}
+/* line 104, ../sass/_mod_touchspinner.scss */
+.TouchSpinWrapper.WithDecimal .BoxExtraInput.Decimal {
+  display: block;
+}
+
+/* -----------------------------------------
+   State
+--------------------------------------------
+Content:
+- Visibility
+- Clearing
+*/
+/*
+State scss
+
+Styleguide 3.0
+*/
+/* Visibility */
+/* line 29, ../sass/_state.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 33, ../sass/_state.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 42, ../sass/_state.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 51, ../sass/_state.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 54, ../sass/_state.scss */
+.unselectable {
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Link */
+/* line 58, ../sass/_state.scss */
+a:link,
+a:visited {
+  -webkit-transition: 0.25s;
+          transition: 0.25s;
+}
+/* line 61, ../sass/_state.scss */
+a:link:hover, a:link:active,
+a:visited:hover,
+a:visited:active {
+  text-decoration: none;
+}
+
+/* Clearing */
+/* line 85, ../sass/_state.scss */
+.ClearFix:before, .ClearFix:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+}
+/* line 91, ../sass/_state.scss */
+.ClearFix:after {
+  clear: both;
+}
+
+/* line 95, ../sass/_state.scss */
+.ClearFloats {
+  display: block;
+  clear: both;
+  background: transparent;
+  height: 0;
+  border: 0;
+  overflow: hidden;
+  font-size: 0.01em;
+  margin: 0;
+  padding: 0;
+}
+/* line 105, ../sass/_state.scss */
+.ClearFloats.lt-ie8 {
+  border: 1px solid transparent;
+}
+
+/* line 109, ../sass/_state.scss */
+.Clear {
+  clear: both;
+}
+
+/* -----------------------------------------
+   Theme
+--------------------------------------------
+Content:
+- 
+*/

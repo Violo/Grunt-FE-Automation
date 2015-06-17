@@ -26,7 +26,11 @@ module.exports = function(grunt) {
       options: {
         reset: grunt.option('reset') || false,
         stoponerror: false,
-        relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.'], //ignores these errors
+        relaxerror:
+          [
+            'Bad value X-UA-Compatible for attribute http-equiv on element meta.',
+            'This interface to HTML5 document checking is deprecated'
+          ],
         reportpath: false,
         reset: true
       },
@@ -40,7 +44,7 @@ module.exports = function(grunt) {
         options: {
           csslintrc: '.csslintrc'
         },
-        src: ['css/*.css']
+        src: ['css/app.css']
       }
     },
     // Grunt SVG Min Task
