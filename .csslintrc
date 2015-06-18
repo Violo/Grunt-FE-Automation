@@ -30,7 +30,7 @@
   "shorthand": true,
   "text-indent": true,
   "unique-headings": true,
-  "universal-selector": true,
+  "universal-selector": false,
   "unqualified-attributes": true,
   "vendor-prefix": true,
   "zero-units": false

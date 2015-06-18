@@ -94,8 +94,7 @@ module.exports = function(grunt) {
             },
             name: 'Style Guide',
             template: {
-                src: 'node_modules/grunt-styleguide/templates/index.html',
-                include: 'css/app.css' //not working :( - set in template file
+                src: 'styleguide/kss_template/'
             }
         },
         files: {
@@ -124,10 +123,25 @@ module.exports = function(grunt) {
           'css/tidy.css': ['index_template.html']
         }
       }
+    },
+    // Palettable Task
+    palettable: {
+      options: {
+        stylesDirectory: 'sass/',
+        outputFilePath : 'styleguide/palette.html'
+      }
+    },
+    //Pleease Shell
+    shell: {
+        pleeease: {
+            command: 'pleeease compile'
+        }
     }
   });
 
-  // Load the plugin that provides the "uglify" task.
+  // Require for Grunt Shell plugin
+  require('load-grunt-tasks')(grunt);
+  // Load the plugin that provides the "uglify" task
   grunt.loadNpmTasks('grunt-contrib-uglify');
   // Load the plugin minify-html
   grunt.loadNpmTasks('grunt-minify-html');
@@ -145,11 +159,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   // Load the plugin uncss
   grunt.loadNpmTasks('grunt-uncss');
+  // Load the plugin palettable
+  grunt.loadNpmTasks('palettable');
 
   // Default task.
-  grunt.registerTask('default', ['uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'styleguide', 'compass:dist']);
+  grunt.registerTask('default', ['uglify', 'minifyHtml', 'validation', 'csslint:strict', 'shell:pleeease', 'svgmin', 'grunticon', 'palettable', 'styleguide', 'compass:dist']);
   // Prod task.
-  grunt.registerTask('dev', ['svgmin', 'grunticon', 'csslint:strict', 'validation', 'compass:dev']);
+  grunt.registerTask('dev', ['svgmin', 'grunticon', 'palettable', 'csslint:strict', 'validation', 'compass:dev']);   
 
 
 };

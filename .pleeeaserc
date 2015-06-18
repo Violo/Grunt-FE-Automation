@@ -1,6 +1,6 @@
 {
-    "in": ["app.css"],
-    "out": "app.min.css",
+    "in": ["css/app.css"],
+    "out": "css/app.min.css",
     "import": true,
     "autoprefixer": {"browsers": ["> 5%"]},
     "mqpacker": true,

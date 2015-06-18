@@ -1,0 +1,580 @@
+<html>
+<head>
+  <title>Color Palette</title>
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    h1 {
+      text-align: center;
+    }
+    .swatches {
+      text-align: center;
+    }
+    .swatch {
+      display: inline-block;
+      width: 200px;
+      text-align: center;
+      color: #FFF;
+      margin: 5px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .swatch .fileName,
+    .swatch .name,
+    .swatch .value {
+      line-height: 30px;
+      text-align: center;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 12px;
+    }
+    .swatch .name {
+      font-weight: bold;
+    }
+    .swatch .value {
+      line-height: 50px;
+      font-size: 20px;
+    }
+    .swatch .hover-swatch,
+    .swatch .shade-swatch,
+    .swatch .tint-swatch {
+      width: 33.3333%;
+      float: left;
+      line-height: 60px;
+      text-transform: uppercase;
+      font-size: 9px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Color Palette</h1>
+
+<div class="swatches">
+  <div class="swatch" style="background-color: #7A7A7A;">
+  <div class="name" style="color: #BABABA;">
+    thermometers-block-brd-color
+  </div>
+  <div class="value" style="color: #FFFFFF;">
+    #7A7A7A
+  </div>
+  <div class="fileName" style="color: #BABABA;">
+    _mod_thermometers.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #939393; color: #7A7A7A;">
+    #939393
+  </div>
+  <div class="tint-swatch" style="background-color: #7A7A7A; color: #7A7A7A;">
+    #7A7A7A
+  </div>
+  <div class="shade-swatch" style="background-color: #545454; color: #7A7A7A;">
+    #545454
+  </div>
+</div>
+<div class="swatch" style="background-color: #919191;">
+  <div class="name" style="color: #515151;">
+    TouchSpinner-neutral-bg-color
+  </div>
+  <div class="value" style="color: #000000;">
+    #919191
+  </div>
+  <div class="fileName" style="color: #515151;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #AAAAAA; color: #919191;">
+    #AAAAAA
+  </div>
+  <div class="tint-swatch" style="background-color: #919191; color: #919191;">
+    #919191
+  </div>
+  <div class="shade-swatch" style="background-color: #6B6B6B; color: #919191;">
+    #6B6B6B
+  </div>
+</div>
+<div class="swatch" style="background-color: #A5A5A5;">
+  <div class="name" style="color: #656565;">
+    thermometers-brd-color
+  </div>
+  <div class="value" style="color: #000000;">
+    #A5A5A5
+  </div>
+  <div class="fileName" style="color: #656565;">
+    _mod_thermometers.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #BEBEBE; color: #A5A5A5;">
+    #BEBEBE
+  </div>
+  <div class="tint-swatch" style="background-color: #A5A5A5; color: #A5A5A5;">
+    #A5A5A5
+  </div>
+  <div class="shade-swatch" style="background-color: #7F7F7F; color: #A5A5A5;">
+    #7F7F7F
+  </div>
+</div>
+<div class="swatch" style="background-color: #C2C9D1;">
+  <div class="name" style="color: #79899A;">
+    completionpercentage-bg-color
+  </div>
+  <div class="value" style="color: #1F2329;">
+    #C2C9D1
+  </div>
+  <div class="fileName" style="color: #79899A;">
+    _mod_completionbar.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #DBE2EA; color: #C2C9D1;">
+    #DBE2EA
+  </div>
+  <div class="tint-swatch" style="background-color: #C2C9D1; color: #C2C9D1;">
+    #C2C9D1
+  </div>
+  <div class="shade-swatch" style="background-color: #96A2B0; color: #C2C9D1;">
+    #96A2B0
+  </div>
+</div>
+<div class="swatch" style="background-color: #E3E3E3;">
+  <div class="name" style="color: #A3A3A3;">
+    Popover-brd-color
+  </div>
+  <div class="value" style="color: #3D3D3D;">
+    #E3E3E3
+  </div>
+  <div class="fileName" style="color: #A3A3A3;">
+    _mod_popover.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FCFCFC; color: #E3E3E3;">
+    #FCFCFC
+  </div>
+  <div class="tint-swatch" style="background-color: #E3E3E3; color: #E3E3E3;">
+    #E3E3E3
+  </div>
+  <div class="shade-swatch" style="background-color: #BDBDBD; color: #E3E3E3;">
+    #BDBDBD
+  </div>
+</div>
+<div class="swatch" style="background-color: #EBEBEB;">
+  <div class="name" style="color: #ABABAB;">
+    completionpercentage-border2
+  </div>
+  <div class="value" style="color: #454545;">
+    #EBEBEB
+  </div>
+  <div class="fileName" style="color: #ABABAB;">
+    _mod_completionbar.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #EBEBEB;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #EBEBEB; color: #EBEBEB;">
+    #EBEBEB
+  </div>
+  <div class="shade-swatch" style="background-color: #C5C5C5; color: #EBEBEB;">
+    #C5C5C5
+  </div>
+</div>
+<div class="swatch" style="background-color: #EEEEEE;">
+  <div class="name" style="color: #AEAEAE;">
+    thermometers-bg-color
+  </div>
+  <div class="value" style="color: #484848;">
+    #EEEEEE
+  </div>
+  <div class="fileName" style="color: #AEAEAE;">
+    _mod_thermometers.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #EEEEEE;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #EEEEEE; color: #EEEEEE;">
+    #EEEEEE
+  </div>
+  <div class="shade-swatch" style="background-color: #C8C8C8; color: #EEEEEE;">
+    #C8C8C8
+  </div>
+</div>
+<div class="swatch" style="background-color: #F0F0F0;">
+  <div class="name" style="color: #B0B0B0;">
+    BoxInput-brd-color
+  </div>
+  <div class="value" style="color: #4A4A4A;">
+    #F0F0F0
+  </div>
+  <div class="fileName" style="color: #B0B0B0;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #F0F0F0;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #F0F0F0; color: #F0F0F0;">
+    #F0F0F0
+  </div>
+  <div class="shade-swatch" style="background-color: #CACACA; color: #F0F0F0;">
+    #CACACA
+  </div>
+</div>
+<div class="swatch" style="background-color: #F0F0F0;">
+  <div class="name" style="color: #B0B0B0;">
+    BoxDecimal-brd-color
+  </div>
+  <div class="value" style="color: #4A4A4A;">
+    #F0F0F0
+  </div>
+  <div class="fileName" style="color: #B0B0B0;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #F0F0F0;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #F0F0F0; color: #F0F0F0;">
+    #F0F0F0
+  </div>
+  <div class="shade-swatch" style="background-color: #CACACA; color: #F0F0F0;">
+    #CACACA
+  </div>
+</div>
+<div class="swatch" style="background-color: #F5F5F5;">
+  <div class="name" style="color: #B5B5B5;">
+    thermometers-progressbar-bg-color
+  </div>
+  <div class="value" style="color: #4F4F4F;">
+    #F5F5F5
+  </div>
+  <div class="fileName" style="color: #B5B5B5;">
+    _mod_thermometers.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #F5F5F5;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #F5F5F5; color: #F5F5F5;">
+    #F5F5F5
+  </div>
+  <div class="shade-swatch" style="background-color: #CFCFCF; color: #F5F5F5;">
+    #CFCFCF
+  </div>
+</div>
+<div class="swatch" style="background-color: #F5F5F5;">
+  <div class="name" style="color: #B5B5B5;">
+    completionpercentage-bg-color4
+  </div>
+  <div class="value" style="color: #4F4F4F;">
+    #F5F5F5
+  </div>
+  <div class="fileName" style="color: #B5B5B5;">
+    _mod_completionbar.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #F5F5F5;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #F5F5F5; color: #F5F5F5;">
+    #F5F5F5
+  </div>
+  <div class="shade-swatch" style="background-color: #CFCFCF; color: #F5F5F5;">
+    #CFCFCF
+  </div>
+</div>
+<div class="swatch" style="background-color: #F5F5F5;">
+  <div class="name" style="color: #B5B5B5;">
+    completionpercentage-border
+  </div>
+  <div class="value" style="color: #4F4F4F;">
+    #F5F5F5
+  </div>
+  <div class="fileName" style="color: #B5B5B5;">
+    _mod_completionbar.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #F5F5F5;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #F5F5F5; color: #F5F5F5;">
+    #F5F5F5
+  </div>
+  <div class="shade-swatch" style="background-color: #CFCFCF; color: #F5F5F5;">
+    #CFCFCF
+  </div>
+</div>
+<div class="swatch" style="background-color: #F7F7F7;">
+  <div class="name" style="color: #B7B7B7;">
+    PopoverAfter-bg-color
+  </div>
+  <div class="value" style="color: #515151;">
+    #F7F7F7
+  </div>
+  <div class="fileName" style="color: #B7B7B7;">
+    _mod_popover.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #F7F7F7;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #F7F7F7; color: #F7F7F7;">
+    #F7F7F7
+  </div>
+  <div class="shade-swatch" style="background-color: #D1D1D1; color: #F7F7F7;">
+    #D1D1D1
+  </div>
+</div>
+<div class="swatch" style="background-color: #F7F7F7;">
+  <div class="name" style="color: #B7B7B7;">
+    Popover-bg-color
+  </div>
+  <div class="value" style="color: #515151;">
+    #F7F7F7
+  </div>
+  <div class="fileName" style="color: #B7B7B7;">
+    _mod_popover.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #F7F7F7;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #F7F7F7; color: #F7F7F7;">
+    #F7F7F7
+  </div>
+  <div class="shade-swatch" style="background-color: #D1D1D1; color: #F7F7F7;">
+    #D1D1D1
+  </div>
+</div>
+<div class="swatch" style="background-color: #FFFFFF;">
+  <div class="name" style="color: #BFBFBF;">
+    BoxDecimal-bg-color
+  </div>
+  <div class="value" style="color: #595959;">
+    #FFFFFF
+  </div>
+  <div class="fileName" style="color: #BFBFBF;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #FFFFFF;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #FFFFFF; color: #FFFFFF;">
+    #FFFFFF
+  </div>
+  <div class="shade-swatch" style="background-color: #D9D9D9; color: #FFFFFF;">
+    #D9D9D9
+  </div>
+</div>
+<div class="swatch" style="background-color: #FFFFFF;">
+  <div class="name" style="color: #BFBFBF;">
+    BoxInput-bg-color
+  </div>
+  <div class="value" style="color: #595959;">
+    #FFFFFF
+  </div>
+  <div class="fileName" style="color: #BFBFBF;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #FFFFFF;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #FFFFFF; color: #FFFFFF;">
+    #FFFFFF
+  </div>
+  <div class="shade-swatch" style="background-color: #D9D9D9; color: #FFFFFF;">
+    #D9D9D9
+  </div>
+</div>
+<div class="swatch" style="background-color: #FFFFFF;">
+  <div class="name" style="color: #BFBFBF;">
+    BoxExtraInput-color
+  </div>
+  <div class="value" style="color: #595959;">
+    #FFFFFF
+  </div>
+  <div class="fileName" style="color: #BFBFBF;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FFFFFF; color: #FFFFFF;">
+    #FFFFFF
+  </div>
+  <div class="tint-swatch" style="background-color: #FFFFFF; color: #FFFFFF;">
+    #FFFFFF
+  </div>
+  <div class="shade-swatch" style="background-color: #D9D9D9; color: #FFFFFF;">
+    #D9D9D9
+  </div>
+</div>
+<div class="swatch" style="background-color: #FF382F;">
+  <div class="name" style="color: #FF786F;">
+    thermometers-bar1-bg-color
+  </div>
+  <div class="value" style="color: #FFDED5;">
+    #FF382F
+  </div>
+  <div class="fileName" style="color: #FF786F;">
+    _mod_thermometers.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FF5148; color: #FF382F;">
+    #FF5148
+  </div>
+  <div class="tint-swatch" style="background-color: #FCE4E3; color: #FF382F;">
+    #FCE4E3
+  </div>
+  <div class="shade-swatch" style="background-color: #E10A00; color: #FF382F;">
+    #E10A00
+  </div>
+</div>
+<div class="swatch" style="background-color: #78D45E;">
+  <div class="name" style="color: #3C8D26;">
+    thermometers-bar2-bg-color
+  </div>
+  <div class="value" style="color: #000000;">
+    #78D45E
+  </div>
+  <div class="fileName" style="color: #3C8D26;">
+    _mod_thermometers.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #91ED77; color: #78D45E;">
+    #91ED77
+  </div>
+  <div class="tint-swatch" style="background-color: #E9FCE3; color: #78D45E;">
+    #E9FCE3
+  </div>
+  <div class="shade-swatch" style="background-color: #4EB530; color: #78D45E;">
+    #4EB530
+  </div>
+</div>
+<div class="swatch" style="background-color: #69B56B;">
+  <div class="name" style="color: #346A36;">
+    TouchSpinner-plus-bg-color
+  </div>
+  <div class="value" style="color: #000000;">
+    #69B56B
+  </div>
+  <div class="fileName" style="color: #346A36;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #82CE84; color: #69B56B;">
+    #82CE84
+  </div>
+  <div class="tint-swatch" style="background-color: #E3FCE4; color: #69B56B;">
+    #E3FCE4
+  </div>
+  <div class="shade-swatch" style="background-color: #458C47; color: #69B56B;">
+    #458C47
+  </div>
+</div>
+<div class="swatch" style="background-color: #A4AEB7;">
+  <div class="name" style="color: #616E7B;">
+    completionpercentage-bg-color2
+  </div>
+  <div class="value" style="color: #070809;">
+    #A4AEB7
+  </div>
+  <div class="fileName" style="color: #616E7B;">
+    _mod_completionbar.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #BDC7D0; color: #A4AEB7;">
+    #BDC7D0
+  </div>
+  <div class="tint-swatch" style="background-color: #E3F0FC; color: #A4AEB7;">
+    #E3F0FC
+  </div>
+  <div class="shade-swatch" style="background-color: #798895; color: #A4AEB7;">
+    #798895
+  </div>
+</div>
+<div class="swatch" style="background-color: #6D7D8C;">
+  <div class="name" style="color: #ADBDCC;">
+    completionpercentage-color
+  </div>
+  <div class="value" style="color: #FFFFFF;">
+    #6D7D8C
+  </div>
+  <div class="fileName" style="color: #ADBDCC;">
+    _mod_completionbar.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #8696A5; color: #6D7D8C;">
+    #8696A5
+  </div>
+  <div class="tint-swatch" style="background-color: #E3F0FC; color: #6D7D8C;">
+    #E3F0FC
+  </div>
+  <div class="shade-swatch" style="background-color: #4C5761; color: #6D7D8C;">
+    #4C5761
+  </div>
+</div>
+<div class="swatch" style="background-color: #647687;">
+  <div class="name" style="color: #A4B6C7;">
+    BoxInput-txt-color
+  </div>
+  <div class="value" style="color: #FFFFFF;">
+    #647687
+  </div>
+  <div class="fileName" style="color: #A4B6C7;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #7D8FA0; color: #647687;">
+    #7D8FA0
+  </div>
+  <div class="tint-swatch" style="background-color: #E3F0FC; color: #647687;">
+    #E3F0FC
+  </div>
+  <div class="shade-swatch" style="background-color: #43505B; color: #647687;">
+    #43505B
+  </div>
+</div>
+<div class="swatch" style="background-color: #647687;">
+  <div class="name" style="color: #A4B6C7;">
+    BoxDecimal-txt-color
+  </div>
+  <div class="value" style="color: #FFFFFF;">
+    #647687
+  </div>
+  <div class="fileName" style="color: #A4B6C7;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #7D8FA0; color: #647687;">
+    #7D8FA0
+  </div>
+  <div class="tint-swatch" style="background-color: #E3F0FC; color: #647687;">
+    #E3F0FC
+  </div>
+  <div class="shade-swatch" style="background-color: #43505B; color: #647687;">
+    #43505B
+  </div>
+</div>
+<div class="swatch" style="background-color: #87939F;">
+  <div class="name" style="color: #4A535C;">
+    completionpercentage-bg-color3
+  </div>
+  <div class="value" style="color: #000000;">
+    #87939F
+  </div>
+  <div class="fileName" style="color: #4A535C;">
+    _mod_completionbar.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #A0ACB8; color: #87939F;">
+    #A0ACB8
+  </div>
+  <div class="tint-swatch" style="background-color: #E3F0FC; color: #87939F;">
+    #E3F0FC
+  </div>
+  <div class="shade-swatch" style="background-color: #616D79; color: #87939F;">
+    #616D79
+  </div>
+</div>
+<div class="swatch" style="background-color: #E83956;">
+  <div class="name" style="color: #FF7996;">
+    TouchSpinner-less-bg-color
+  </div>
+  <div class="value" style="color: #FFDFFC;">
+    #E83956
+  </div>
+  <div class="fileName" style="color: #FF7996;">
+    _mod_touchspinner.scss
+  </div>
+  <div class="hover-swatch" style="background-color: #FF526F; color: #E83956;">
+    #FF526F
+  </div>
+  <div class="tint-swatch" style="background-color: #FCE3E7; color: #E83956;">
+    #FCE3E7
+  </div>
+  <div class="shade-swatch" style="background-color: #BE1632; color: #E83956;">
+    #BE1632
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>

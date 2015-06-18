@@ -5,126 +5,131 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-
-  <title>KSS: Living Styleguide</title>
+  <title>Living Styleguide</title>
   <meta name="description" content="">
   <meta name="generator" content="kss-node" />
-
   <meta name="viewport" content="width=device-width">
-
-  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-
   <link rel="stylesheet" href="public/kss.css">
   <link rel="stylesheet" href="public/style.css">
+  <!-- App e Vendor Style -->
+  <link rel="stylesheet" href="../css/app.min.css">
 
 </head>
-<body><div id="kss-wrapper">
-  <div id="kss-nav">
-    <header id="kss-header">
-      <hgroup><h1>kss-node Styleguide</h1></hgroup>
-    </header>
-    <aside>
-      <nav><ul>
-        <li><a href="index.html">0.0: Overview</a></li>
-          <li><a href="section-1.html">1.0: App scss</a></li>
-          <li><a href="section-2.html">2.0: Base scss</a></li>
-          <li><a href="section-3.html">3.0: State scss</a></li>
-          <li><a href="section-4.html">4.0: Module Completion Bar</a></li>
-          <li><a href="section-5.html">5.0: Module Thermometers</a></li>
-          <li><a href="section-6.html">6.0: Module Popover</a></li>
-          <li><a href="section-7.html">7.0: Module TouchSpinner</a></li>
-      </ul></nav>
-    </aside>
-  </div>
-  <div role="main" id="kss-main">
-    <article id="kss-content">
+<body>
+  <div id="kss-wrapper">
+    <div id="kss-nav">
+      <header id="kss-header">
+        <hgroup><h1>Styleguide</h1></hgroup>
+      </header>
+      <aside>
+        <nav>
+          <ul>
+            <li><a href="index.html">0.0: Overview</a></li>
+              <li><a href="section-1.html">1.0: App scss</a></li>
+              <li><a href="section-2.html">2.0: Base scss</a></li>
+              <li><a href="section-3.html">3.0: State scss</a></li>
+              <li><a href="section-4.html">4.0: Module Completion Bar</a></li>
+              <li><a href="section-5.html">5.0: Module Thermometers</a></li>
+              <li><a href="section-6.html">6.0: Module Popover</a></li>
+              <li><a href="section-7.html">7.0: Module TouchSpinner</a></li>
+          </ul>
+          <ul>
+            <li><a href="../img/grunticon-assets/img_assets_preview.html">SVG icon assets</a></li>
+            <li><a href="palette.html">Color Variables</a></li>
+          </ul>
+        </ul></nav>
+      </aside>
+    </div>
+    <div role="main" id="kss-main">
+      <article id="kss-content">
 
-            <h1 class="kss-title"><span class="kss-ref">7.0</span> - Module TouchSpinner</h1>
-                <div class="kss-box"></div>
-                <table class="kss-mod-list">
-                  <tr class="kss-mod-desc-group">
-                    <td class="kss-mod-desc"><p>Default styling</p></td>
-                    <td class="kss-mod-name"></td>
-                  </tr>
-                  <tr class="kss-mod-example">
-                    <td colspan="2"><div class="TouchSpinWrapper {$modifiers}">
+              <h1 class="kss-title"><span class="kss-ref">7.0</span> - Module TouchSpinner</h1>
+                  <div class="kss-box"></div>
+                  <table class="kss-mod-list">
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Default styling</p></td>
+                      <td class="kss-mod-name"></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><div class="TouchSpinWrapper {$modifiers}">
    <span class="BoxExtraInput Less"><span class="hidden">-</span></span>
    <input type="text" class="BoxInput Size100" value="500.000" />
    <span class="BoxExtraInput Decimal">,00</span>
    <span class="BoxExtraInput Plus"><span class="hidden">+</span></span>
    <hr class="ClearFloats">
 </div></td>
-                  </tr>
-                  <tr class="kss-mod-desc-group">
-                    <td class="kss-mod-desc"><p>Neutral bottom +/-</p>
+                    </tr>
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Neutral bottom +/-</p>
 </td>
-                    <td class="kss-mod-name"><p>.StyleNeutral</p></td>
-                  </tr>
-                  <tr class="kss-mod-example">
-                    <td colspan="2"><div class="TouchSpinWrapper StyleNeutral">
+                      <td class="kss-mod-name"><p>.StyleNeutral</p></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><div class="TouchSpinWrapper StyleNeutral">
    <span class="BoxExtraInput Less"><span class="hidden">-</span></span>
    <input type="text" class="BoxInput Size100" value="500.000" />
    <span class="BoxExtraInput Decimal">,00</span>
    <span class="BoxExtraInput Plus"><span class="hidden">+</span></span>
    <hr class="ClearFloats">
 </div></td>
-                  </tr>
-                  <tr class="kss-mod-desc-group">
-                    <td class="kss-mod-desc"><p>Include decimal box</p>
+                    </tr>
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Include decimal box</p>
 </td>
-                    <td class="kss-mod-name"><p>.WithDecimal</p></td>
-                  </tr>
-                  <tr class="kss-mod-example">
-                    <td colspan="2"><div class="TouchSpinWrapper WithDecimal">
+                      <td class="kss-mod-name"><p>.WithDecimal</p></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><div class="TouchSpinWrapper WithDecimal">
    <span class="BoxExtraInput Less"><span class="hidden">-</span></span>
    <input type="text" class="BoxInput Size100" value="500.000" />
    <span class="BoxExtraInput Decimal">,00</span>
    <span class="BoxExtraInput Plus"><span class="hidden">+</span></span>
    <hr class="ClearFloats">
 </div></td>
-                  </tr>
-                </table>
-                <div class="kss-markup">
-                  <pre class="prettyprint lang-html">&lt;div class=&quot;TouchSpinWrapper {$modifiers}&quot;&gt;
+                    </tr>
+                  </table>
+                  <div class="kss-markup">
+                    <pre class="prettyprint lang-html">&lt;div class=&quot;TouchSpinWrapper {$modifiers}&quot;&gt;
    &lt;span class=&quot;BoxExtraInput Less&quot;&gt;&lt;span class=&quot;hidden&quot;&gt;-&lt;/span&gt;&lt;/span&gt;
    &lt;input type=&quot;text&quot; class=&quot;BoxInput Size100&quot; value=&quot;500.000&quot; /&gt;
    &lt;span class=&quot;BoxExtraInput Decimal&quot;&gt;,00&lt;/span&gt;
    &lt;span class=&quot;BoxExtraInput Plus&quot;&gt;&lt;span class=&quot;hidden&quot;&gt;+&lt;/span&gt;&lt;/span&gt;
    &lt;hr class=&quot;ClearFloats&quot;&gt;
 &lt;/div&gt;</pre>
-                </div>
-               </article>
+                  </div>
+                   </article>
+    </div>
+    <footer>
+      
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="public/kss.js"></script>
+    <script src="public/prettify.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        var sidebarAdjust = function() {
+          // Match footer/body height
+          var height = Math.max($(window).height(), $('#kss-main').height());
+
+          if ($(window).width() <= 768) {
+            $('#kss-main, #kss-nav').height('auto');
+          } else {
+            $('#kss-main, #kss-nav').height(height);
+          }
+        };
+
+        $(window).resize(sidebarAdjust);
+        $(window).scroll(sidebarAdjust);
+        sidebarAdjust();
+
+        // Ensure code blocks are highlighted properly...
+        $('pre>code').addClass('prettyprint');
+        prettyPrint();
+
+      });
+    </script>
+
   </div>
-  <footer>
-    
-  </footer>
-  <!-- SCRIPTS -->
-  <script src="public/kss.js"></script>
-  <script src="public/prettify.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      var sidebarAdjust = function() {
-        // Match footer/body height
-        var height = Math.max($(window).height(), $('#kss-main').height());
-
-        if ($(window).width() <= 768) {
-          $('#kss-main, #kss-nav').height('auto');
-        } else {
-          $('#kss-main, #kss-nav').height(height);
-        }
-      };
-
-      $(window).resize(sidebarAdjust);
-      $(window).scroll(sidebarAdjust);
-      sidebarAdjust();
-
-      // Ensure code blocks are highlighted properly...
-      $('pre>code').addClass('prettyprint');
-      prettyPrint();
-
-    });
-  </script>
-
-</div></body>
+</body>
 </html>

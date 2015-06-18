@@ -5,44 +5,48 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-
-  <title>KSS: Living Styleguide</title>
+  <title>Living Styleguide</title>
   <meta name="description" content="">
   <meta name="generator" content="kss-node" />
-
   <meta name="viewport" content="width=device-width">
-
-  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-
   <link rel="stylesheet" href="public/kss.css">
   <link rel="stylesheet" href="public/style.css">
+  <!-- App e Vendor Style -->
+  <link rel="stylesheet" href="../css/app.min.css">
 
 </head>
-<body><div id="kss-wrapper">
-  <div id="kss-nav">
-    <header id="kss-header">
-      <hgroup><h1>kss-node Styleguide</h1></hgroup>
-    </header>
-    <aside>
-      <nav><ul>
-        <li><a href="index.html">0.0: Overview</a></li>
-          <li><a href="section-1.html">1.0: App scss</a></li>
-          <li><a href="section-2.html">2.0: Base scss</a></li>
-          <li><a href="section-3.html">3.0: State scss</a></li>
-          <li><a href="section-4.html">4.0: Module Completion Bar</a></li>
-          <li><a href="section-5.html">5.0: Module Thermometers</a></li>
-          <li><a href="section-6.html">6.0: Module Popover</a></li>
-          <li><a href="section-7.html">7.0: Module TouchSpinner</a></li>
-      </ul></nav>
-    </aside>
-  </div>
-  <div role="main" id="kss-main">
-    <article id="kss-content">
+<body>
+  <div id="kss-wrapper">
+    <div id="kss-nav">
+      <header id="kss-header">
+        <hgroup><h1>Styleguide</h1></hgroup>
+      </header>
+      <aside>
+        <nav>
+          <ul>
+            <li><a href="index.html">0.0: Overview</a></li>
+              <li><a href="section-1.html">1.0: App scss</a></li>
+              <li><a href="section-2.html">2.0: Base scss</a></li>
+              <li><a href="section-3.html">3.0: State scss</a></li>
+              <li><a href="section-4.html">4.0: Module Completion Bar</a></li>
+              <li><a href="section-5.html">5.0: Module Thermometers</a></li>
+              <li><a href="section-6.html">6.0: Module Popover</a></li>
+              <li><a href="section-7.html">7.0: Module TouchSpinner</a></li>
+          </ul>
+          <ul>
+            <li><a href="../img/grunticon-assets/img_assets_preview.html">SVG icon assets</a></li>
+            <li><a href="palette.html">Color Variables</a></li>
+          </ul>
+        </ul></nav>
+      </aside>
+    </div>
+    <div role="main" id="kss-main">
+      <article id="kss-content">
 
-            <h1 class="kss-title"><span class="kss-ref">3.0</span> - State scss</h1>
-                      <section class="kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">3.1</span> - Visibility</h1>
-                  <p>List of available visibility class</p>
+              <h1 class="kss-title"><span class="kss-ref">3.0</span> - State scss</h1>
+                          <section class="kss-depth-2">
+              <h1 class="kss-title"><span class="kss-ref">3.1</span> - Visibility</h1>
+                    <p>List of available visibility class</p>
 <p>.hidden (Hide from both screenreaders and browsers: h5bp.com/u)<br />
 .visuallyhidden (Hide only visually, but have it available for screenreaders: h5bp.com/v)<br />
 .visuallyhidden.focusable:active (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
@@ -50,65 +54,66 @@
 .invisible (Hide visually and from screenreaders, but maintain layout)<br />
 .unselectable (not selectable)<br /></p>
 
-          
-            </section>
-           <section class="kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">3.2</span> - Clearing</h1>
-                <div class="kss-box"><p>List of available Clearing class</p>
+            
+              </section>
+             <section class="kss-depth-2">
+              <h1 class="kss-title"><span class="kss-ref">3.2</span> - Clearing</h1>
+                  <div class="kss-box"><p>List of available Clearing class</p>
 <p>.ClearFix (Reset float by wrapping floating elements)<br />
 .ClearFloats (Reset both float with minimal space)<br />
 .Clear (simply clear:both)<br /></p>
 </div>
-                <table class="kss-mod-list">
-                  <tr class="kss-mod-desc-group">
-                    <td class="kss-mod-desc"><p>Default styling</p></td>
-                    <td class="kss-mod-name"></td>
-                  </tr>
-                  <tr class="kss-mod-example">
-                    <td colspan="2"><div class="ClearFix" /><p style="float:left; border:1px solid red;">test 1</p><p style="float:right; border:1px solid green;">test 2</p></div><p>test 3 (no float)</p>
+                  <table class="kss-mod-list">
+                    <tr class="kss-mod-desc-group">
+                      <td class="kss-mod-desc"><p>Default styling</p></td>
+                      <td class="kss-mod-name"></td>
+                    </tr>
+                    <tr class="kss-mod-example">
+                      <td colspan="2"><div class="ClearFix" /><p style="float:left; border:1px solid red;">test 1</p><p style="float:right; border:1px solid green;">test 2</p></div><p>test 3 (no float)</p>
 <br class="ClearFloats" />
 <div class="Clear">...</div></td>
-                  </tr>
-                </table>
-                <div class="kss-markup">
-                  <pre class="prettyprint lang-html">&lt;div class=&quot;ClearFix&quot; /&gt;&lt;p style=&quot;float:left; border:1px solid red;&quot;&gt;test 1&lt;/p&gt;&lt;p style=&quot;float:right; border:1px solid green;&quot;&gt;test 2&lt;/p&gt;&lt;/div&gt;&lt;p&gt;test 3 (no float)&lt;/p&gt;
+                    </tr>
+                  </table>
+                  <div class="kss-markup">
+                    <pre class="prettyprint lang-html">&lt;div class=&quot;ClearFix&quot; /&gt;&lt;p style=&quot;float:left; border:1px solid red;&quot;&gt;test 1&lt;/p&gt;&lt;p style=&quot;float:right; border:1px solid green;&quot;&gt;test 2&lt;/p&gt;&lt;/div&gt;&lt;p&gt;test 3 (no float)&lt;/p&gt;
 &lt;br class=&quot;ClearFloats&quot; /&gt;
 &lt;div class=&quot;Clear&quot;&gt;...&lt;/div&gt;</pre>
-                </div>
-          
-            </section>
-    </article>
+                  </div>
+            
+              </section>
+      </article>
+    </div>
+    <footer>
+      
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="public/kss.js"></script>
+    <script src="public/prettify.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        var sidebarAdjust = function() {
+          // Match footer/body height
+          var height = Math.max($(window).height(), $('#kss-main').height());
+
+          if ($(window).width() <= 768) {
+            $('#kss-main, #kss-nav').height('auto');
+          } else {
+            $('#kss-main, #kss-nav').height(height);
+          }
+        };
+
+        $(window).resize(sidebarAdjust);
+        $(window).scroll(sidebarAdjust);
+        sidebarAdjust();
+
+        // Ensure code blocks are highlighted properly...
+        $('pre>code').addClass('prettyprint');
+        prettyPrint();
+
+      });
+    </script>
+
   </div>
-  <footer>
-    
-  </footer>
-  <!-- SCRIPTS -->
-  <script src="public/kss.js"></script>
-  <script src="public/prettify.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      var sidebarAdjust = function() {
-        // Match footer/body height
-        var height = Math.max($(window).height(), $('#kss-main').height());
-
-        if ($(window).width() <= 768) {
-          $('#kss-main, #kss-nav').height('auto');
-        } else {
-          $('#kss-main, #kss-nav').height(height);
-        }
-      };
-
-      $(window).resize(sidebarAdjust);
-      $(window).scroll(sidebarAdjust);
-      sidebarAdjust();
-
-      // Ensure code blocks are highlighted properly...
-      $('pre>code').addClass('prettyprint');
-      prettyPrint();
-
-    });
-  </script>
-
-</div></body>
+</body>
 </html>
