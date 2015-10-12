@@ -11,12 +11,12 @@
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "^0.6.0",
     "grunt-grunticon": "^1.6.0",
-    "grunt-html-validation": "^0.1.18",
     "grunt-minify-html": "^2.0.0",
     "grunt-shell": "^1.1.2",
     "grunt-styleguide": "git+https://github.com/e-xtrategy/grunt-styleguide.git#master",
     "grunt-svgmin": "^2.0.0",
     "grunt-uncss": "^0.4.2",
+    "grunt-w3c-html-validation": "^0.1.6",
     "load-grunt-tasks": "^3.2.0",
     "palettable": "^1.0.1"
   }

@@ -21,22 +21,23 @@ module.exports = function(grunt) {
           }
       }
     },
-    // html validation
+    // html w3c validation
     validation: {
-      options: {
-        reset: grunt.option('reset') || false,
-        stoponerror: false,
-        relaxerror:
-          [
-            'Bad value X-UA-Compatible for attribute http-equiv on element meta.',
-            'This interface to HTML5 document checking is deprecated'
-          ],
-        reportpath: false,
-        reset: true
-      },
-      files: {
-          src: ['*.html']
-      }
+        options: {
+            reset: grunt.option('reset') || false,
+            stoponerror: false,
+            relaxerror: [
+              'Bad value X-UA-Compatible for attribute http-equiv on element meta.',
+              'The Content-Type was “text/html”. Using the HTML parser.',
+              'Using the schema for HTML with SVG 1.1, MathML 3.0, RDFa 1.1, and ITS 2.0 support.'
+              ],
+            generateReport: false,
+            errorHTMLRootDir: "w3cErrorFolder",
+            useTimeStamp: true
+        },
+        files: {
+            src: ['index.html']
+        }
     },
     // CSSlint Task
     csslint: {
@@ -145,8 +146,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   // Load the plugin minify-html
   grunt.loadNpmTasks('grunt-minify-html');
-  // Load the plugin html validation
-  grunt.loadNpmTasks('grunt-html-validation');
+  // Load the plugin html w3c validation
+  grunt.loadNpmTasks('grunt-w3c-html-validation');
   // Load the plugin CSSlint
   grunt.loadNpmTasks('grunt-contrib-csslint');
   // Load the plugin SVGMin
