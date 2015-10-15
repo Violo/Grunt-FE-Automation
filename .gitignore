@@ -1,3 +1,10 @@
 .sass-cache
 .DS_Store
 node_modules
+css
+_icons_data_png.scss
+_icons_fallback.scss
+_icons_data_svg.scss
+app.data.png.scss
+app.data.svg.scss
+app.fallback.scss

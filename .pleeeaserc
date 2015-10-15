@@ -1,5 +1,4 @@
 {
-    "in": ["css/app.css"],
     "out": "css/app.min.css",
     "import": true,
     "autoprefixer": {"browsers": ["> 5%"]},
