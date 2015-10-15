@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Develop enviroment & tools",
   "repo": "https://github.com/Violo/tools.git",
+  "scripts":{
+    "postinstall":"npm install -g pleeease-cli@3.2.8"
+  },
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-contrib-compass": "1.0.1",
