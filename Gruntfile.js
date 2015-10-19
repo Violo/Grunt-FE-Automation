@@ -185,7 +185,17 @@ module.exports = function(grunt) {
            'sass/app.fallback.scss': './app_template.scss'
          }
        }
-     }
+     },
+     // Connect
+    connect: {
+      server: {
+        options: {
+          port: 8080,
+          base: '.',
+          keepalive: true
+        }
+      }
+    },
    });
 
    // Require for Grunt Shell plugin
@@ -216,6 +226,8 @@ module.exports = function(grunt) {
    // Load the plugin palettable
    grunt.loadNpmTasks('palettable');
 
+   // Serve task.
+   grunt.registerTask('serve', ['connect']); 
    // Default task.
    grunt.registerTask('default', ['preprocess', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'copy', 'palettable', 'styleguide', 'compass:dist', 'shell:pleeease']);
    // Prod task.

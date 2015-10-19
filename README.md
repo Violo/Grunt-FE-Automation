@@ -2,11 +2,6 @@
 
 > Boot Up develop enviroment & tools
 
-## Required
-Both palettable and pleeease compiler registered task need:
-> To use palettable task you need tynicolo2: npm install tinycolor2
-> To use pleeease compiler command you need pleeease.io: http://pleeease.io/
-
 
 ## What inside
 
@@ -20,6 +15,7 @@ Both palettable and pleeease compiler registered task need:
 > styleguide for create KSS styleguide scaffolding<br />
 > uncss for remove unused styles<br />
 > pleeease css post processor for a better and clean css<br />
+> grunt connect to application serving<br />
 
 
 ## Tasks
@@ -33,6 +29,7 @@ Both palettable and pleeease compiler registered task need:
 > grunt styleguide<br />
 > grunt uncss<br />
 > pleeease compile (from css directory)<br />
+> grunt connect<br />
 
 
 ## Registered tasks
