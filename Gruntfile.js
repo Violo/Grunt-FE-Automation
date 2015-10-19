@@ -27,10 +27,13 @@ module.exports = function(grunt) {
          reset: grunt.option('reset') || false,
          stoponerror: false,
          relaxerror: [
-           'Bad value X-UA-Compatible for attribute http-equiv on element meta.',
-           'The Content-Type was “text/html”. Using the HTML parser.',
-           'Using the schema for HTML with SVG 1.1, MathML 3.0, RDFa 1.1, and ITS 2.0 support.'
-         ],
+            'Bad value X-UA-Compatible for attribute http-equiv on element meta.',
+            'Bad value “https://fonts.googleapis.com/',
+            'The Content-Type was “text/html”. Using the HTML parser.',
+            'Using the schema for HTML with SVG 1.1, MathML 3.0, RDFa 1.1, and ITS 2.0 support.',
+            'lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all',
+            'Consider using the “h1” element as a top-level heading',
+       ],
          generateReport: false,
          errorHTMLRootDir: "w3cErrorFolder",
          useTimeStamp: true
@@ -205,6 +208,8 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-contrib-copy');
    // Load the plugin for preprocessing sass files
    grunt.loadNpmTasks('grunt-preprocess');
+   // Require for Grunt Shell plugin
+   require('load-grunt-tasks')(grunt);
    // Load the plugin that provides the "uglify" task
    grunt.loadNpmTasks('grunt-contrib-uglify');
    // Load the plugin minify-html
@@ -225,13 +230,15 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-uncss');
    // Load the plugin palettable
    grunt.loadNpmTasks('palettable');
-
-   // Serve task.
-   grunt.registerTask('serve', ['connect']); 
+   // Load the plugin connect
+   grunt.loadNpmTasks('grunt-contrib-connect');
+ 
    // Default task.
    grunt.registerTask('default', ['preprocess', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'copy', 'palettable', 'styleguide', 'compass:dist', 'shell:pleeease']);
    // Prod task.
    grunt.registerTask('dev', ['preprocess', 'svgmin', 'grunticon', 'copy', 'palettable', 'csslint:strict', 'validation', 'compass:dev']);
+   // Serve task.
+   grunt.registerTask('serve', ['connect']);
 
 
  };
