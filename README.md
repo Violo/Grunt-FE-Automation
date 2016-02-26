@@ -1,4 +1,4 @@
-# VioloToolsProject [![NPM version](https://badge.fury.io/js/VioloToolsProject.png)](http://badge.fury.io/js/VioloToolsProject) 
+# Grunt-FE-Automation
 
 > Boot Up develop enviroment & tools
 
