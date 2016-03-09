@@ -2,8 +2,8 @@
    State
 --------------------------------------------
 Content:
-- Visibility
-- Clearing
+- visibility
+- clearing
 */
 /*
 State scss
@@ -13,67 +13,56 @@ Styleguide 3.0
 
 
 
-/* Visibility */ 
-// Visibility
+// visibility
 //
 // List of available visibility class
 //
-// .hidden (Hide from both screenreaders and browsers: h5bp.com/u)<br />
-// .visuallyhidden (Hide only visually, but have it available for screenreaders: h5bp.com/v)<br />
-// .visuallyhidden.focusable:active (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
-// .visuallyhidden.focusable:focus (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
-// .invisible (Hide visually and from screenreaders, but maintain layout)<br />
-// .unselectable (not selectable)<br />
+// .m-hidden (Hide from both screenreaders and browsers: h5bp.com/u)<br />
+// .m-visuallyhidden (Hide only visually, but have it available for screenreaders: h5bp.com/v)<br />
+// .m-visuallyhidden.focusable:active (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
+// .m-visuallyhidden.focusable:focus (Allow the element to be focusable from keyboard: h5bp.com/p)<br />
+// .m-invisible (Hide visually and from screenreaders, but maintain layout)<br />
+// .m-unselectable (not selectable)<br />
 //
 // Styleguide 3.1
-.hidden{
-	display:none !important;
+.m-hidden{
+    display:none !important;
     visibility:hidden;
 }
-.visuallyhidden{
-	border:0; clip: rect(0 0 0 0);
+.m-visually_hidden{
+    border:0; clip: rect(0 0 0 0);
     height:1px;
     margin:-1px;
     overflow:hidden;
     padding:0;
     position:absolute;
     width:1px;
+    &.focusable:active,
+    &.focusable:focus{
+        clip:auto;
+        height:auto;
+        margin:0;
+        overflow:visible;
+        position:static;
+        width:auto;
+    }
 }
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus{
-	clip:auto;
-    height:auto;
-    margin:0;
-    overflow:visible;
-    position:static;
-    width:auto;
+.m-invisible{
+    visibility:hidden;
 }
-.invisible{
-	visibility:hidden;
-}
-.unselectable {
-	@include user-select (none);
-}
-/* Link */
-a:link,
-a:visited {
-  @include transition(.25s);
-  &:hover,
-  &:active {
-    text-decoration: none;
-  }
+.m-unselectable {
+    @include user-select (none);
 }
 
 
 
-/* Clearing */
-// Clearing
+// clearing
 //
 // List of available Clearing class
 //
-// .ClearFix (Reset float by wrapping floating elements)<br />
-// .ClearFloats (Reset both float with minimal space)<br />
-// .Clear (simply clear:both)<br />
+// .m-clear_fix (Reset float by wrapping floating elements)<br />
+// .m-clear_floats (Reset both float with minimal space)<br />
+// .m-clear (simply clear:both)<br />
 //
 // Markup:
 // <div class="ClearFix" /><p style="float:left; border:1px solid red;">test 1</p><p style="float:right; border:1px solid green;">test 2</p></div><p>test 3 (no float)</p>
@@ -81,7 +70,7 @@ a:visited {
 // <div class="Clear">...</div>
 //
 // Styleguide 3.2
-.ClearFix {
+.m-clear_fix {
   &:before,
   &:after {
     content:"";
@@ -92,20 +81,20 @@ a:visited {
     clear:both;
   }
 }
-.ClearFloats{
-	display:block;
-	clear:both;
-	background:transparent;
-	height:0;
-	border:0;
-	overflow:hidden;
-	font-size:0.01em;
-	margin:0;
-	padding:0;
+.m-clear_floats{
+    display:block;
+    clear:both;
+    background:transparent;
+    height:0;
+    border:0;
+    overflow:hidden;
+    font-size:0.01em;
+    margin:0;
+    padding:0;
     &.lt-ie8{
         border:1px solid transparent;   
     }
 }
-.Clear{
-	clear:both;
+.m-clear{
+    clear:both;
 }

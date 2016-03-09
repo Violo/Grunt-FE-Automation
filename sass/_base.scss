@@ -2,8 +2,9 @@
    Base
 --------------------------------------------
 Content:
-- Tools
-- Typography
+- tools
+- typography
+- link
 */
 /*
 Base scss
@@ -13,36 +14,35 @@ Styleguide 2.0
 
 
 
-/* Tools */
-// Tools
+// tools
 //
 // BEM Tools list
 //
 // hr (default display:none)<br />
-// .ResetList (reset margin, padding, list-style:none)<br />
-// .ResetTable (reset margin, padding, table-layout:fixed, width:100%)<br />
-// .WrapLine (white-space: normal)<br />
-// .Ellipsis (white-space:nowrap, overflow:hidden, text-overflow:ellipsis)<br />
+// .m-reset_list (reset margin, padding, list-style:none)<br />
+// .m-reset_table (reset margin, padding, table-layout:fixed, width:100%)<br />
+// .m-wrap_Line (white-space: normal)<br />
+// .m-ellipsis (white-space:nowrap, overflow:hidden, text-overflow:ellipsis)<br />
 //
 // Styleguide 2.1
 hr{
 	display:none;
 }
-.ResetList{
+.m-reset_list{
 	list-style:none;
 	padding:0;
 	margin:0;
 }
-.ResetTable{
+.m-reset_table{
 	width:100%;
 	table-layout:fixed;
 	padding:0;
 	margin:0;
 }
-.WrapLine{
+.m-wrap_line{
     white-space: normal;    
 }
-.Ellipsis{
+.m-ellipsis{
 	white-space:nowrap;
   overflow:hidden;
   text-overflow:ellipsis;
@@ -50,7 +50,6 @@ hr{
 
 
 
-/* Typography */
 // Typography
 //
 // Typography
@@ -93,4 +92,23 @@ html{
 body{
   /* Use REM unit for modules relative to html-font-size and EM unit for elements telative to modules */
   font-family:$font-stack1;
+}
+
+
+
+// Link
+//
+// Generic link classes
+//
+// Markup
+// <a href="#">Test link</a>
+//
+// Styleguide 2.2
+a:link,
+a:visited {
+  @include transition(.25s);
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
 }

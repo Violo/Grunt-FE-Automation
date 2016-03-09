@@ -2,12 +2,12 @@
    Layout
 --------------------------------------------
 Content:
-- 
+- fixed_element_wrapper
 */
 
 
 
-.FixedElementWrapper{
+%fixed_element_wrapper{
 	@include transition(left 0.25s);
 	@include transition-timing(ease-out);
 	position:fixed;
@@ -15,7 +15,7 @@ Content:
 	left:0;
 	width:100%;
 	height:100%;
-	.OverflowedElement{
+	%overflowed_element{
 	    height:100%;
 	    overflow-y:auto;
 	    -webkit-overflow-scrolling: touch;
