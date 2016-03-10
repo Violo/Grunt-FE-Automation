@@ -4,7 +4,6 @@
 Content:
 - tools
 - typography
-- link
 */
 /*
 Base scss
@@ -92,23 +91,4 @@ html{
 body{
   /* Use REM unit for modules relative to html-font-size and EM unit for elements telative to modules */
   font-family:$font-stack1;
-}
-
-
-
-// Link
-//
-// Generic link classes
-//
-// Markup
-// <a href="#">Test link</a>
-//
-// Styleguide 2.2
-a:link,
-a:visited {
-  @include transition(.25s);
-  &:hover,
-  &:active {
-    text-decoration: none;
-  }
 }

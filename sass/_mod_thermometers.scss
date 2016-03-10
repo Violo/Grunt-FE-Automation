@@ -123,7 +123,7 @@ $thermometers-bar2-bg-color:#78D45E;
         border:1px solid $thermometers-brd-color;
         background-color:$thermometers-bg-color;
         ul{
-            @extend .ResetList;
+            @extend .m-reset_list;
             position:absolute;
             top:0;
             left:0;
