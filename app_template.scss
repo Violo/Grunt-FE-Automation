@@ -177,27 +177,33 @@ $s-desktop-width:1024px; /* 70 em approach */
   }
 }
 @mixin smartphone {
-  @media (min-width: #{$m-smartphone-width}) and (max-width: #{$s-tablet-width - 1px}) {
+  @media (min-width: #{$s-smartphone-width}) and (max-width: #{$s-tablet-width - 1px}) {
     @content;
   }
 }
 @mixin tablet {
-  @media (min-width: #{$s-tablet-width}) and (max-width: #{$m-tablet-width}) {
+  @media (min-width: #{$s-smartphone-width}) and (max-width: #{$m-tablet-width - 1px}) {
     @content;
   }
 }
 @mixin desktop {
-  @media (max-width: #{$s-desktop-width}) {
+  @media (min-width: #{$m-tablet-width}) and (max-width: #{$s-desktop-width}) {
     @content;
   }
 }
 
-html{
+body{
   font-size:$html-font-size;
+  @include desktop {
+    font-size:$html-font-size;
+  }
   @include tablet {
     font-size:$html-tablet-font-size;
   }
   @include smartphone {
+    font-size:$html-smartphone-font-size;
+  }
+  @include small-smartphone {
     font-size:$html-smartphone-font-size;
   }
 }
