@@ -147,6 +147,21 @@ $html-smartphone-font-size:13px;
     transform: rotate($valuetransform-rotate);
 }
 
+@mixin animation-name($valueanimation-name){
+    -webkit-animation-name:$valueanimation-name;
+    animation-name:$valueanimation-name;
+}
+
+@mixin animation-duration($valueanimation-duration){
+    -webkit-animation-duration:$valueanimation-duration;
+    animation-duration:$valueanimation-duration;
+}
+
+@mixin animation-fill-mode($valueanimation-fill-mode){
+    -webkit-animation-fill-mode:$valueanimation-fill-mode;
+    animation-fill-mode:$valueanimation-fill-mode;
+}
+
 
 
 /* -----------------------------------------
@@ -249,6 +264,7 @@ body{
 @import '_mod_thermometers';
 @import '_mod_popover';
 @import '_mod_touchspinner';
+@import '_mod_expanded_menu';
 @import '_state';
 @import '_theme';
 @import '/* @echo ICONS */';
