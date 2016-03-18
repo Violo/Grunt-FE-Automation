@@ -48,7 +48,7 @@ module.exports = function(grunt) {
          options: {
            csslintrc: '.csslintrc'
          },
-         src: ['css/app.css']
+         src: ['css/app.data.svg.css']
        }
      },
      // Grunt SVG Min Task
