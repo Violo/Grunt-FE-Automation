@@ -131,6 +131,13 @@ $html-smartphone-font-size:13px;
     -o-transition-timing-function:$valuetransition-timing;
 }
 
+@mixin transition-duration($valuetransition-duration){
+    transition-timing-function: $valuetransition-duration;
+    -webkit-transition-timing-function: $valuetransition-duration;
+    -moz-transition-timing-function:$valuetransition-duration;
+    -o-transition-timing-function:$valuetransition-duration;
+}
+
 @mixin transform-scale($valuetransform){
     -ms-transform: scale($valuetransform);
     -webkit-transform: scale($valuetransform);
