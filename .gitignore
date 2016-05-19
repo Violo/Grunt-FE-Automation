@@ -2,9 +2,9 @@
 .DS_Store
 node_modules
 css
-_icons_data_png.scss
-_icons_fallback.scss
-_icons_data_svg.scss
-app.data.png.scss
-app.data.svg.scss
-app.fallback.scss
+sass/_icons_data_png.scss
+sass/_icons_fallback.scss
+sass/_icons_data_svg.scss
+sass/app.data.png.scss
+sass/app.data.svg.scss
+sass/app.fallback.scss

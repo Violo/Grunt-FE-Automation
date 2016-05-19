@@ -26,6 +26,7 @@ module.exports = function(grunt) {
        options: {
          reset: grunt.option('reset') || false,
          stoponerror: false,
+         generateReport: false,
          relaxerror: [
             'Bad value X-UA-Compatible for attribute http-equiv on element meta.',
             'Bad value “https://fonts.googleapis.com/',
@@ -34,7 +35,6 @@ module.exports = function(grunt) {
             'lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all',
             'Consider using the “h1” element as a top-level heading',
        ],
-         generateReport: false,
          errorHTMLRootDir: "w3cErrorFolder",
          useTimeStamp: true
        },
@@ -234,7 +234,9 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-contrib-connect');
  
    // Default task.
-   grunt.registerTask('default', ['preprocess', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'copy', 'palettable', 'styleguide', 'compass:dist', 'shell:pleeease']);
+   grunt.registerTask('build', ['preprocess', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'copy', 'palettable', 'styleguide', 'compass:dist', 'shell:pleeease']);
+   // Build task.
+   grunt.registerTask('start', ['preprocess', 'uglify', 'minifyHtml', 'grunticon', 'copy', 'compass:dist']);
    // Prod task.
    grunt.registerTask('dev', ['preprocess', 'palettable', 'csslint:strict', 'validation', 'compass:dev']);
    // Serve task.
