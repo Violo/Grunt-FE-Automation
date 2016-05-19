@@ -8,3 +8,5 @@ sass/_icons_data_svg.scss
 sass/app.data.png.scss
 sass/app.data.svg.scss
 sass/app.fallback.scss
+validation-report.json
+validation-status.json
