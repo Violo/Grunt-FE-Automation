@@ -2,5 +2,14 @@
    Theme
 --------------------------------------------
 Content:
-- 
+- Color palette
 */
+
+
+
+// Color Palette
+$black:                 #000 !default;
+$white:                 #fff !default;
+
+$text-color:            #333 !default;
+$text-color-light:      lighten($text-color, 15%) !default;
