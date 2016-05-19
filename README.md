@@ -33,8 +33,9 @@
 
 
 ## Registered tasks
-> grunt (as default tasks: uglify, minifyHtml, csslint:strict, svgmin, grunticon, gruntstyleguide, compass:dist)<br />
-> grunt dev (as development tasks: svgmin, grunticon, csslint:strict, compass:dev)
+> grunt build (all tasks: uglify, minifyHtml, csslint:strict, svgmin, grunticon, gruntstyleguide, compass:dist)<br />
+> grunt start (start tasks: uglify, minifyHtml, grunticon, copy, compass:dist<br />
+> grunt dev (as development tasks: svgmin, grunticon, csslint:strict, compass:dev)<br />
 > grunt serve (serving page in localhost:8080)
 
 
