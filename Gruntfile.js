@@ -236,7 +236,7 @@ module.exports = function(grunt) {
    // Default task.
    grunt.registerTask('default', ['preprocess', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'copy', 'palettable', 'styleguide', 'compass:dist', 'shell:pleeease']);
    // Prod task.
-   grunt.registerTask('dev', ['preprocess', 'svgmin', 'grunticon', 'copy', 'palettable', 'csslint:strict', 'validation', 'compass:dev']);
+   grunt.registerTask('dev', ['preprocess', 'palettable', 'csslint:strict', 'validation', 'compass:dev']);
    // Serve task.
    grunt.registerTask('serve', ['connect']);
 
