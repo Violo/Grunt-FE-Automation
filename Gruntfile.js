@@ -86,6 +86,16 @@ module.exports = function(grunt) {
          }
        }
      },
+     // Grunt WebFont Task
+     webfont: {
+      icons: {
+        src: 'img/*.svg',
+        dest: 'build/fonts',
+        options: {
+            engine: 'fontforge',
+        }
+      }
+    },
      // Grunt Styleguide Task
      styleguide: {
        options: {
@@ -222,6 +232,8 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-svgmin');
    // Load the plugin Grunt Icon
    grunt.loadNpmTasks('grunt-grunticon');
+   // Load the plugin WebFont
+   grunt.loadNpmTasks('grunt-webfont');
    // Load the plugin Grunt Styleguide
    grunt.loadNpmTasks('grunt-styleguide');
    // Load the plugin compass
