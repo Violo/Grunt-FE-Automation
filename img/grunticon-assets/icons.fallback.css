@@ -1,4 +1,8 @@
+.icon-carousel_arrow_right { background-image: url('../png-fallback/carousel_arrow_right.png'); background-repeat: no-repeat; }
+
 .icon-extrategy { background-image: url('../png-fallback/extrategy.png'); background-repeat: no-repeat; }
+
+.icon-ico_antonio { background-image: url('../png-fallback/ico_antonio.png'); background-repeat: no-repeat; }
 
 .icon-ico_close-colortheme1 { background-image: url('../png-fallback/ico_close-colortheme1.png'); background-repeat: no-repeat; }
 
@@ -7,4 +11,8 @@
 .icon-ico_close-colortheme3 { background-image: url('../png-fallback/ico_close-colortheme3.png'); background-repeat: no-repeat; }
 
 .icon-ico_close { background-image: url('../png-fallback/ico_close.png'); background-repeat: no-repeat; }
+
+.icon-ico_time { background-image: url('../png-fallback/ico_time.png'); background-repeat: no-repeat; }
+
+.icon-store_email { background-image: url('../png-fallback/store_email.png'); background-repeat: no-repeat; }
 

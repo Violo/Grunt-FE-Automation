@@ -1,7 +1,7 @@
 {
-  "name": "VioloToolsProject",
+  "name": "Violo-Grunt-FE-Automation",
   "version": "0.1.0",
-  "description": "Develop enviroment & tools",
+  "description": "Front End Automation enviroment Grunt based",
   "repo": "https://github.com/Violo/Grunt-FE-Automation.git",
   "scripts": {
     "postinstall": "npm install -g pleeease-cli@3.2.8"

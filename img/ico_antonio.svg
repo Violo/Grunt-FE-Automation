@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
-    <title>airplane-mode-on-symbol</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="airplane-mode-on-symbol" transform="translate(2.000000, 2.000000)" fill="#000000">
-            <g id="Capa_1">
-                <g id="airplanemode-on">
-                    <path d="M18.970679,14 L18.970679,12 L10.9953704,7 L10.9953704,1.5 C10.9953704,0.7 10.2975309,0 9.5,0 C8.70246914,0 8.00462963,0.7 8.00462963,1.5 L8.00462963,7 L0.0293209877,12 L0.0293209877,14 L8.00462963,11.5 L8.00462963,17 L6.01080247,18.5 L6.01080247,20 L9.5,19 L12.9891975,20 L12.9891975,18.5 L10.9953704,17 L10.9953704,11.5 L18.970679,14 L18.970679,14 Z" id="Shape"></path>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>airplane-mode-on-symbol</title><desc>Created with Sketch.</desc><g fill="none" fill-rule="evenodd"><g fill="#000"><g><g><path d="M20.97 16v-2l-7.975-5V3.5c0-.8-.697-1.5-1.495-1.5-.798 0-1.495.7-1.495 1.5V9L2.03 14v2l7.975-2.5V19L8.01 20.5V22l3.49-1 3.49 1v-1.5L12.994 19v-5.5L20.97 16z"/></g></g></g></g></svg>
