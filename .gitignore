@@ -10,3 +10,9 @@ sass/app.data.svg.scss
 sass/app.fallback.scss
 validation-report.json
 validation-status.json
+img/png-fallback
+grunticon-assets/icons.data.png.css
+grunticon-assets/icons.data.svg.css
+grunticon-assets/icons.fallback.css
+grunticon-assets/img_assets_preview.htm
+grunticon-assets/grunticon.loader.js
