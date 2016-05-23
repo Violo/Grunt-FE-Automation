@@ -1,7 +1,12 @@
 .sass-cache
 .DS_Store
 node_modules
-css
+css/app.data.png.css
+css/app.data.png.min.css
+css/app.data.svg.css
+css/app.data.svg.min.css
+css/app.fallback.css
+css/app.fallback.min.css
 sass/_icons_data_png.scss
 sass/_icons_fallback.scss
 sass/_icons_data_svg.scss
@@ -11,8 +16,8 @@ sass/app.fallback.scss
 validation-report.json
 validation-status.json
 img/png-fallback
-grunticon-assets/icons.data.png.css
-grunticon-assets/icons.data.svg.css
-grunticon-assets/icons.fallback.css
-grunticon-assets/img_assets_preview.htm
-grunticon-assets/grunticon.loader.js
+img/grunticon-assets/icons.data.png.css
+img/grunticon-assets/icons.data.svg.css
+img/grunticon-assets/icons.fallback.css
+img/grunticon-assets/img_assets_preview.htm
+img/grunticon-assets/grunticon.loader.js
