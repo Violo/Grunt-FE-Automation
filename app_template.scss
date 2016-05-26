@@ -175,9 +175,9 @@ $html-smartphone-font-size:13px;
 
 
 /* -----------------------------------------
-   Mediaquery
+   Mediaquery & Browserquery
 ----------------------------------------- */
-// App Mediaquery
+// App Mediaquery & Browserquery
 //
 // Mediaquery Mixin
 //
@@ -188,6 +188,7 @@ $html-smartphone-font-size:13px;
 // html-font-size setting by $html-font-size variable<br />
 // html-tablet-font-size setting by $html-tablet-font-size variable<br />
 // html-smartphone-font-size setting by $html-smartphone-font-size variable<br />
+// ie10-11 mixin for dedicated properties<br />
 //
 // Styleguide 1.2
 $s-smartphone-width:320px;
@@ -216,6 +217,11 @@ $s-desktop-width:1024px; /* 70 em approach */
     @content;
   }
 }
+@mixin ie11-10 {
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    @content;
+  }
+}
 
 body{
   font-size:$html-font-size;
@@ -230,6 +236,9 @@ body{
   }
   @include small-smartphone {
     font-size:$html-smartphone-font-size;
+  }
+  @include ie11-10 {
+    background-color:yellow;
   }
 }
 

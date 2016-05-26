@@ -18,7 +18,8 @@
 > grunt connect to application serving<br />
 
 
-## Tasks
+## Tasks & Commands
+> nvm use (set to 10.28)<br /><br />
 > compass watch<br />
 > grunt compass<br />
 > grunt minifyHtml<br />
@@ -29,10 +30,8 @@
 > grunt styleguide<br />
 > grunt uncss<br />
 > pleeease compile (from css directory)<br />
-> grunt connect<br />
+> grunt connect<br /><br /><br />
 
-
-## Registered tasks
 > grunt build (all tasks: uglify, minifyHtml, csslint:strict, svgmin, grunticon, gruntstyleguide, compass:dist)<br />
 > grunt start (start tasks: uglify, minifyHtml, grunticon, copy, compass:dist<br />
 > grunt dev (as development tasks: svgmin, grunticon, csslint:strict, compass:dev)<br />
