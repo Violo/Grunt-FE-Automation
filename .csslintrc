@@ -19,7 +19,7 @@
   "font-sizes": false,
   "font-faces": true,
   "floats": true,
-  "star-property-hack": true,
+  "star-property-hack": false,
   "outline-none": true,
   "import": true,
   "ids": true,

@@ -1,0 +1,210 @@
+/* -----------------------------------------
+   Module Table Fix Header
+--------------------------------------------
+Content:
+- Table Fix Header Variables
+- Table Fix Header Mixin
+- Table Fix Header
+*/
+
+
+
+/* Table Fix Header Variables */
+$table_fix_header-width:650px;
+$table_fix_header__head-height:50px;
+$table_fix_header__head-bgcolor:#ccc;
+
+
+
+/* Table Fix Header Mixin */
+@mixin grid-table-border($size: 1px, $color: grey) {
+	box-shadow: 
+		$size 0 0 0 $color, 
+		0 $size 0 0 $color, 
+		$size $size 0 0 $color,
+		$size 0 0 0 $color inset, 
+		0 $size 0 0 $color inset;
+}
+
+
+
+/* Table Fix Header */
+html {
+   -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+
+//Module Table Fix Header
+//
+//Markup:
+// <div class="table_fix_header">
+//   <div class="table_fix_header__head">
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">CDG - Intestatario</div>
+//         <div class="grid_col one_in_8">Tipologia rapporto</div>
+//         <div class="grid_col one_in_8">Descrizione</div>
+//         <div class="grid_col one_in_8">Rapporto</div>
+//         <div class="grid_col one_in_8">Data aggiornamento</div>
+//         <div class="grid_col one_in_8">Controvalore (&euro;)</div>
+//         <div class="grid_col one_in_8">Controvalore (%)</div>
+//     </div>
+//     </div>
+//     <div class="table_fix_header__body">
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">aaaqwqwqwqwqwqwqwqwqwqw-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">00000023784039854-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">00000023784039854-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">00000023784039854-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">00000023784039854-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">00000023784039854-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">00000023784039854-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">00000023784039854-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">00000023784039854-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//     <div class="table_fix_header__grid_row">
+//         <div class="grid_col one_in_4">Arturo De Virgolis figlio di Genoeffo de Virgolis e Lucranda Machistes</div>
+//         <div class="grid_col one_in_8">Annuale</div>
+//         <div class="grid_col one_in_8">Tipo di rapporto a consulenza settimanale sul patrimonio</div>
+//         <div class="grid_col one_in_8">00000023784039854-1</div>
+//         <div class="grid_col one_in_8">14/10/2015</div>
+//         <div class="grid_col one_in_8">2.076.450,32</div>
+//         <div class="grid_col one_in_8">100,00</div>
+//     </div>
+//   </div>
+// </div>
+//
+//Styleguide 8.0
+.table_fix_header {
+	@include grid-table-border();
+	position:relative;
+	margin:0 auto 0 auto;
+	*zoom:1;
+	width:$table_fix_header-width;
+	overflow-y:auto;
+	&:before {
+		content:" ";
+		display:table;
+	}
+	&:after {
+		content:" ";
+		display:table;
+		clear:both;
+	}
+	.table_fix_header__grid_row {
+		@include grid-table-border();
+		*zoom:1;
+	  	width:100%;
+		display:table;
+		table-layout:fixed;
+		&:before {
+			content:" ";
+			display:table;
+		}
+	  
+		&:after {
+			content:" ";
+			display:table;
+			clear:both;
+		}
+	}
+	.table_fix_header__head{
+		position:fixed;
+		width:$table_fix_header-width;
+		.table_fix_header__grid_row{
+			background-color:$table_fix_header__head-bgcolor;
+			height:$table_fix_header__head-height;
+		}
+	}
+	.table_fix_header__body{
+		margin-top:$table_fix_header__head-height;
+	}
+	.grid_col {
+		display:table-cell;
+	  	text-align:center;
+	  	padding:10px;
+		width:100%;
+		word-wrap:break-word;
+		border-right:1px solid grey;
+		&:last-child{
+			border-right:none;
+		}
+	}
+	@media(min-width:40rem) {
+		.grid_col {
+		    @for $i from 1 through 20 {
+		      &.one_in_#{$i} { width: 100% / $i; }
+		    }
+		}
+	}
+}
