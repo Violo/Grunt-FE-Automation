@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Layout - Fixed Element Wrapper</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script>
+      window.grunticon = function(e) {
+       if (e && 3 === e.length) {
+         var t = window,
+           n = !(!t.document.createElementNS || !t.document.createElementNS("http://www.w3.org/2000/svg", "svg").createSVGRect || !document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1") || window.opera && -1 === navigator.userAgent.indexOf("Chrome") || -1 !== navigator.userAgent.indexOf("Series40")),
+           o = function(o) {
+             var a = t.document.createElement("link"),
+               r = t.document.getElementsByTagName("script")[0];
+             a.rel = "stylesheet", a.href = '../css/' + e[o && n ? 0 : o ? 1 : 2], a.media = "only x", r.parentNode.insertBefore(a, r), setTimeout(function() {
+               a.media = "all"
+             })
+           },
+           a = new t.Image;
+         a.onerror = function() {
+           o(!1)
+         }, a.onload = function() {
+           o(1 === a.width && 1 === a.height)
+         }, a.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+       }
+     };
+     grunticon(["app.data.svg.css", "app.data.png.css", "app.fallback.css"]);
+    </script><noscript><link href="../css/app.fallback.css" rel="stylesheet"></noscript><!-- grunticon assets data-svg, data-png and png fallback -->
+    <script type="text/javascript" src="../js/svgeezy.min.js"></script><script>svgeezy.init(false, 'png');</script><!-- svgeezy detection for svg DOM img fallbacks -->
+    <script type="text/javascript" src="../js/app.min.js"></script><!-- My js -->
+  </head>
+
+  <body class="layout_position_fixed">
+    <header class="l-header">
+      <h1>Layout - Position Fixed</h1>
+    </header>
+    <section class="l-section">
+      <aside class="l-aside">
+        Aside
+      </aside>
+      <article class="l-content">
+        Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />
+        Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />
+        Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />
+        Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />
+        Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />
+        Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />
+        Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />
+        Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />
+        Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />Scrolled Content<br />
+      </article>
+    </section>
+    <footer class="l-footer">
+      Footer
+    </footer>
+  </body>
+</html>

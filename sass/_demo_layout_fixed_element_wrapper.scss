@@ -1,0 +1,55 @@
+/* -----------------------------------------
+   Demo Layout Fixed Element Wrapper
+------------------------------------------*/
+
+
+
+$l-header-height:80px;
+$l-footer-height:50px;
+$l-aside-width:25%;
+$l-content-width:100% - $l-aside-width;
+
+
+
+.layout_fixed_element_wrapper{
+    .l-header{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:$l-header-height;
+        background-color:lightsalmon;
+        text-align:center;
+        z-index:1;
+    }
+    .l-footer{
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+        height:$l-footer-height;
+        background-color:lightskyblue ;
+        text-align:center;
+    }
+    .l-aside{
+        position:fixed;
+        top:$l-header-height;
+        bottom:$l-footer-height;
+        left:0;
+        width:$l-aside-width;
+        background-color:lightgreen;
+        text-align:center;
+    }
+    .l-content{
+        @extend %fixed_element_wrapper;
+        padding-top:$l-header-height;
+        padding-bottom:$l-footer-height;
+        left:$l-aside-width;
+        width:$l-content-width;
+        background-color:whitesmoke;
+        text-align:center;
+        .l-content_overflowed{
+            @extend %overflowed_element;
+        }
+    }
+}

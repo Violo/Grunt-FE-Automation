@@ -238,7 +238,7 @@ body{
     font-size:$html-smartphone-font-size;
   }
   @include ie11-10 {
-    background-color:yellow;
+    background-color:lightgoldenrodyellow;
   }
 }
 
@@ -286,4 +286,7 @@ body{
 @import '_mod_grid_tables';
 @import '_state';
 @import '_theme';
+@import '_demo_layout_position_fixed'; // do not include, used only for demo
+@import '_demo_layout_fixed_element_wrapper'; // do not include, used only for demo
+@import '_demo_layout_flex_box'; // do not include, used only for demo
 @import '/* @echo ICONS */';

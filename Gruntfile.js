@@ -39,7 +39,7 @@ module.exports = function(grunt) {
          useTimeStamp: true
        },
        files: {
-         src: ['index.html']
+         src: ['index.html','demo/*.html']
        }
      },
      // CSSlint Task
