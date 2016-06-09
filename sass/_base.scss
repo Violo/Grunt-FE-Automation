@@ -86,6 +86,7 @@ $font-stack2: 'OpenSansSemiBold', Helvetica, Arial, sans-serif;
 }
 html{
   box-sizing:border-box;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 *,
 *:before,

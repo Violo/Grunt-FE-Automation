@@ -13,24 +13,18 @@ Content:
 $table_fix_header-width:650px;
 $table_fix_header__head-height:50px;
 $table_fix_header__head-bgcolor:#ccc;
+$table_fix_header__brdcolor:grey;
 
 
 
 /* Table Fix Header Mixin */
-@mixin grid-table-border($size: 1px, $color: grey) {
+@mixin grid-table-border($size: 1px, $color: $table_fix_header__brdcolor) {
 	box-shadow: 
 		$size 0 0 0 $color, 
 		0 $size 0 0 $color, 
 		$size $size 0 0 $color,
 		$size 0 0 0 $color inset, 
 		0 $size 0 0 $color inset;
-}
-
-
-
-/* Table Fix Header */
-html {
-   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 
@@ -167,6 +161,9 @@ html {
 	  	width:100%;
 		display:table;
 		table-layout:fixed;
+		@media screen\0 {
+		    border-bottom:1px solid $table_fix_header__brdcolor;
+		}
 		&:before {
 			content:" ";
 			display:table;
@@ -193,18 +190,13 @@ html {
 		display:table-cell;
 	  	text-align:center;
 	  	padding:10px;
-		width:100%;
 		word-wrap:break-word;
 		border-right:1px solid grey;
+		@for $i from 1 through 20 {
+	      &.one_in_#{$i} { width: 100% / $i; }
+	    }
 		&:last-child{
 			border-right:none;
-		}
-	}
-	@media(min-width:40rem) {
-		.grid_col {
-		    @for $i from 1 through 20 {
-		      &.one_in_#{$i} { width: 100% / $i; }
-		    }
 		}
 	}
 }
