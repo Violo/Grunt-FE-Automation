@@ -1,0 +1,66 @@
+/* -----------------------------------------
+   Demo Layout Position Absolute
+------------------------------------------*/
+
+
+
+$l-header-height:80px;
+$l-footer-height:50px;
+$l-aside-width:25%;
+$l-content-width:100% - $l-aside-width;
+
+
+
+.layout_position_absolute{
+    .l-header{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:$l-header-height;
+        background-color:lightsalmon;
+        text-align:center;
+    }
+    .l-footer{
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:100%;
+        height:$l-footer-height;
+        background-color:lightskyblue ;
+        text-align:center;
+    }
+    .l-aside{
+        position:absolute;
+        top:$l-header-height;
+        bottom:$l-footer-height;
+        left:0;
+        width:$l-aside-width;
+        background-color:lightgreen;
+        text-align:center;
+    }
+    .l-content{
+        position:absolute;
+        top:$l-header-height;
+        bottom:$l-footer-height;
+        left:$l-aside-width;
+        width:$l-content-width;
+        background-color:whitesmoke;
+        text-align:center;
+        overflow-y:auto;
+        .l-content_inside_header{
+            position:absolute;
+            width:100%;
+            height:40px;
+            background-color:goldenrod;
+        }
+        .l-content_inside_content{
+            position:absolute;
+            top:40px;
+            width:100%;
+            height:calc(100% - 40px);
+            overflow-y:auto;
+            background-color:whitesmoke;
+        }
+    }
+}
