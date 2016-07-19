@@ -98,3 +98,11 @@ body{
   font-family:$font-stack1;
   margin:0;
 }
+a:link,
+a:visited {
+  @include transition(.25s);
+  &:hover,
+  &:active {
+    text-decoration:none;
+  }
+}
