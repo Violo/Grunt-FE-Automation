@@ -246,7 +246,7 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-contrib-connect');
  
    // Default task.
-   grunt.registerTask('build', ['preprocess', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'copy', 'palettable', 'styleguide', 'compass:dist', 'shell:pleeease']);
+   grunt.registerTask('build', ['preprocess', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'palettable', 'styleguide', 'copy', 'compass:dist', 'shell:pleeease']);
    // Build task.
    grunt.registerTask('start', ['preprocess', 'uglify', 'minifyHtml', 'grunticon', 'copy', 'compass:dist']);
    // Prod task.
