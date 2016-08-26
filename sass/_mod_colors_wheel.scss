@@ -1,0 +1,90 @@
+/* -----------------------------------------
+   Module Colors Wheel
+--------------------------------------------
+Content:
+- Colors Wheel Variables
+- Colors Wheel
+*/
+
+
+
+/* Table Fix Header Variables */
+$main-color: red;
+$angle : 30;
+$how-dark: 25%;
+$how-light: 25%;
+$background-color:white;
+
+
+
+/* Colors Wheel */
+.color-wheel{
+  left: 22px;
+  position: relative;
+  top: 61px;
+  div {
+    background: $background-color;
+    border-radius: 50%;
+    border: 5px solid $background-color;
+    overflow: hidden;
+    position: absolute;
+    transform: rotate(-15deg);
+  }
+}
+.darken-colors{
+  height: 250px;
+  left: 50px;
+  top: 0px;
+  width: 250px;
+  z-index: 1;
+}
+.default-colors{
+  height: 170px;
+  left: 90px;
+  top: 40px;
+  width: 170px;
+  z-index: 2;
+}
+.lighten-colors {
+  height: 100px;
+  left: 125px;
+  top: 75px;
+  width: 100px;
+  z-index: 3;
+    &:after {
+    background: $background-color;
+    border-radius: 250px;
+    content: " ";
+    height: 50px;
+    left: 25px;
+    position: absolute;
+    top: 25px;
+    width: 50px;
+  }
+}
+
+.color-wheel {
+    @for $i from 1 through 12 {
+    $new-angle:$angle*$i;
+    $new-color:adjust-hue($main-color,$new-angle);
+     ul li:nth-of-type(#{$i}){
+      border-left: 1000px solid transparent;
+      border-top: 560px solid  $new-color;
+      left: 50%;
+      list-style: none;
+      position: absolute;
+      top: 50%;
+      transform-origin: 0 0;
+      transform: rotate(#{$new-angle}deg);
+    }
+    .default-colors li:nth-of-type(#{$i}){
+      border-top-color: $new-color;
+    }
+    .darken-colors li:nth-of-type(#{$i}){
+      border-top-color: darken($new-color, $how-dark);
+    }
+    .lighten-colors li:nth-of-type(#{$i}){
+      border-top-color: lighten($new-color, $how-light);
+    }
+  }
+}
