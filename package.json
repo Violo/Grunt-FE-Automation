@@ -4,10 +4,16 @@
   "description": "Front End Automation enviroment Grunt based",
   "repo": "https://github.com/Violo/Grunt-FE-Automation.git",
   "scripts": {
-    "postinstall": "npm install -g pleeease-cli@3.2.8"
+    "postinstall": "npm install -g pleeease-cli@3.2.8",
+    "prestart": "npm install",
+    "start": "grunt serve",
+    "build": "grunt build",
+    "dev": "grunt dev",
+    "use": "grunt use"
   },
   "devDependencies": {
     "grunt": "0.4.5",
+    "grunt-cli": "1.2.0",
     "grunt-contrib-compass": "1.0.1",
     "grunt-contrib-connect": "0.11.2",
     "grunt-contrib-copy": "0.8.1",

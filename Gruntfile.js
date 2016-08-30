@@ -248,7 +248,7 @@ module.exports = function(grunt) {
    // Default task.
    grunt.registerTask('build', ['preprocess', 'uglify', 'minifyHtml', 'validation', 'csslint:strict', 'svgmin', 'grunticon', 'palettable', 'styleguide', 'copy', 'compass:dist', 'shell:pleeease']);
    // Build task.
-   grunt.registerTask('start', ['preprocess', 'uglify', 'minifyHtml', 'grunticon', 'copy', 'compass:dist']);
+   grunt.registerTask('use', ['preprocess', 'uglify', 'minifyHtml', 'grunticon', 'copy', 'compass:dist']);
    // Prod task.
    grunt.registerTask('dev', ['preprocess', 'palettable', 'csslint:strict', 'validation', 'compass:dev']);
    // Serve task.

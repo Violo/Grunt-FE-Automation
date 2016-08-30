@@ -20,22 +20,10 @@
 
 ## Tasks & Commands
 > nvm use (set to 10.28)<br /><br />
-> compass watch<br />
-> grunt compass<br />
-> grunt minifyHtml<br />
-> grunt validation<br />
-> grunt csslint<br />
-> grunt svgmin<br />
-> grunt grunticon<br />
-> grunt styleguide<br />
-> grunt uncss<br />
-> pleeease compile (from css directory)<br />
-> grunt connect<br /><br /><br />
-
-> grunt build (all tasks: uglify, minifyHtml, csslint:strict, svgmin, grunticon, gruntstyleguide, compass:dist)<br />
-> grunt start (start tasks: uglify, minifyHtml, grunticon, copy, compass:dist<br />
-> grunt dev (as development tasks: svgmin, grunticon, csslint:strict, compass:dev)<br />
-> grunt serve (serving page in localhost:8080)
+> npm start (install dependencies and serve application in localhost:8080)
+> npm run build (all tasks: uglify, minifyHtml, csslint:strict, svgmin, grunticon, gruntstyleguide, compass:dist)<br />
+> npm run use (start tasks: uglify, minifyHtml, grunticon, copy, compass:dist<br />
+> npm run dev (as development tasks: svgmin, grunticon, csslint:strict, compass:dev)<br />
 
 
 ## Authors
